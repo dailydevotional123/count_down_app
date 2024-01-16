@@ -5,7 +5,7 @@ class User extends Table {
 
   TextColumn get name => text().named('user_name')();
 
-  IntColumn get userId => integer().named("user_id")();
+  TextColumn get userId => text().named("user_id")();
 
   TextColumn get userEmail => text().named('email')();
 
@@ -15,7 +15,7 @@ class User extends Table {
 class Note extends Table {
   IntColumn get id => integer().autoIncrement()();
 
-  IntColumn get userId => integer().named("user_id")();
+  TextColumn get userId => text().named("user_id")();
 
   // IntColumn get productId => integer().named("product_id")();
 

@@ -8,7 +8,7 @@ showSuccessSnackBarMessage({required String message}) {
       //  ..hideCurrentSnackBar()
       .showSnackBar(
     SnackBar(
-      backgroundColor: AppColors.primaryColor,
+      backgroundColor: AppColors.greenColor,
       behavior: SnackBarBehavior.floating,
       duration: const Duration(seconds: 4),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),

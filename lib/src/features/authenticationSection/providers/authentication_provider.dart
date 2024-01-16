@@ -3,12 +3,17 @@ import 'package:daily_devotional/src/features/authenticationSection/models/userM
 import 'package:daily_devotional/src/features/authenticationSection/services/authServices.dart';
 import 'package:daily_devotional/src/features/authenticationSection/services/authentication_service.dart';
 import 'package:daily_devotional/src/features/authenticationSection/services/userServices.dart';
+import 'package:daily_devotional/src/routing/routes.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:go_router/go_router.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
+import '../../../commonServices/hive_local_storage.dart';
+import '../../../constants/hive_constants.dart';
 import '../../../helpers/snak_bar_widget.dart';
 import '../../../utils/log_utils.dart';
+import '../../bottomNavBarSection/screens/bottomNavScreen.dart';
 
 class AuthenticationProvider extends ChangeNotifier {
   bool isLoading = false;
@@ -57,9 +62,20 @@ class AuthenticationProvider extends ChangeNotifier {
         //     .fetchCurrentUser(userCredential.user!.uid.toString())
         //     .first;
         if (isExistUser == true) {
-          dp(msg: "user exists ");
-          showErrorSnackBarMessage(message: "User Already Exists");
+          dp(msg: "user exists now logging ");
+          // showErrorSnackBarMessage(message: "User Already Exists");
           makeLoadingFalse();
+          GoRouter.of(RoutesUtils.cNavigatorState.currentState!.context)
+              .go(BottomNavScreen.route);
+          await HiveLocalStorage.write(
+              boxName: HiveConstants.userIdBox,
+              key: HiveConstants.userIdKey,
+              value: userCredential.user!.uid.toString());
+          await HiveLocalStorage.write(
+              boxName: HiveConstants.currentRouteBox,
+              key: HiveConstants.currentRouteKey,
+              value: BottomNavScreen.route);
+          showSuccessSnackBarMessage(message: "Login Successfully");
           //  dp(msg: "user model", arg: userModel.toString());
         } else {
           firebaseUserServices
@@ -69,29 +85,25 @@ class AuthenticationProvider extends ChangeNotifier {
                   emailAdress: userCredential.user!.email.toString(),
                   profilePicture: userCredential.user!.photoURL.toString(),
                   dateCreated: Timestamp.fromDate(DateTime.now())))
-              .whenComplete(() {
+              .whenComplete(() async {
             makeLoadingFalse();
+            await HiveLocalStorage.write(
+                boxName: HiveConstants.userIdBox,
+                key: HiveConstants.userIdKey,
+                value: userCredential.user!.uid.toString());
+            await HiveLocalStorage.write(
+                boxName: HiveConstants.currentRouteBox,
+                key: HiveConstants.currentRouteKey,
+                value: BottomNavScreen.route);
+
             showSuccessSnackBarMessage(message: "User Registered Successfully");
+            GoRouter.of(RoutesUtils.cNavigatorState.currentState!.context)
+                .go(BottomNavScreen.route);
           });
-          // GoogleSignIn().signOut();
-          // FirebaseAuth.instance.signOut();
-
-          // dp(msg: "user not exists ");
-          // showErrorSnackBarMessage(message: "User Not Exists ");
-          // dp(msg: "user not exist ");
         }
-
-        // FirebaseSingleton.instance
-        //     .logEvent(AnalyticsKeys.logGoogleSignInSuccessful, {
-        //   AnalyticsKeys.username:
-        //   userCredential.user?.email ?? AnalyticsKeys.notAvailable,
-        //   AnalyticsKeys.signInMethod: AnalyticsKeys.googleLogin
-        // });
-        //return userCredential.user!;
       } else {
         makeLoadingFalse();
-        // FirebaseSingleton.instance
-        //     .logEvent(AnalyticsKeys.logGoogleSignInFailed, {});
+
         throw FirebaseAuthException(
           code: 'ERROR_MISSING_GOOGLE_AUTH_TOKEN',
           message: 'Missing Google Auth Token',
@@ -99,12 +111,15 @@ class AuthenticationProvider extends ChangeNotifier {
       }
     } else {
       makeLoadingFalse();
-      // FirebaseSingleton.instance
-      //     .logEvent(AnalyticsKeys.logGoogleSignInAborted, {});
+
       throw FirebaseAuthException(
         code: 'ERROR_ABORTED_BY_USER',
         message: 'Sign in aborted by user',
       );
     }
+  }
+
+  logoutFromApp() {
+    socialAuthenticationServices.logoutUserAuth();
   }
 }

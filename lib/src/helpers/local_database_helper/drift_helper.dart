@@ -54,7 +54,7 @@ class AppDataBase extends _$AppDataBase {
     return await select(user).get();
   }
 
-  Future<UserData?> getIndividualUsers(int userId) async {
+  Future<UserData?> getIndividualUsers(String userId) async {
     try {
       return (select(user)..where((element) => element.userId.equals(userId)))
           .getSingle();
@@ -90,8 +90,27 @@ class AppDataBase extends _$AppDataBase {
     // return 0;
   }
 
-  Future<List<NoteData>> getAllNoteItems() async {
-    return await select(note).get();
+  Future<List<NoteData>> getAllNoteItems(
+      String userId, String searchQuery) async {
+    // Use a custom where clause to filter by user ID
+    var query = select(note)..where((tbl) => tbl.userId.equals(userId));
+    if (searchQuery != '') {
+      query.where((tbl) => tbl.productTitle.like('%$searchQuery%'));
+    }
+    return query.get();
+    // return await select(note).get();
+  }
+
+  Future<List<NoteData>> getFilteredNotesForUser(
+      String userId, String searchQuery) async {
+    var query = select(note)..where((tbl) => tbl.userId.equals(userId));
+
+    // Add a condition to filter notes based on the search query
+    if (searchQuery.isNotEmpty) {
+      query.where((tbl) => tbl.productTitle.like('%$searchQuery%'));
+    }
+
+    return await query.get();
   }
 
   /// Delete cart item

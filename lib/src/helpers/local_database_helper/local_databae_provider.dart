@@ -43,7 +43,7 @@ class LocalDatabaseProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  getIndividualUser(int userID) async {
+  getIndividualUser(String userID) async {
     userTableData = await appDataBase.getIndividualUsers(userID);
     notifyListeners();
   }

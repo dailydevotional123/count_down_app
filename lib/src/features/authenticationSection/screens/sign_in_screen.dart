@@ -100,16 +100,16 @@ class _SignInScreenState extends State<SignInScreen> {
                   ),
                 ),
               ),
-              SizedBox(
-                height: 10,
-              ),
-              ElevatedButton(
-                  onPressed: () {
-                    socialAuthenticationServices.logoutUserAuth();
-                  },
-                  child: const Center(
-                    child: Text("Logout"),
-                  )),
+              // SizedBox(
+              //   height: 10,
+              // ),
+              // ElevatedButton(
+              //     onPressed: () {
+              //       socialAuthenticationServices.logoutUserAuth();
+              //     },
+              //     child: const Center(
+              //       child: Text("Logout"),
+              //     )),
               const SizedBox(
                 height: 80,
               )

@@ -1,50 +1,65 @@
 import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+
+import '../../commonServices/hive_local_storage.dart';
+import '../../constants/hive_constants.dart';
+import '../../routing/routes.dart';
+import '../../utils/log_utils.dart';
 
 class NotificationController {
   /// Use this method to detect when a new notification or a schedule is created
-  @pragma("vm:entry-point")
   static Future<void> onNotificationCreatedMethod(
-      BuildContext context, ReceivedNotification receivedNotification) async {
-    // Your code goes here
+      ReceivedNotification receivedNotification) async {
+    debugPrint('onNotificationCreatedMethod');
   }
 
   /// Use this method to detect every time that a new notification is displayed
-  @pragma("vm:entry-point")
   static Future<void> onNotificationDisplayedMethod(
-      BuildContext context, ReceivedNotification receivedNotification) async {
-    // Your code goes here
+      ReceivedNotification receivedNotification) async {
+    debugPrint('onNotificationDisplayedMethod');
   }
 
   /// Use this method to detect if the user dismissed a notification
-  @pragma("vm:entry-point")
   static Future<void> onDismissActionReceivedMethod(
-      BuildContext context, ReceivedAction receivedAction) async {
-    // Your code goes here
+      ReceivedAction receivedAction) async {
+    debugPrint('onDismissActionReceivedMethod');
   }
 
   /// Use this method to detect when the user taps on a notification or action button
-  @pragma("vm:entry-point")
   static Future<void> onActionReceivedMethod(
-      BuildContext context, ReceivedAction receivedAction) async {
-    // if (receivedAction.buttonKeyPressed == "shift") {
-    //   toNext(
-    //       context: navstate.currentState!.context, widget: AllComingDuties());
-    // } else if (receivedAction.buttonKeyPressed == "task") {
-    //   toNext(context: navstate.currentState!.context, widget: AllComingTasks());
-    // } else if (receivedAction.buttonKeyPressed == "announcement") {
-    //   toNext(
-    //       context: navstate.currentState!.context,
-    //       widget: ViewAllAnnouncementScreen());
+      ReceivedAction receivedAction) async {
+    dp(msg: "received action", arg: receivedAction.title.toString());
+    dp(msg: "buttonKeyInput", arg: receivedAction.buttonKeyInput.toString());
+    dp(
+        msg: "buttonKeyPressed",
+        arg: receivedAction.buttonKeyPressed.toString());
+    dp(msg: "category", arg: receivedAction.category.toString());
+    dp(msg: "body", arg: receivedAction.body.toString());
+    dp(msg: "payload", arg: receivedAction.payload);
+    debugPrint('onActionReceivedMethod');
+    String currentRoute = await HiveLocalStorage.readHiveValue<String>(
+          boxName: HiveConstants.currentRouteBox,
+          key: HiveConstants.currentRouteKey,
+        ) ??
+        '';
+
+    // if (currentRoute == PatientBottomNavScreen.route) {
+    //   GoRouter.of(RoutesUtils.cNavigatorState.currentState!.context).push(
+    //       PatientNotificationScreen.route,
+    //       extra: {TextUtils.isHome: true});
+    // } else if (currentRoute == ClinicBottomNavScreen.route) {
+    //   GoRouter.of(RoutesUtils.cNavigatorState.currentState!.context).push(
+    //       ClinicNotificationScreen.route,
+    //       extra: {TextUtils.isHome: true});
+    // } else if (currentRoute == DoctorBottomNavScreen.route) {
+    //   GoRouter.of(RoutesUtils.cNavigatorState.currentState!.context).push(
+    //       DoctorNotificationScreen.route,
+    //       extra: {TextUtils.isHome: true});
     // }
 
-    // Your code goes here
-
-    // Navigate into pages, avoiding to open the notification details page over another details page already opened
-    // navstate.currentState!.context.pushNamedAndRemoveUntil(
-    //     '/notification-page',
-    //     (route) =>
-    //         (route.settings.name != '/notification-page') || route.isFirst,
-    //     arguments: receivedAction);
+    // final payload = receivedAction.payload ?? {};
+    // if (payload["navigate"] == "true") {}
   }
 }

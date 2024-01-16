@@ -1,12 +1,18 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:daily_devotional/src/features/authenticationSection/services/authServices.dart';
 import 'package:daily_devotional/src/features/authenticationSection/services/userServices.dart';
+import 'package:daily_devotional/src/features/bottomNavBarSection/providers/bottom_navbar_provider.dart';
+import 'package:daily_devotional/src/features/homeSection/screens/home_screen.dart';
 import 'package:daily_devotional/src/helpers/snak_bar_widget.dart';
+import 'package:daily_devotional/src/routing/routes.dart';
 import 'package:daily_devotional/src/utils/log_utils.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:provider/provider.dart';
 
+import '../../../commonServices/hive_local_storage.dart';
+import '../../../constants/hive_constants.dart';
 import '../models/userModel.dart';
 
 class SocialAuthenticationServices {
@@ -217,7 +223,6 @@ class SocialAuthenticationServices {
         //     .fetchCurrentUser(userCredential.user!.uid.toString())
         //     .first;
         if (isExistUser == true) {
-
           dp(msg: "user exists ");
           showErrorSnackBarMessage(message: "User Already Exists");
           //  dp(msg: "user model", arg: userModel.toString());
@@ -268,5 +273,17 @@ class SocialAuthenticationServices {
   logoutUserAuth() async {
     await GoogleSignIn().signOut();
     await firebaseAuthServices.logoutUser();
+
+    await HiveLocalStorage.deleteHiveValue(
+        boxName: HiveConstants.currentRouteBox,
+        key: HiveConstants.currentRouteKey);
+    await HiveLocalStorage.deleteHiveValue(
+        boxName: HiveConstants.userIdBox, key: HiveConstants.userIdKey);
+
+    var bottomNavProvider = Provider.of<ClinicBottomNavProvider>(
+        RoutesUtils.cNavigatorState.currentState!.context,
+        listen: false);
+    bottomNavProvider.updateCurrentScreen(0);
+    bottomNavProvider.currentScreen = const HomeScreen();
   }
 }

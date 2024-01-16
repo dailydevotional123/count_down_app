@@ -1,10 +1,12 @@
 import 'package:daily_devotional/src/constants/image_constants.dart';
 import 'package:daily_devotional/src/features/authenticationSection/screens/sign_in_screen.dart';
+import 'package:daily_devotional/src/features/bottomNavBarSection/screens/bottomNavScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
-
+import '../../../commonServices/hive_local_storage.dart';
 import '../../../constants/appcolors.dart';
+import '../../../constants/hive_constants.dart';
 
 class SplashScreen extends StatefulWidget {
   static String route = "/SplashScreen";
@@ -23,11 +25,11 @@ class _SplashScreenState extends State<SplashScreen> {
   }
 
   checkRoute() async {
-    // String currentRoute = await HiveLocalStorage.readHiveValue<String>(
-    //       boxName: HiveConstants.currentRouteBox,
-    //       key: HiveConstants.currentRouteKey,
-    //     ) ??
-    //     '';
+    String currentRoute = await HiveLocalStorage.readHiveValue<String>(
+          boxName: HiveConstants.currentRouteBox,
+          key: HiveConstants.currentRouteKey,
+        ) ??
+        '';
     // setState(() {
     //   currentSplashRouteVar = currentRoute;
     // });
@@ -41,21 +43,12 @@ class _SplashScreenState extends State<SplashScreen> {
     //     '';
     // currentSplashRouteVar = currentSplashRoute;
     Future.delayed(const Duration(seconds: 2)).whenComplete(() {
-      GoRouter.of(context).go(SignInScreen.route);
       // if (currentSplashRoute == SplashScreen.route) {
-      //   // if (currentRoute == SelectAccountTypeScreen.route) {
-      //   //   GoRouter.of(context).go(SelectAccountTypeScreen.route);
-      //   // } else if (currentRoute == PatientBottomNavScreen.route) {
-      //   //   GoRouter.of(context).go(PatientBottomNavScreen.route);
-      //   // } else if (currentRoute == SetUpYourProfileStepOne.route) {
-      //   //   GoRouter.of(context).go(SetUpYourProfileStepOne.route);
-      //   // } else if (currentRoute == ClinicBottomNavScreen.route) {
-      //   //   GoRouter.of(context).go(ClinicBottomNavScreen.route);
-      //   // } else if (currentRoute == DoctorBottomNavScreen.route) {
-      //   //   GoRouter.of(context).go(DoctorBottomNavScreen.route);
-      //   // } else {
-      //   //   GoRouter.of(context).go(SelectAccountTypeScreen.route);
-      //   // }
+      if (currentRoute == BottomNavScreen.route) {
+        GoRouter.of(context).go(BottomNavScreen.route);
+      } else {
+        GoRouter.of(context).go(SignInScreen.route);
+      }
       // } else {
       //   GoRouter.of(context).go(SplashScreen.route);
       // }

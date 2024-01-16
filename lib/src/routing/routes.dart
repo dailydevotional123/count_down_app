@@ -13,6 +13,7 @@ import '../features/moreSection/screens/contact_us_screen.dart';
 import '../features/moreSection/screens/more_screen.dart';
 import '../features/moreSection/screens/resources_screen.dart';
 import '../features/notesSection /screens/add_note_screen.dart';
+import '../features/notesSection /screens/note_details.dart';
 import '../features/notesSection /screens/notes_screen.dart';
 import '../utils/route_utils.dart';
 
@@ -140,6 +141,16 @@ var routerConfigs = GoRouter(
           devotionalModel: extra![RouteConstants.devotionModel],
           // doctorID: extra![TextUtils.doctorID],
           // appointmentId: extra![TextUtils.appointmentID],
+        ));
+      },
+    ),
+    GoRoute(
+      path: NoteDetailsScreen.route,
+      pageBuilder: (context, state) {
+        var extra = state.extra as Map<String, dynamic>?;
+        return NoTransitionPage(
+            child: NoteDetailsScreen(
+          noteData: extra![RouteConstants.noteModel],
         ));
       },
     ),

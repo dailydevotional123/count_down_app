@@ -1,11 +1,13 @@
-import 'package:daily_devotional/src/features/notesSection%20/notes_provider.dart';
+import 'package:daily_devotional/src/features/notesSection%20/providers/notes_provider.dart';
 import 'package:daily_devotional/src/helpers/local_database_helper/drift_helper.dart';
 import 'package:drift/drift.dart' as drift;
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../../../commonServices/hive_local_storage.dart';
 import '../../../commonWidgets/button_widget.dart';
 import '../../../constants/appcolors.dart';
+import '../../../constants/hive_constants.dart';
 
 class AddNoteScreen extends StatefulWidget {
   final String scriptureText;
@@ -93,9 +95,15 @@ class _AddNoteScreenState extends State<AddNoteScreen> {
             return CommonButtonWidget(
                 text: "Save Note",
                 horizontalPadding: 12,
-                onTap: () {
+                onTap: () async {
+                  String currentUserId =
+                      await HiveLocalStorage.readHiveValue<String>(
+                            boxName: HiveConstants.userIdBox,
+                            key: HiveConstants.userIdKey,
+                          ) ??
+                          '';
                   notesProvider.addNote(NoteCompanion(
-                      userId: drift.Value(1),
+                      userId: drift.Value(currentUserId),
                       // userId: drift.Value(
                       //     int.parse("AcnJAgVLQffb9ANIfvNnQDj2v0x2")),
                       productTitle: drift.Value(noteController.text),

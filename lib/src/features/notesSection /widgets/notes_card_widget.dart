@@ -13,16 +13,20 @@ class NotesCardWidget extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(bottom: 15),
       child: Container(
-        height: 70,
+        //  height: 70,
         width: MediaQuery.sizeOf(context).width,
         decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(13),
-            color: AppColors.blackLightColor.withOpacity(0.2)),
+            borderRadius: BorderRadius.circular(7),
+            color: AppColors.blackLightColor.withOpacity(0.15)),
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+          padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
           child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              // SizedBox(
+              //   height: 10,
+              // ),
               RichText(
                 text: TextSpan(
                   children: [
@@ -34,6 +38,9 @@ class NotesCardWidget extends StatelessWidget {
                             color: AppColors.blackColor)),
                   ],
                 ),
+              ),
+              SizedBox(
+                height: 7,
               ),
             ],
           ),

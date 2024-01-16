@@ -42,99 +42,96 @@ class _NotesScreenState extends State<NotesScreen> {
             GoRouter.of(context).push(AddNoteScreen.route);
           },
         ),
-        body: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            const SizedBox(
-              height: 50,
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 12),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.end,
-                children: [SvgPicture.asset(ImageConstants.threedots)],
+        body: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 12),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              const SizedBox(
+                height: 50,
               ),
-            ),
-            const SizedBox(
-              height: 15,
-            ),
-            Expanded(
-              flex: 2,
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 12),
-                child: SizedBox(
-                  height: 70,
-                  child: TextFormField(
-                    decoration: InputDecoration(
-                        hintText: "Search Notes",
-                        hintStyle: Theme.of(context)
-                            .textTheme
-                            .titleSmall!
-                            .copyWith(
-                                fontSize: 17,
-                                decoration: TextDecoration.none,
-                                color: AppColors.blackLightColor),
-                        prefixIcon: Padding(
-                          padding: const EdgeInsets.all(14.0),
-                          child: SvgPicture.asset(
-                            ImageConstants.search,
-                            height: 25,
-                            width: 25,
-                          ),
-                        ),
-                        contentPadding: const EdgeInsets.only(
-                            top: 10, left: 15, bottom: 10),
-                        border: OutlineInputBorder(
-                            borderSide: const BorderSide(
-                                width: 1, color: AppColors.blackLightColor),
-                            borderRadius: BorderRadius.circular(9))),
-                  ),
+              Expanded(
+                flex: 2,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [SvgPicture.asset(ImageConstants.threedots)],
+                    ),
+                    const SizedBox(
+                      height: 15,
+                    ),
+                    SizedBox(
+                      height: 70,
+                      child: TextFormField(
+                        decoration: InputDecoration(
+                            hintText: "Search Notes",
+                            hintStyle: Theme.of(context)
+                                .textTheme
+                                .titleSmall!
+                                .copyWith(
+                                    fontSize: 15,
+                                    decoration: TextDecoration.none,
+                                    color: AppColors.blackLightColor),
+                            prefixIcon: Padding(
+                              padding: const EdgeInsets.all(14.0),
+                              child: SvgPicture.asset(
+                                ImageConstants.search,
+                                height: 25,
+                                width: 25,
+                              ),
+                            ),
+                            contentPadding: const EdgeInsets.only(
+                                top: 10, left: 15, bottom: 10),
+                            border: OutlineInputBorder(
+                                borderSide: const BorderSide(
+                                    width: 1, color: AppColors.blackLightColor),
+                                borderRadius: BorderRadius.circular(9))),
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 10,
+                    ),
+                    Text(
+                      "My Notes",
+                      style: Theme.of(context).textTheme.titleLarge!.copyWith(
+                          fontSize: 19,
+                          decoration: TextDecoration.none,
+                          color: AppColors.blackColor),
+                    ),
+                    const SizedBox(
+                      height: 10,
+                    ),
+                    Text(
+                      DateTime.now().format("d-M-Y"),
+                      // "15 May 2024",
+                      style: Theme.of(context).textTheme.titleMedium!.copyWith(
+                          fontSize: 13,
+                          decoration: TextDecoration.none,
+                          color: AppColors.blackColor),
+                    ),
+                    const SizedBox(
+                      height: 10,
+                    ),
+                  ],
                 ),
               ),
-            ),
-            const SizedBox(
-              height: 10,
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 15),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    "My Notes",
-                    style: Theme.of(context).textTheme.titleLarge!.copyWith(
-                        fontSize: 19,
-                        decoration: TextDecoration.none,
-                        color: AppColors.blackColor),
-                  ),
-                  const SizedBox(
-                    height: 10,
-                  ),
-                  Text(
-                    DateTime.now().format("d-M-Y"),
-                    // "15 May 2024",
-                    style: Theme.of(context).textTheme.titleMedium!.copyWith(
-                        fontSize: 13,
-                        decoration: TextDecoration.none,
-                        color: AppColors.blackColor),
-                  ),
-                  const SizedBox(
-                    height: 10,
-                  ),
-                  ListView.builder(
-                      itemCount: notesProvider.notesList.length,
-                      // The number of items in your list
-                      padding: const EdgeInsets.only(),
-                      shrinkWrap: true,
-                      itemBuilder: (BuildContext context, int index) {
-                        return NotesCardWidget(
-                          noteData: notesProvider.notesList[index],
-                        );
-                      })
-                ],
-              ),
-            ),
-          ],
+              Expanded(
+                flex: 5,
+                child: ListView.builder(
+                    itemCount: notesProvider.notesList.length,
+                    // The number of items in your list
+                    padding: const EdgeInsets.only(),
+                    shrinkWrap: true,
+                    itemBuilder: (BuildContext context, int index) {
+                      return NotesCardWidget(
+                        noteData: notesProvider.notesList[index],
+                      );
+                    }),
+              )
+            ],
+          ),
         ),
       );
     });

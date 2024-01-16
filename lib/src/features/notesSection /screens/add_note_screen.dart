@@ -66,7 +66,12 @@ class _AddNoteScreenState extends State<AddNoteScreen> {
                     borderRadius: BorderRadius.circular(13),
                     color: AppColors.blackLightColor.withOpacity(0.1)),
                 child: TextFormField(
-                    maxLines: 5,
+                    maxLines: 7,
+                    maxLength: 300,
+                    style: Theme.of(context).textTheme.titleSmall!.copyWith(
+                        fontSize: 14,
+                        decoration: TextDecoration.none,
+                        color: AppColors.blackColor),
                     controller: noteController,
                     decoration: InputDecoration(
                       hintText: "Enter Note",
@@ -76,7 +81,7 @@ class _AddNoteScreenState extends State<AddNoteScreen> {
                           .textTheme
                           .titleSmall!
                           .copyWith(
-                              fontSize: 15,
+                              fontSize: 14,
                               decoration: TextDecoration.none,
                               color: AppColors.blackLightColor),
                     ))),

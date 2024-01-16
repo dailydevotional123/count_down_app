@@ -1,10 +1,13 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:daily_devotional/src/features/authenticationSection/services/authServices.dart';
 import 'package:daily_devotional/src/features/authenticationSection/services/userServices.dart';
+import 'package:daily_devotional/src/helpers/snak_bar_widget.dart';
 import 'package:daily_devotional/src/utils/log_utils.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
-import '../Models/userModel.dart';
+import '../models/userModel.dart';
 
 class SocialAuthenticationServices {
   FirebaseUserServices firebaseUserServices = FirebaseUserServices();
@@ -207,13 +210,34 @@ class SocialAuthenticationServices {
         );
         dp(msg: "user credentials", arg: userCredential.user.toString());
 
-        UserModel userModel = await firebaseAuthServices
-            .fetchUserRecord(userCredential.user!.uid.toString())
-            .first;
-        if (userModel != null) {
-          dp(msg: "user model", arg: userModel.toString());
+        bool? isExistUser = await firebaseAuthServices.fetchCurrentUser(
+            userId: userCredential.user!.uid.toString());
+
+        // UserModel userModel = await firebaseAuthServices
+        //     .fetchCurrentUser(userCredential.user!.uid.toString())
+        //     .first;
+        if (isExistUser == true) {
+
+          dp(msg: "user exists ");
+          showErrorSnackBarMessage(message: "User Already Exists");
+          //  dp(msg: "user model", arg: userModel.toString());
         } else {
-          dp(msg: "user not exist ");
+          firebaseUserServices
+              .createUser(UserModel(
+                  userId: userCredential.user!.uid.toString(),
+                  userName: userCredential.user!.displayName.toString(),
+                  emailAdress: userCredential.user!.email.toString(),
+                  profilePicture: userCredential.user!.photoURL.toString(),
+                  dateCreated: Timestamp.fromDate(DateTime.now())))
+              .whenComplete(() {
+            showSuccessSnackBarMessage(message: "User Registered Successfully");
+          });
+          // GoogleSignIn().signOut();
+          // FirebaseAuth.instance.signOut();
+
+          // dp(msg: "user not exists ");
+          // showErrorSnackBarMessage(message: "User Not Exists ");
+          // dp(msg: "user not exist ");
         }
 
         // FirebaseSingleton.instance

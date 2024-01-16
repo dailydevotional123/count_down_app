@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:awesome_notifications/awesome_notifications.dart';
+import 'package:daily_devotional/src/features/authenticationSection/providers/authentication_provider.dart';
 import 'package:daily_devotional/src/features/bottomNavBarSection/providers/bottom_navbar_provider.dart';
 import 'package:daily_devotional/src/features/homeSection/providers/home_provider.dart';
 import 'package:daily_devotional/src/features/notesSection%20/notes_provider.dart';
@@ -133,6 +134,9 @@ class _MyAppState extends State<MyApp> {
         ),
         ChangeNotifierProvider(
           create: (context) => NotesProvider(),
+        ),
+        ChangeNotifierProvider(
+          create: (context) => AuthenticationProvider(),
         ),
       ],
       child: GestureDetector(

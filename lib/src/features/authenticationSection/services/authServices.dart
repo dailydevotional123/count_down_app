@@ -60,34 +60,34 @@ class FirebaseAuthServices {
   //   }
   // }
   //
-  // ///fetch current diettian user
-  // Future<UserModelDietitian?> fetchCurrentDietitianUser({userId}) async {
-  //   try {
-  //     var userData = await FirebaseFirestore.instance
-  //         .collection(FirebaseUtils.users)
-  //         .doc(userId ?? UserServices.userId)
-  //         .get();
-  //
-  //     if (userData.exists) {
-  //       return UserModelDietitian.fromJson(
-  //           userData.data() as Map<String, dynamic>);
-  //     } else {
-  //       return null;
-  //     }
-  //   } on FirebaseException catch (e) {
-  //     dp(msg: "Error in get user", arg: e);
-  //     rethrow;
-  //   }
-  // }
+  ///fetch current diettian user
+  Future<bool?> fetchCurrentUser({required String userId}) async {
+    try {
+      var userData = await FirebaseFirestore.instance
+          .collection(FirebaseUtils.users)
+          .doc(userId)
+          .get();
 
-  ///Fetch User Record
-  Stream<UserModel> fetchUserRecord(String userID) {
-    return FirebaseFirestore.instance
-        .collection(FirebaseUtils.users)
-        .doc(userID)
-        .snapshots()
-        .map((userData) => UserModel.fromJson(userData.data()!));
+      if (userData.exists) {
+        return true;
+        //return UserModel.fromJson(userData.data() as Map<String, dynamic>);
+      } else {
+        return false;
+      }
+    } on FirebaseException catch (e) {
+      dp(msg: "Error in get user", arg: e);
+      rethrow;
+    }
   }
+
+  // ///Fetch User Record
+  // Stream<UserModel> fetchUserRecord(String userID) {
+  //   return FirebaseFirestore.instance
+  //       .collection(FirebaseUtils.users)
+  //       .doc(userID)
+  //       .snapshots()
+  //       .map((userData) => UserModel.fromJson(userData.data()!));
+  // }
 
   /// logout user
   logoutUser() async {

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "785459560964",
+    "project_id": "countdown-258e5",
+    "storage_bucket": "countdown-258e5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785459560964:android:045e3d40704b8cafab6b51",
+        "android_client_info": {
+          "package_name": "com.countdownapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785459560964-o7v2d0dgf372me5laeilauff6ugs5hg9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.countdownapp",
+            "certificate_hash": "6da6c0924da8115dee820c8e337b098d8a980f54"
+          }
+        },
+        {
+          "client_id": "785459560964-ujqrgeqbcbqic33oq2jtrsdbind4psof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbPErhFKr1y1AmInaRX-W7une8s71euzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785459560964-ujqrgeqbcbqic33oq2jtrsdbind4psof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

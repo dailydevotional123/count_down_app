@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../constants/appcolors.dart';
+import '../../../helpers/launcher_helper.dart';
 
 class ResourcesScreen extends StatelessWidget {
   static String route = "/ResourcesScreen";
@@ -43,26 +44,35 @@ class ResourcesScreen extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 12),
-            child: Container(
-              height: 70,
-              width: MediaQuery.sizeOf(context).width,
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(13),
-                  color: AppColors.primaryLightColor.withOpacity(0.2)),
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 12),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      "Book Resources",
-                      style: Theme.of(context).textTheme.titleMedium!.copyWith(
-                          fontSize: 16,
-                          decoration: TextDecoration.none,
-                          color: AppColors.blackColor),
-                    ),
-                    const Icon(Icons.arrow_right)
-                  ],
+            child: InkWell(
+              onTap: () {
+                LaunchHelper().launchAction('web',
+                    'https://www.amazon.com/stores/Zacch-Olorunnipa/author/B0CTM7TLLN?ref=ap_rdr&isDramIntegrated=true&shoppingPortalEnabled=true');
+              },
+              child: Container(
+                height: 70,
+                width: MediaQuery.sizeOf(context).width,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(13),
+                    color: AppColors.primaryLightColor.withOpacity(0.2)),
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 12),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        "Book Resources",
+                        style: Theme.of(context)
+                            .textTheme
+                            .titleMedium!
+                            .copyWith(
+                                fontSize: 16,
+                                decoration: TextDecoration.none,
+                                color: AppColors.blackColor),
+                      ),
+                      const Icon(Icons.arrow_right)
+                    ],
+                  ),
                 ),
               ),
             ),
@@ -72,26 +82,35 @@ class ResourcesScreen extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 12),
-            child: Container(
-              height: 70,
-              width: MediaQuery.sizeOf(context).width,
-              decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(13),
-                  color: AppColors.primaryLightColor.withOpacity(0.2)),
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 12),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    Text(
-                      "Video Resources",
-                      style: Theme.of(context).textTheme.titleMedium!.copyWith(
-                          fontSize: 16,
-                          decoration: TextDecoration.none,
-                          color: AppColors.blackColor),
-                    ),
-                    const Icon(Icons.arrow_right)
-                  ],
+            child: InkWell(
+              onTap: () {
+                LaunchHelper().launchAction(
+                    'web', 'https://www.youtube.com/@goyechapeltlh');
+              },
+              child: Container(
+                height: 70,
+                width: MediaQuery.sizeOf(context).width,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(13),
+                    color: AppColors.primaryLightColor.withOpacity(0.2)),
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 12),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        "Video Resources",
+                        style: Theme.of(context)
+                            .textTheme
+                            .titleMedium!
+                            .copyWith(
+                                fontSize: 16,
+                                decoration: TextDecoration.none,
+                                color: AppColors.blackColor),
+                      ),
+                      const Icon(Icons.arrow_right)
+                    ],
+                  ),
                 ),
               ),
             ),

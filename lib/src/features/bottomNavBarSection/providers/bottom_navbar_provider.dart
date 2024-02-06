@@ -1,9 +1,10 @@
 import 'package:daily_devotional/src/features/%20bibleSection%20/screens/bible_screen.dart';
-import 'package:daily_devotional/src/features/devotionSection/screens/devotion_screen.dart';
 import 'package:daily_devotional/src/features/homeSection/screens/home_screen.dart';
 import 'package:daily_devotional/src/features/moreSection/screens/more_screen.dart';
 import 'package:daily_devotional/src/features/notesSection%20/screens/notes_screen.dart';
 import 'package:flutter/material.dart';
+
+import '../../prayersSection/screens/prayers_screen.dart';
 
 class ClinicBottomNavProvider extends ChangeNotifier {
   Widget currentScreen = const HomeScreen();
@@ -28,7 +29,7 @@ class ClinicBottomNavProvider extends ChangeNotifier {
         break;
       case 2:
         currentIndex = index;
-        currentScreen = const DevotionScreen();
+        currentScreen = const PrayersScreen();
         notifyListeners();
 
         break;

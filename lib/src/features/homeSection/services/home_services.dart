@@ -9,33 +9,34 @@ class HomeServices {
           'Today is Jan 1, Day 1, in year 2024, There are 365 more days remaining in year 2024.',
       theme: 'BECOMING BLESSED',
       scripture:
-          '“Blessed is the man Who walks not in the counsel of the ungodly, nor stands in the path of sinners, Nor sits in the seat of the scornful; But his delight is in the law of the Lord, And in His law he meditates day and night. He shall be like a tree Planted by the rivers of water, that brings forth its fruit in its season, Whose leaf also shall not wither; And whatever he does shall prosper.” (Psalms',
+          '“Blessed is the man Who walks not in the counsel of the ungodly, nor stands in the path of sinners, Nor sits in the seat of the scornful; But his delight is in the law of the Lord, And in His law he meditates day and night. He shall be like a tree Planted by the rivers of water, that brings forth its fruit in its season, Whose leaf also shall not wither; And whatever he does shall prosper.” (Psalms 1:1-3 NKJV)',
       prayer:
-          'Father, thank You for all Your past blessings and for sparing our lives to see the new year 2024. Oh Lord, please give us the grace to live holy, delighting in You and meditating day and night on Your word, so that we can continue to be blessed in year 2024 and beyond in Jesus’ name (Jer 4:2; Josh 1:8',
+          'Father, thank You for all Your past blessings and for sparing our lives to see the new year 2024. Oh Lord, please give us the grace to live holy, delighting in You and meditating day and night on Your word, so that we can continue to be blessed in year 2024 and beyond in Jesus’ name (Jer 4:2; Josh 1:8)',
       action:
           'To delight in the Lord and be successful in life, study and meditate on God’s world daily. Do so every day in 2024 and be blessed.',
       dateTime: DateTime(2024, 1, 1),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Jan 2, Day 2, in year 2024, There are 364 more days remaining in year 2024.',
+          'Today is Jan 2, Day #2, in year 2024, There are 364 more days remaining in year 2024.',
       theme: 'TRADING WITH GOD-GIVEN TALENTS',
       scripture:
-          '“He also who had received two talents came and said, ‘Lord, you delivered to me two talents; look, I have gained two more talents besides them.’ His Lord said to him, ‘Well done, good and faithful servant; you have been faithful over a few things, I will make you ruler over many things. Enter into the joy of your Lord.” (Matt. 25‬:',
+          '“He also who had received two talents came and said, ‘Lord, you delivered to me two talents; look, I have gained two more talents besides them.’ His Lord said to him, ‘Well done, good and faithful servant; you have been faithful over a few things, I will make you ruler over many things. Enter into the joy of your Lord.” (Matt. 25:22-23 NKJV)',
       prayer:
           'Father, Your word declares, “Moreover it is required in stewards, that a man be found faithful (1 Cor, 4:2). Oh Lord, instead of burying my God-given talents (resources) please let me be faithful, meticulous and persevering in trading with them such that I can gain more than double the number of talents (resources) given to me',
       action:
           'Prayerfully ask God to reveal to you, your skill(s) and your areas of strength and how to harness your talents for enhancing your life and for glorifying God.',
       dateTime: DateTime(2024, 1, 2),
     ),
+    // Add more DevotionalModel instances here
     DevotionalModel(
       todayDate:
-          'Today is, Jan 3, Day 3, in year 2024, There are 363 more days remaining in year 2024.',
+          'Today is, Jan 3, Day #3, in year 2024, There are 363 more days remaining in year 2024.',
       theme: 'FRUITFULNESS (I)',
       scripture:
-          '“He is like a tree planted beside streams - a tree that produces fruit in season and whose leaves do not wither. He succeeds in everything he does.” (Psa',
+          '“He is like a tree planted beside streams - a tree that produces fruit in season and whose leaves do not wither. He succeeds in everything he does.” (Psa 1:3 GW)',
       prayer:
-          'Father, please empower me to live holy, delight in Your law and meditate in it day and night so that I can be fruitful and be like ‘a tree planted by the rivers of water, That brings forth its fruit in its season, whose leaf also shall not wither; And whatever he does shall prosper. (Psalms‬',
+          'Father, please empower me to live holy, delight in Your law and meditate in it day and night so that I can be fruitful and be like ‘a tree planted by the rivers of water, That brings forth its fruit in its season, whose leaf also shall not wither; And whatever he does shall prosper. (Psalms 1:2-3 NKJV)',
       action:
           'Winning souls for God is one of the most valuable ways to fulfil the mandate of fruitfulness; throughout this year 2024 and beyond determine to abide in Jesus Christ and be fruitful (John 15:5-8)',
       dateTime: DateTime(2024, 1, 3),
@@ -57,19 +58,20 @@ class HomeServices {
           'Today is, Jan 5, Day #5 in year 2024, There are 361 more days remaining in year 2024.',
       theme: 'WINNING WITH DIVINE WEAPONS',
       scripture:
-          '“He picked up five smooth stones from a stream and put them into his shepherd’s bag. Then, armed only with his shepherd’s staff and sling, he started across the valley to fight the Philistine.” (1 Samuel‬',
+          '“He picked up five smooth stones from a stream and put them into his shepherd’s bag. Then, armed only with his shepherd’s staff and sling, he started across the valley to fight the Philistine.” (1 Samuel 17:40 NLT)',
       prayer:
           'Father, this year and henceforth please give me wisdom and all the spiritual and physical weapons I need to conquer and overcome all my enemies as You gave David the wisdom and insights to choose the right weapons (five smooth stones and shepherd’s staff and sling) with which he conquered and killed Goliath and defeated the Philistines the archenemy of Israel, (1 Sam 17:1-40)',
       action:
           'Study David’s strategy used in overcoming Goliath and pray to God to give you wisdom like David’s',
       dateTime: DateTime(2024, 1, 5),
     ),
+
     DevotionalModel(
       todayDate:
           'Today is, Jan 6, Day #6 in year 2024, There are 360 more days remaining in year 2024.',
       theme: 'GOD MADE MAN TO BE VERY GOOD',
       scripture:
-          '“And God saw everything that he had made and that it was very good. There was evening, then morning—the sixth day.” (Genesis‬',
+          '“And God saw everything that he had made and that it was very good. There was evening, then morning—the sixth day.” (Genesis 1:31 GW)',
       prayer:
           'Father, thank You for your wonderful work of creation. Everything You created in each of the first 5 days of creation, You saw and described as ‘good’ (Gen 1:1-25). However, when God created human beings, ‘man’ (on the sixth day) He saw and described him as ‘very good’ (Gen 1:26-31). Oh Lord, I am a product of Your very good and wonderful work, therefore, I decree that Your goodness and mercy shall follow me all the days of my life and everything about me shall be very good forever in Jesus name',
       action:
@@ -83,7 +85,7 @@ class HomeServices {
       scripture:
           '“And on the seventh day God ended His work which He had done, and He rested on the seventh day from all His work which He had done” (Gen. 2:2)',
       prayer:
-          'Father, You finished the creation of the heavens and the earth only in seven days without any abandonment. Jesus Christ Your Son also successfully completed His work here on earth and declared ‘It is finished’ (John 19:30). Almighty God, in this year and henceforth, please give me the anointing to finish all my projects promptly without any delay, failure, or abandonment in Jesus name. Oh Lord, let me.',
+          'Father, You finished the creation of the heavens and the earth only in seven days without any abandonment. Jesus Christ Your Son also successfully completed His work here on earth and declared ‘It is finished’ (John 19:30). Almighty God, in this year and henceforth, please give me the anointing to finish all my projects promptly without any delay, failure or abandonment in Jesus name.',
       action:
           'The God we serve “faileth not’ (Zep 3:5), we his followers must determine not to fail',
       dateTime: DateTime(2024, 1, 7),
@@ -93,7 +95,7 @@ class HomeServices {
           'Today is, Jan 8, Day #8 in year 2024, There are 358 more days remaining in year 2024',
       theme: 'CIRCUMCISION OF JESUS CHRIST',
       scripture:
-          '“And when eight days were completed for the circumcision of the Child, His name was called Jesus, the name given by the angel before He was conceived in the womb.” (Luke‬',
+          '“And when eight days were completed for the circumcision of the Child, His name was called Jesus, the name given by the angel before He was conceived in the womb.” (Luke 2:21 NKJV)',
       prayer:
           'Lord Jesus, thank You for receiving circumcision on the 8th day after Your birth as a token of Your subjection to the law (Gen 17:22; Gal 4-6). Father, please help us not to put confidence in the flesh, but, by faith, let us accept Jesus Christ as our Lord and Savior by whom we are entered into the new covenant, and according to that new covenant, “..we are the circumcision, who worship by the Spirit of God and glory in Christ Jesus..” (Phil 3:3)',
       action:
@@ -105,9 +107,9 @@ class HomeServices {
           'Today is, Jan 9, Day #9 in year 2024, There are 357 more days remaining in year 2024',
       theme: 'FORSAKE THE FOOLISH',
       scripture:
-          '“Forsake the foolish, and live; and go in the way of understanding. (Proverbs 9:6)',
+          '“Forsake the foolish, and live; and go in the way of understanding.” (Proverbs 9:6)',
       prayer:
-          'Father, Your word declares that the Fool:\n(a) have said that there is no God (Psa 24:1;53:1); (b) don’t know God (Jer 5:4), (c) is quick-tempered (Pro14:17); (e) has a mouth that is near destruction (Pro 10:14). Please Lord, don’t let me be unequally yoked together with unbelievers (II Cor. 6‬:',
+          'Father, Your word declares that the Fool: (a) have said that there is no God (Psa 24:1;53:1); (b) don’t know God (Jer 5:4), (c) is quick-tempered (Pro14:17); (e) has mouth that is near destruction (Pro 10:14). Please Lord, don’t let me be unequally yoked together with unbelievers (II Cor. 6:14 NKJV), so that I can live a meaningful life with undiluted understanding in Jesus name.',
       action:
           'Don’t be a fool, avoid the foolish who says there is no God (Psa. 14:1)',
       dateTime: DateTime(2024, 1, 9),
@@ -117,41 +119,42 @@ class HomeServices {
           'Today is, Jan 10, Day #10 in year 2024, There are 356 more days remaining in year 2024.',
       theme: 'COMING OUT OF JORDAN',
       scripture:
-          '“And the people came up out of Jordan on the tenth day of the first month, and encamped in Gilgal, in the east border of Jericho. -(Jos. 4:19)',
+          '“And the people came up out of Jordan on the tenth day of the first month, and encamped in Gilgal, in the east border of Jericho.” (Jos. 4:19)',
       prayer:
-          'Father, at Your directives the Israelites began their journey to the promised land on the 15th day of the FIRST month of a particular year (Exo 12:2) and, after 40 years less 5 days, the Israelites accomplished their goal and reached their destination (Canan) on the 10th day of the FIRST month of the year of arrival. Dear Lord, as we have started the journey of year 2024 on the first day of the first month, please help us to overcome all obstacles and reach the end of year 2024 safely on the 31st day of the 12th month of year 2024.',
+          'Father, at Your directives the Israelites began their journey to the promised land on the 15th day of the FIRST month of a particular year (Exo 12:2) and, after 40 years less 5 days, the Israelites accomplished their goal and reached their destination (Canaan) on the 10th day of the FIRST month of the year of arrival. Dear Lord, as we have started the journey of year 2024 on the first day of the first month, please help us to overcome all obstacles and reach the end of year 2024 safely on the 31st day of the 12th month of year 2024.',
       action:
           'Prayerfully claim the scripture in Psalm 32:8 and believe that you shall make it safely to December 31st, year 2024 and',
       dateTime: DateTime(2024, 1, 10),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Jan 11th Day #11 in year 2024, There are 355 more days remaining in year 2024',
+          'Today is Jan 11th, Day #11 in year 2024, There are 355 more days remaining in year 2024',
       theme: 'DELIVERANCE FROM DEMONIC DELAYS',
       scripture:
-          '“Normally it takes only eleven days to travel from Mount Sinai to Kadesh-barnea, going by way of Mount Seir.” (Deut‬',
+          '“Normally it takes only eleven days to travel from Mount Sinai to Kadesh-barnea, going by way of Mount Seir.” (Deut 1:2 NLT)',
       prayer:
-          'Father, in this new year and thereafter please don’t let me be a victim of demonic delays and/ or stagnation as did the Israelites who after their eleven days journey from Mount Sinai to Kadesh-barnea brought them to a few miles of entering the promised land, but still spent 38 years wandering up and down before they could reach their destination having been delayed by their rebellious attitude (Num 32:13)',
+          'Father, in this new year and thereafter please don’t let me be a victim of demonic delays and/or stagnation as did the Israelites who after their eleven days journey from Mount Sinai to Kadesh-barnea brought them to a few miles of entering the promised land, but still spent 38 years wandering up and down before they could reach their destination having been delayed by their rebellious attitude (Num 32:13)',
       action: 'Let us pray regularly to cancel delays in all that we do',
       dateTime: DateTime(2024, 1, 11),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Jan 12th Day #12 in year 2024, There are 354 more days remaining in year 2024',
+          'Today is Jan 12th, Day #12 in year 2024, There are 354 more days remaining in year 2024',
       theme: 'GOOD HAND OF GOD',
       scripture:
-          '“Then we departed from the river of Ahava on the twelfth day (12th) of the first month, to go to Jerusalem. And the hand of our God was upon us, and He delivered us from the hand of the enemy and from ambush along the road.” (Ezra‬',
+          '“Then we departed from the river of Ahava on the twelfth day (12th) of the first month, to go to Jerusalem. And the hand of our God was upon us, and He delivered us from the hand of the enemy and from ambush along the road.” (Ezra 8:31 NKJV)',
       prayer:
-          'Father, thank You for Your good hand (Ezra 7:9; 8:18) Neh.2:8,18). As You did for Ezra, and Nehemiah and their respective entourages please Lord, in all our journeys and other undertakings this day, year and henceforth, let Your hand be upon us to deliver us from the hands of our enemies and from ambush along the road and ensure safe and successful accomplishment of our mission in Jesus name (Ezra 7; Neh. 2; Deut. 33:27)',
+          'Father, thank You for Your good hand (Ezra 7:9; 8:18; Neh.2:8,18). As You did for Ezra, and Nehemiah and their respective entourages please Lord, in all our journeys and other undertakings this day, year and henceforth, let Your hand be upon us to deliver us from the hands of our enemies and from ambush along the road and ensure safe and successful accomplishment of our mission in Jesus name (Ezra 7; Neh. 2; Deut. 33:27)',
       action: 'Pray to God to grave you in His good hand (Isa. 49:16)',
       dateTime: DateTime(2024, 1, 12),
     ),
+
     DevotionalModel(
       todayDate:
-          'Today is Jan 13th Day #13 in year 2024, There are 353 more days remaining in year 2024',
+          'Today is Jan 13th, Day #13 in year 2024, There are 353 more days remaining in year 2024',
       theme: 'HAMAN’S DEATH DECREE BACKFIRED',
       scripture:
-          '“Then the king’s scribes were called on the thirteenth day of the first month, and a decree was written according to all that Haman commanded—to the king’s satraps, to the governors who were over each province, to the officials of all people, to every province according to its script, and to every people in their language. In the name of King Ahasuerus, it was written and sealed with the king’s signet ring. And the letters were sent by couriers into all the king’s provinces, to destroy, to kill, and to annihilate all the Jews, both young and old, little children and women, in one day, on the thirteenth day of the twelfth month, which is the month of Adar, and to plunder their possessions.” (Esther 3‬:',
+          '“Then the king’s scribes were called on the thirteenth day of the first month, and a decree was written according to all that Haman commanded—to the king’s satraps, to the governors who were over each province, to the officials of all people, to every province according to its script, and to every people in their language. In the name of King Ahasuerus, it was written and sealed with the king’s signet ring. And the letters were sent by couriers into all the king’s provinces, to destroy, to kill, and to annihilate all the Jews, both young and old, little children and women, in one day, on the thirteenth day of the twelfth month, which is the month of Adar, and to plunder their possessions.” (Esther 3:12-13 NKJV)',
       prayer:
           'Father, please let every evil agenda and/or death sentence orchestrated against us backfire to the plotter as it happened to Haman who died in the gallows he plotted and prepared for Mordecai (Est.7:10). Also, Lord, as You overturned the death decrees of other Jews Haman wanted killed, please overturn every plan of Satan to kill any of us in Jesus’ name (Esther 8, 9, 10)',
       action: 'Pray that any weapon of death aimed at you shall fail',
@@ -159,24 +162,24 @@ class HomeServices {
     ),
     DevotionalModel(
       todayDate:
-          'Today is Jan 14th Day #14 in year 2024, There are 352 more days remaining in year 2024.',
+          'Today is Jan 14th, Day #14 in year 2024, There are 352 more days remaining in year 2024.',
       theme: 'THE LORD’S PASSOVER',
       scripture:
-          '“In the fourteenth day of the first month at even is the Lord\'s Passover” (Lev. 23:5)',
+          '“In the fourteenth day of the first month at even is the Lord’s Passover” (Lev. 23:5)',
       prayer:
-          'Father, in this first month of this year, please set us free from anything that has held us in captivity (Satan, sins, sickness, stagnation, poverty, debts, unable to get married, marital conflicts, joblessness, bareness, academic problems, etc,) as You freed the Israelites (after they ate the Passover meal) from the land of Egypt where they were held for about 400 years in captivity and servitude (Lev 23; Exo 12)',
+          'Father, in this first month of this year, please set us free from anything that has held us in captivity (Satan, sins, sickness, stagnation, poverty, debts, unable to get married, marital conflicts, joblessness, barrenness, academic problems, etc.) as You freed the Israelites (after they ate the Passover meal) from the land of Egypt where they were held for about 400 years in captivity and servitude (Lev 23; Exo 12)',
       action:
           'If you have given your life to Jesus Christ, prayerfully partake in taking the Holy Communion wherever and whenever it is properly administered. Pray that Jesus Christ will set you free indeed',
       dateTime: DateTime(2024, 1, 14),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Jan 15th, Day #15 in year 2023, There are 351 more days remaining in year 2023',
+          'Today is Jan 15th, Day #15 in year 2024, There are 351 more days remaining in year 2024',
       theme: 'ESCAPING TRIUMPHANTLY FROM THE ENEMIES',
       scripture:
-          '“They set out from Rameses on the fifteenth day of the first month; on the day after the Passover the Israelites moved out triumphantly in the sight of all the Egyptians, while the Egyptians were burying all their firstborn whom the Lord had struck down among them. Upon their gods the Lord also executed judgments.”',
+          '“They set out from Rameses on the fifteenth day of the first month; on the day after the Passover the Israelites moved out triumphantly in the sight of all the Egyptians, while the Egyptians were burying all their firstborn whom the Lord had struck down among them. Upon their gods the Lord also executed judgments.” (Numbers 33:3-4 AMP)',
       prayer:
-          'Father, on this 15th day of the first month and henceforth, please let me escape triumphantly from all ‘Egyptian-like’ enemies as You made it happen at Rameses where on the 15th day of the first month “..the children of Israel went out with a high hand in the sight of all the Egyptians”(Num. 33:3, KJV)',
+          'Father, on this 15th day of the first month and henceforth, please let me escape triumphantly from all ‘Egyptian-like’ enemies as You made it happen at Rameses where on the 15th day of the first month “..the children of Israel went out with an high hand in the sight of all the Egyptians”(Num. 33:3, KJV)',
       action:
           'Pray that all enemies pursuing you will be smitten by God and they will flee from you in 15 ways (Deut 28:7)',
       dateTime: DateTime(2024, 1, 15),
@@ -186,9 +189,9 @@ class HomeServices {
           'Today is Jan 16th, Day #16 in year 2024, There are 350 more days remaining in year 2024',
       theme: 'CASTING ALL CARES ON CHRIST',
       scripture:
-          '“Commit your works to the Lord, And your thoughts will be established.” (Proverbs‬',
+          '“Commit your works to the Lord, And your thoughts will be established.” (Proverbs 16:3 NKJV)',
       prayer:
-          'Father thank You for Your care for me (1 Pet 5:7) and Your promise to help me (Isa 42:10). Please Lord, this year and henceforth let me continue to depend upon You alone for direction and success; in all my works and undertakings in Jesus name.',
+          'Father, thank You for Your care for me (1 Pet 5:7) and Your promise to help me (Isa 42:10). Please Lord, this year and henceforth let me continue to depend upon You alone for direction and success; in all my works and undertakings in Jesus name.',
       action:
           'Do what Proverbs 3:5 says: ‘Trust in the Lord with all thine heart; and lean not unto thine own understanding.’',
       dateTime: DateTime(2024, 1, 16),
@@ -198,58 +201,59 @@ class HomeServices {
           'Today is Jan 17th, Day #17 in year 2024, There are 349 more days remaining in year 2024',
       theme: 'FEROCIOUS FLOOD',
       scripture:
-          '“In the six hundredth year of Noah’s life, …..,the seventeenth day of the month, on that day all the fountains of the great deep were broken up, and the windows of heaven were opened. The waters prevailed fifteen cubits upward, and the mountains were covered. And all flesh died that moved on the earth: …,birds and ……All in whose nostrils was the breath of the spirit of life, all that was on the dry land, died…..Only Noah and those who were with him in the ark remained alive.” (Gen. 7‬:',
+          '“In the six hundredth year of Noah’s life, ..., the seventeenth day of the month, on that day all the fountains of the great deep were broken up, and the windows of heaven were opened. The waters prevailed fifteen cubits upward, and the mountains were covered. And all flesh died that moved on the earth: ..., birds and ... All in whose nostrils was the breath of the spirit of life, all that was on the dry land, died. ... Only Noah and those who were with him in the ark remained alive.” (Gen. 7:11, 20-23 NKJV)',
       prayer:
-          'Father, the flood that destroyed the whole world (excepting Noah and his family) began on day 17th of the month. Please Lord, have mercy and forgive us our sins, individually and collectively and put an end to various disasters that have been plaguing our world in recent times (e.g. Corona virus, excessive fire outbreaks, storms, tornadoes, ferocious floods, overwhelming snowfall, excessive heat, wars, kidnapping and indiscriminate killings of human beings, etc). Dear Lord, our refuge, keep us in Your ark of safety, and help us to be ready for Your return in Jesus’ name.',
+          'Father, the flood that destroyed the whole world (excepting Noah and his family) began on day 17th of the month. Please Lord, have mercy and forgive us our sins, individually and collectively, and put an end to various disasters that have been plaguing our world in recent times (e.g., Corona virus, excessive fire outbreaks, storms, tornadoes, ferocious floods, overwhelming snowfall, excessive heat, wars, kidnapping, and indiscriminate killings of human beings, etc). Dear Lord, our refuge, keep us in Your ark of safety, and help us to be ready for Your return in Jesus’ name.',
       action: 'Pray that sins will not sink you and all yours',
       dateTime: DateTime(2024, 1, 17),
     ),
     DevotionalModel(
       todayDate:
-          'Today is January 18th, Day #18 in year 2024. There are 348 days remaining in year 2024',
+          'Today is Jan 18th, Day #18 in year 2024, There are 348 days remaining in year 2024',
       theme: 'LOSING HOPE AND CONFIDENCE IN THE LORD?',
       scripture:
           '“He hath stripped me of my glory and taken the crown from my head.” (Job 19:9)',
       prayer:
-          'Father, Your word declares that You will never live me nor forsake me (Heb 13:5) Please Lord, don’t let life’s circumstances and what people say discourage me and provoke me to make wrong judgment and unfounded accusation about You and Your role in my life in Jesus name',
+          'Father, Your word declares that You will never leave me nor forsake me (Heb 13:5). Please Lord, don’t let life’s circumstances and what people say discourage me and provoke me to make wrong judgments and unfounded accusations about You and Your role in my life in Jesus name.',
       action:
-          'As believers in the Lord Let us thank God for His ever presence and protection for us (Isa 43:1-4)',
+          'As believers in the Lord, let us thank God for His ever presence and protection for us (Isa 43:1-4)',
       dateTime: DateTime(2024, 1, 18),
     ),
     DevotionalModel(
       todayDate:
-          'Today is January 19th, Day #19 in year 2024. There are 347 days remaining in year 2024',
+          'Today is Jan 19th, Day #19 in year 2024, There are 347 days remaining in year 2024',
       theme: 'SAVING THE SEEKER',
       scripture:
-          '“And when Jesus came to the place, he looked up, and saw him, and said unto him, Zacchaeus, make haste, and come down; for today I must abide at thy house., 9 And Jesus said unto him, This day is salvation come to this house, for so much as he also is a son of Abraham.” (Luke 19: 6, 9)',
+          '“And when Jesus came to the place, he looked up, and saw him, and said unto him, Zacchaeus, make haste, and come down; for today I must abide at thy house. And Jesus said unto him, This day is salvation come to this house, for so much as he also is a son of Abraham.” (Luke 19: 6, 9)',
       prayer:
-          'Father, thank You for Your faithfulness to Your promise: “..,ye shall seek me, and find me, when ye shall search for me with all your heart” (Jer. 29:13); please let those yet to receive Jesus as their Lord and Savior seek and search for Him desperately as did Zacchaeus who caught Jesus’ attention by running before Him, and climbed up into a sycamore tree to see Him (Luke 19: 1-10).',
+          'Father, thank You for Your faithfulness to Your promise: “..ye shall seek me, and find me, when ye shall search for me with all your heart” (Jer. 29:13); please let those yet to receive Jesus as their Lord and Savior seek and search for Him desperately as did Zacchaeus who caught Jesus’ attention by running before Him and climbed up into a sycamore tree to see Him (Luke 19: 1-10).',
       action:
-          'Pray for revival that will draw multitude of unbelievers to have a yearning to seek Jesus Christ as did Zacchaeus',
+          'Pray for revival that will draw a multitude of unbelievers to have a yearning to seek Jesus Christ as did Zacchaeus',
       dateTime: DateTime(2024, 1, 19),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Jan 20th, Day #20 in the year 2024. There are 346 days remaining in year 2024.',
+          'Today is Jan 20th, Day #20 in the year 2024, There are 346 days remaining in year 2024',
       theme: 'DEVIL IS A DECEIVER',
       scripture:
           '“And cast him into the bottomless pit, and shut him up, and set a seal upon him, that he should deceive the nations no more, till the thousand years should be fulfilled: and after that he must be loosed a little season.” (Rev. 20:3)',
       prayer:
-          'Father, ‘..deliver us from evil’ (Matt 6:13) for he is a deceiver (Gen 3:1-7, 2 Cor 4:4, Rev 20:3). Please Lord, give us the power to resist the devil such that he will flee from us (James 4:7).',
+          'Father, ‘deliver us from evil’ (Matt 6:13) for he is a deceiver (Gen 3:1-7, 2 Cor 4:4, Rev 20:3). Please Lord, give us the power to resist the devil such that he will flee from us (James 4:7).',
       action:
           'Let’s cry to God daily to cast the devil into the bottomless pit to terminate his business of deceiving the nations',
       dateTime: DateTime(2024, 1, 20),
     ),
+
     DevotionalModel(
       todayDate:
           'Today is Jan 21st, Day #21 in year 2024, There are 345 more days remaining in year 2024.',
       theme: 'PRAISING THE LORD’S POWER',
       scripture:
-          '“Be exalted, O Lord, in Your own strength! We will sing and praise Your power.” (Psa.21‬:',
+          '“Be exalted, O Lord, in Your own strength! We will sing and praise Your power.” (Psa.21:13 NKJV)',
       prayer:
-          'Father, please give us the grace and reasons to praise You for Your power as did king David when You gave him: salvation, victory over all his enemies, his heart’s desire, blessings of goodness; You set a crown of pure gold upon his head, Length of days forever and ever, Honor and majesty, Your presence, etc. (Psa. Oh Lord, please fill my mouth with songs of joy in praising You in Jesus name.',
+          'Father, please give us the grace and reasons to praise You for Your power as did king David when You gave him: salvation, victory over all his enemies, his heart’s desire, blessings of goodness; You set a crown of pure gold upon his head, Length of days forever and ever, Honor and majesty, Your presence, etc. (Psa. 21:1-6 NKJV). Oh Lord, please fill my mouth with songs of joy in praising You in Jesus name.',
       action:
-          'Emulate David who declares “I will bless the Lord at all times; His praise shall continually be in my mouth. (Psa. 34:1)',
+          'Emulate David who declares “I will bless the Lord at all times; His praise shall continually be in my mouth.” (Psa. 34:1)',
       dateTime: DateTime(2024, 1, 21),
     ),
     DevotionalModel(
@@ -257,46 +261,48 @@ class HomeServices {
           'Today is Jan 22nd, Day #22 in year 2024, There are 344 more days remaining in year 2024.',
       theme: 'DECLARING DECREES',
       scripture:
-          '“Thou shalt also decree a thing, and it shall be established unto thee: and the light shall shine upon thy ways. (Job 22:28, KJV)',
+          '“Thou shalt also decree a thing, and it shall be established unto thee: and the light shall shine upon thy ways.” (Job 22:28, KJV)',
       prayer:
-          'Father, thank You for giving us the privilege of using decrees (faith-based commands or authoritative order) in prayers; as Your word declares, “Say to them, ‘As I live,’ says the Lord, ‘just as you have spoken in My hearing, so I will do to you:” (Num. 14‬: Therefore, in Jesus’ name I decree that: 1. Thanksgiving and praising God shall not depart from my mouth. 2. I will live and not die to declare the works of God. 3. I will make heaven together with all members of my family. 4. Through me, many souls shall be saved and ready to be raptured. 5. I will prosper body, soul, in Spirit, financially and in all positive areas (6) The blessing of God that maketh rich and add no sorrow is my portion (7) No weapon fashioned against me shall prosper.',
+          'Father, thank You for giving us the privilege of using decrees (faith-based commands or authoritative order) in prayers; as Your word declares, “Say to them, ‘As I live,’ says the Lord, ‘just as you have spoken in My hearing, so I will do to you:” (Num. 14:28 NKJV). Therefore, in Jesus’ name I decree that: 1. Thanksgiving and praising God shall not depart from my mouth. 2. I will live and not die to declare the works of God. 3. I will make heaven together with all members of my family. 4. Through me, many souls shall be saved and ready to be raptured. 5. I will prosper body, soul, in Spirit, financially and in all positive areas. 6. The blessing of God that maketh rich and add no sorrow is my portion. 7. No weapon fashioned against me shall prosper.',
       action: 'Prayerfully make decreeing as part of your daily prayer',
       dateTime: DateTime(2024, 1, 22),
     ),
+
     DevotionalModel(
       todayDate:
           'Today is Jan 23rd, Day #23 in year 2024, There are 343 more days remaining in year 2024.',
       theme: 'JEHOAHAZ’S SHORT-LIVED REIGN IN JERUSALEM',
       scripture:
-          '“Jehoahaz was twenty-three years old when he became king, and he reigned three months in Jerusalem.”',
+          'SCRIPTURE: “Jehoahaz was twenty-three years old when he became king, and he reigned three months in Jerusalem.” (II Chronicles 36:2 NKJV)',
       prayer:
-          'Father, please bless our children and let them serve You even better than their parents. Don’t let our children be like 3 of the children of Josiah called the same name (title) Jehoahaz. The third Jehoahaz (also known as Shallum (1 Chron 3:15) came to the throne at age 23 and “did evil in the eyes of the LORD, just as his predecessors has done” (2 kings 23:32, NIV). Shallum only reigned for three months in Jerusalem before Pharaoh deported him in chains to Egypt where he later died (2 Kings 23:31-35). Oh Lord, please turn the hearts of our rulers away from greed, corruption and other evil practices to righteous lifestyles so that we, Your people can rejoice, in Jesus name (Proverbs 29:2)',
+          'PRAYER: Father, please bless our children and let them serve You even better than their parents. Don’t let our children be like 3 of the children of Josiah called the same name (title) Jehoahaz. The third Jehoahaz (also known as Shallum (1 Chron 3:15) came to the throne at age 23 and “did evil in the eyes of the LORD, just as his predecessors has done” (2 Kings 23:32, NIV). Shallum only reigned for three months in Jerusalem before Pharaoh deported him in chains to Egypt where he later died (2 Kings 23:31-35). Oh Lord, please turn the hearts of our rulers away from greed, corruption and other evil practices to righteous lifestyles so that we, Your people can rejoice, in Jesus name (Proverbs 29:2)',
       action:
-          'Development of Leadership skills must be incorporated into the training of our children and all young people in the ministry.',
+          'ACTION: Development of Leadership skills must be incorporated into the training of our children and all young people in the ministry.',
       dateTime: DateTime(2024, 1, 23),
     ),
     DevotionalModel(
       todayDate:
-          'Today is January 24th, Day #24 in year 2024. There are 342 days remaining in year 2021.',
+          'Today is January 24th, Day #24 in year 2024. There are 342 days remaining in year 2024.',
       theme: 'HOW TO BUILD A HOUSE',
       scripture:
-          '“Through wisdom is an house builded; and by understanding it is established: 4 And by knowledge shall the chambers be filled with all precious and pleasant riches” (Pro 24: 3-4)',
+          'SCRIPTURE: “Through wisdom is an house builded; and by understanding it is established: 4 And by knowledge shall the chambers be filled with all precious and pleasant riches” (Pro 24: 3-4)',
       prayer:
-          'Father, please give me divine wisdom knowledge and understanding to build spiritual and physical houses that will meet Your standard for habitation, in Jesus’ name',
+          'PRAYER: Father, please give me divine wisdom knowledge and understanding to build spiritual and physical houses that will meet Your standard for habitation, in Jesus’ name',
       action:
-          'We must prayerfully seek wisdom from God daily in building and maintaining both our spiritual and physical ‘houses’',
+          'ACTION: We must prayerfully seek wisdom from God daily in building and maintaining both our spiritual and physical ‘houses’',
       dateTime: DateTime(2024, 1, 24),
     ),
+
     DevotionalModel(
       todayDate:
           'Today is Jan 25th, Day #25 in the year 2024. There are 341 more days remaining in year 2024.',
-      theme: 'JEHOSHAPHAT REIGN AS KING IN JERUSALEM',
+      theme: 'JEHOSHAPHAT’S REIGN IN JERUSALEM',
       scripture:
-          '“..So Jehoshaphat…ruled in Jerusalem for 25 years. His mother\'s name was Azubah. She was the daughter of Shilhi. Jehoshaphat lived in the good way that his father Asa had lived. He only did things that the Lord says are right. But he did not remove all the altars that were on the hills. The people still did not want to be completely faithful to the God of their ancestors.” (2 Chro 20‬:',
+          'SCRIPTURE: “..So Jehoshaphat...ruled in Jerusalem for 25 years. His mother’s name was Azubah. She was the daughter of Shilhi. Jehoshaphat lived in the good way that his father Asa had lived. He only did things that the Lord says are right. But he did not remove all the altars that were on the hills. The people still did not want to be completely faithful to the God of their ancestors.” (2 Chro 20:31-33 EASY)',
       prayer:
-          'Father, please give us rulers like Jehoshaphat who will: (a) fear You and do only things that are right in Your sight (b) seek and follow Godly counsel in dealing with issues such as how to fight against the enemies (2 Chron 20: 3-5), (c) will allow and encourage freedom of people to worship, praise and magnify God (2 Chron 20:13). Oh Lord, don’t let our rulers engage in or support evil altars, idol worship and Ungodly alliances as did Jehoshaphat',
+          'PRAYER: Father, please give us rulers like Jehoshaphat who will: (a) fear You and do only things that are right in Your sight (b) seek and follow Godly counsel in dealing with issues such as how to fight against the enemies (2 Chron 20: 3-5), (c) will allow and encourage freedom of people to worship, praise and magnify God (2 Chron 20:13). Oh Lord, don’t let our rulers engage in or support evil altars, idol worship and Ungodly alliances as did Jehoshaphat',
       action:
-          'Pray that God will give us good and righteous rulers who will do things that are right in the sight of God.',
+          'ACTION: Pray that God will give us good and righteous rulers who will do things that are right in the sight of God.',
       dateTime: DateTime(2024, 1, 25),
     ),
     DevotionalModel(
@@ -304,22 +310,23 @@ class HomeServices {
           'Today is Jan 26th, Day #26 in year 2024, There are 340 more days remaining in year 2024.',
       theme: 'DANGER IN GETTING DRUNK',
       scripture:
-          '“When Asa had been king of Judah for 26 years, Baasha\'s son Elah became king of Israel. He ruled as king in Tirzah for two years. Zimri was one of Elah\'s officers. He had authority over half of Elah\'s chariots. Zimri decided to kill King Elah. One day, Elah was in the home of a man called Arza, an officer who had authority over the king\'s palace in Tirzah. Elah was drinking too much wine and he became drunk. Zimri came in to Arza\'s house. He hit Elah and he killed him. When this happened, Asa had been king of Judah for 27 years. Zimri made himself king instead of Elah.” (1 Kings‬',
+          'SCRIPTURE: “When Asa had been king of Judah for 26 years, Baasha’s son Elah became king of Israel. He ruled as king in Tirzah for two years. Zimri was one of Elah’s officers. He had authority over half of Elah’s chariots. Zimri decided to kill King Elah. One day, Elah was in the home of a man called Arza, an officer who had authority over the king’s palace in Tirzah. Elah was drinking too much wine and he became drunk. Zimri came in to Arza’s house. He hit Elah and he killed him. When this happened, Asa had been king of Judah for 27 years. Zimri made himself king instead of Elah.” (1 Kings 16:8-10 EASY)',
       prayer:
-          'Father, Your word says, “….woe to those who are overcome with wine!” (Proverbs 20:1). Please Lord, help us not to be overcome by what we eat or drink as it happened to King Elah of Israel; Noah (Gen 9:20-26); Nabal (1 Sam. 25:32-38); Amnon (2 Sam. 13: 28-29), etc.',
-      action: 'Prayerfully avoid eating what might ‘eat and kill you',
+          'PRAYER: Father, Your word says, “....woe to those who are overcome with wine!” (Isaiah 28:1 NKJV); and that “Wine is a mocker, strong drink is raging: and whosoever is deceived thereby is not wise” (Proverbs 20:1). Please Lord, help us not to be overcome by what we eat or drink as it happened to King Elah of Israel; Noah (Gen 9:20-26); Nabal (1 Sam. 25:32-38); Amnon (2 Sam. 13: 28-29), etc.',
+      action: 'ACTION: Prayerfully avoid eating what might ‘eat and kill you',
       dateTime: DateTime(2024, 1, 26),
     ),
+
     DevotionalModel(
       todayDate:
           'Today is Jan 27th, Day #27 in year 2024, There are 339 more days remaining in year 2024.',
       theme: 'LORD IS MY LIGHT, SALVATION AND STRENGTH OF MY LIFE',
       scripture:
-          '“The Lord is my light and my salvation; Whom shall, I fear? The Lord is the strength of my life; Of whom shall I be afraid?” (Psalms‬',
+          'SCRIPTURE: “The Lord is my light and my salvation; Whom shall, I fear? The Lord is the strength of my life; Of whom shall I be afraid?” (Psalms 27:1 NKJV)',
       prayer:
-          'Father, I thank You for You are everything to me (light, salvation, strength, shield, helper, guide, guard, provider, deliverer, advocate, etc), for in You I live, and move, and have my being (Acts 17:28). Therefore, in the spirit of Psalm 27, I decree and declare that: I shall not fear or be afraid; all my wicked enemies and foes wanting to eat my flesh shall stumble and fall; as my body is Your Temple (2 Cor 6:19), nothing shall separate me from You and Your Temple; in time of trouble You shall hide me in Your pavilion; my head shall be lifted up above mine enemies round about me in Jesus mighty name.',
+          'PRAYER: Father, I thank You for You are everything to me (light, salvation, strength, shield, helper, guide, guard, provider, deliverer, advocate, etc), for in You I live, and move, and have my being (Acts 17:28). Therefore, in the spirit of Psalm 27, I decree and declare that: I shall not fear or be afraid; all my wicked enemies and foes wanting to eat my flesh shall stumble and fall; as my body is Your Temple (2 Cor 6:19), nothing shall separate me from You and Your Temple; in time of trouble You shall hide me in Your pavilion; my head shall be lifted up above mine enemies round about me in Jesus mighty name.',
       action:
-          'Devote quality time daily to thank and praise God for every He is to you',
+          'ACTION: Devote quality time daily to thank and praise God for everything He is to you',
       dateTime: DateTime(2024, 1, 27),
     ),
     DevotionalModel(
@@ -327,720 +334,770 @@ class HomeServices {
           'Today is Jan 28th, Day #28 in year 2024, There are 338 more days remaining in year 2024.',
       theme: 'CONFESSING VERSUS COVERING SINS',
       scripture:
-          '“He who covers his sins will not prosper, But whoever confesses and forsakes them will have mercy.”',
+          'SCRIPTURE: “He who covers his sins will not prosper, But whoever confesses and forsakes them will have mercy.” (Proverbs 28:13 NKJV)',
       prayer:
-          'Father, Your word makes it clear that all have sinned (Rom 3:23), and that “…the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord” (Rom. 6:23). Oh Lord, let those who have not yet received salvation of Jesus Christ stop covering their sins and accept the salvation offered by Jesus Christ (Rom 10:9)',
+          'PRAYER: Father, Your word makes it clear that all have sinned (Rom 3:23), and that “...the wages of sin is death; but the gift of God is eternal life through Jesus Christ our Lord” (Rom. 6:23). Oh Lord, let those who have not yet received salvation of Jesus Christ stop covering their sins and accept the salvation offered by Jesus Christ (Rom 10:9)',
       action:
-          'Intercede daily for the salvation of all unsaved members of your family (if any)',
+          'ACTION: Intercede daily for the salvation of all unsaved members of your family (if any)',
       dateTime: DateTime(2024, 1, 28),
     ),
+
     DevotionalModel(
       todayDate:
-          'COUNTDOWN AND COUNT UP FOR YEAR 2024 By Zacchaeus Olorunnipa Today is Jan 29th, Day #29 in year 2024, There are 337 more days remaining in year 2024.',
+          'Today is Jan 29th, Day #29 in year 2024, There are 337 more days remaining in year 2024.',
       theme: 'GIVING UNTO GOD',
       scripture:
-          '“Give unto the LORD, O ye mighty, give unto the LORD glory and strength.” (Psalms 29:1)',
+          'SCRIPTURE: “Give unto the LORD, O ye mighty, give unto the LORD glory and strength.” (Psalms 29:1)',
       prayer:
-          'Father, thank You for loving us and giving us Your Son, Jesus Christ as a ransom and price for our eternal life (John 3:16); please help us to obey You and love You (Deut. 28:1-2; Mark 12:30) and to always be generous in giving You thanks and glory and in serving You with our time, talents and treasures in Jesus name (Mal. 3:10-12)',
+          'PRAYER: Father, thank You for loving us and giving us Your Son, Jesus Christ as a ransom and price for our eternal life (John 3:16); please help us to obey You and love You (Deut. 28:1-2; Mark 12:30) and to always be generous in giving You thanks and glory and in serving You with our time, talents and treasures in Jesus name (Mal. 3:10-12)',
       action:
-          'Give to God, remembering that it is more blessed to give than to receive (Acts 20:35)',
+          'ACTION: Give to God, remembering that it is more blessed to give than to receive (Acts 20:35)',
       dateTime: DateTime(2024, 1, 29),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Jan 30th, Day #30 in year 2024, There are 336 more days remaining in year 2024.',
+          'Today is Jan 30th, Day #30 in year 2024, There are 336 more days remaining in year 2024',
       theme: 'JAIR THE RICH ISRAELI JUDGE',
       scripture:
-          '“After Tola, Jair of Gilead became Israel\'s leader. He led Israel for 22 years. He had 30 sons. They rode on 30 donkeys, and they ruled 30 towns in Gilead. These towns are still called Havvoth-Jair (Jair\'s villages).” (Judges‬',
+          'SCRIPTURE: “After Tola, Jair of Gilead became Israel’s leader. He led Israel for 22 years. He had 30 sons. They rode on 30 donkeys, and they ruled 30 towns in Gilead. These towns are still called Havvoth-Jair (Jair’s villages).” (Judges 10:3-4 EASY)',
       prayer:
-          'Father, make us fruitful and relevant in serving You and humanity. As you blessed Jair of Israel with 30 successful sons, please give children to those who are in need of them and let all our children be highly successful in their vocations in Jesus name.',
+          'PRAYER: Father, make us fruitful and relevant in serving You and humanity. As you blessed Jair of Israel with 30 successful sons, please give children to those who are in need of them and let all our children be highly successful in their vocations in Jesus name.',
       action:
-          'Pray for the success of those waiting to have their own children',
+          'ACTION: Pray for the success of those waiting to have their own children',
       dateTime: DateTime(2024, 1, 30),
     ),
+
     DevotionalModel(
       todayDate:
-          'Today is Jan 31st, Day #31 in year 2024. There are 335 more days remaining in year the 2024.',
+          'Today is Jan 31st, Day #31 in year 2024, There are 335 more days remaining in year the 2024.',
       theme: 'JOSIAH’S REIGN AS KING OF JUDAH',
       scripture:
-          '“Josiah was eight years old when he became king. He ruled as king in Jerusalem for 31 years.…Josiah did things that the Lord said were right. He lived in the good ways of his ancestor, King David. He did not turn away from the Lord\'s teaching in any way.”',
+          'SCRIPTURE: “Josiah was eight years old when he became king. He ruled as king in Jerusalem for 31 years....Josiah did things that the Lord said were right. He lived in the good ways of his ancestor, King David. He did not turn away from the Lord’s teaching in any way.” (2 Kings 22:1-2 EASY)',
       prayer:
-          'Father, please give us the grace to emulate king Josiah in terms of doing what is right in Your sight, ensuring Your house is well maintained, Your word is read and obeyed and living a life of humility in Jesus name (2 kings 22).',
+          'PRAYER: Father, please give us the grace to emulate king Josiah in terms of doing what is right in Your sight, ensuring Your house is well maintained, Your word is read and obeyed and living a life of humility in Jesus name (2 kings 22).',
       action:
-          'Give thanks to God for safety thus far as the first month of year 2024 ends today. Pray for smooth transition into February month.',
+          'ACTION: Give thanks to God for safety thus far as first month of year 2024 ends today. Pray for smooth transition into February month.',
       dateTime: DateTime(2024, 1, 31),
     ),
+
     DevotionalModel(
       todayDate:
-          'Today is Feb 1st, Day #32 in year 2024. There are 334 more days remaining in year 2024.',
+          'Today is Feb 1st, Day #32 in year 2024, There are 334 more days remaining in year 2024.',
       theme: 'RAISING A FAMILY',
       scripture:
-          '“Reu was 32 years old when he became the father of Serug. After he became the father of Serug, Reu lived 207 years and had other sons and daughters. Serug was 30 years old when he became the father of Nahor. After he became the father of Nahor, Serug lived 200 years and had other sons and daughters.” (Gen. 11‬:',
+          'SCRIPTURE: “Reu was 32 years old when he became the father of Serug. After he became the father of Serug, Reu lived 207 years and had other sons and daughters. Serug was 30 years old when he became the father of Nahor. After he became the father of Nahor, Serug lived 200 years and had other sons and daughters.” (Gen. 11:20-23 GW)',
       prayer:
-          'Father, thank You for the gift of children. When our young people are ripe for marriage and raising families, please give them the grace to marry the right way and to be fruitful in their marriages, like Rue, Serug, Nahor, Abram, etc. (Gen 11: 10-32. KJV)',
+          'PRAYER: Father, thank You for the gift of children. When our young people are ripe for marriage and raising families, please give them the grace to marry the right way and to be fruitful in their marriages, like Rue, Serug, Nahor, Abram, etc. (Gen 11: 10-32. KJV)',
       action:
-          'Pray for successful marriage and fruitfulness in your family from generation to generation',
+          'ACTION: Pray for successful marriage and fruitfulness in your family from generation to generation',
       dateTime: DateTime(2024, 2, 1),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 2nd, Day #33 in year 2024. There are 333 more days remaining in year 2024.',
+          'Today is Feb 2nd, Day #33 in the year 2024, There are 333 more days remaining in year 2024.',
       theme: 'SURROUNDED BY GOD’S SHIELD',
       scripture:
-          '“But thou, O LORD, art a shield for me; My glory, and the lifter up of mine head.”',
+          'SCRIPTURE: “But thou, O LORD, art a shield for me; My glory, and the lifter up of mine head.” (Psalm 3:3 KJV).',
       prayer:
-          'Father, as You protected David against all his enemies (internal and external), please in Jesus name, do the same for me and be:(1) A Shield for me; (2) My Glory; (3) The Lifter up of mine head; (4) My Guide; (5) My Sustainer;  (6) My very present help; (7) My all in all.',
-      action: 'Shout 33 Hallelujahs in praise to God for being your shield.',
+          'PRAYER: Father, as You protected David against all his enemies (internal and external), please in Jesus name, do the same for me and be: (1) A Shield for me; (2) My Glory; (3) The Lifter up of mine head; (4) My Guide; (5) My Sustainer; (6) My very present help; (7) My all in all.',
+      action:
+          'ACTION: Shout 33 Hallelujahs in praise to God for being your shield.',
       dateTime: DateTime(2024, 2, 2),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 3rd, Day #34 in year 2024. There are 332 more days remaining in year 2024.',
+          'Today is Feb 3rd, Day #34 in year 2024, There are 332 more days remaining in year 2024.',
       theme: 'SEEKING GOD FOR SOLUTIONS',
       scripture:
-          '“I sought the LORD, and he heard me, And delivered me from all my fears.”',
+          'SCRIPTURE: “I sought the LORD, and he heard me, And delivered me from all my fears.” (Psalm 34:4 KJV)',
       prayer:
-          'Father, instead of been fearful and anxious about our concerns and issues of life, give us the grace to trust You enough to hand them over to You in prayer as Your word declares: “Give all your worries and cares to God, for he cares about you.” (1 Pet 1:5 NLT). Oh Lord turn all my anxieties to advantages in Jesus name.',
+          'PRAYER: Father, instead of been fearful and anxious about our concerns and issues of life, give us the grace to trust You enough to hand them over to You in prayer as Your word declares: “Give all your worries and cares to God, for he cares about you.” (1 Pet 1:5 NLT). Oh Lord turn all my anxieties to advantages in Jesus name.',
       action:
-          'Prayerfully obey the injunction: :Be anxious for nothing, but in everything by prayer and supplication, with thanksgiving, let your requests be made known to God;” (Philippians 4:6)',
+          'ACTION: Prayerfully obey the injunction: “Be anxious for nothing, but in everything by prayer and supplication, with thanksgiving, let your requests be made known to God;” (Philippians 4:6)',
       dateTime: DateTime(2024, 2, 3),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 4th, Day #35 in year 2024. There are 331 more days remaining in year 2024.',
+          'Today is Feb 4th, Day #35 in year 2024, There are 331 more days remaining in year 2024.',
       theme: 'GIVING BEST OFFERING TO GOD',
       scripture:
-          '“Moses said to the whole Israelite community, “This is what the Lord has commanded: From what you have, take an offering for the Lord. Everyone who is willing is to bring to the Lord an offering of gold, silver and bronze, etc.”,',
+          'SCRIPTURE: “Moses said to the whole Israelite community, “This is what the Lord has commanded: From what you have, take an offering for the Lord. Everyone who is willing is to bring to the Lord an offering of gold, silver and bronze, etc.” (Exodus 35:4-9 NIV)',
       prayer:
-          'Father, please give us the grace to willingly give You the best offering for You gave us Your best, Your Son (John 3:16). Furthermore, Your word declares: “…A man can receive nothing unless it has been given to him from heaven.” (John‬',
+          'PRAYER: Father, please give us the grace to willingly give You the best offering for You gave us Your best, Your Son (John 3:16). Furthermore, Your word declares: “...A man can receive nothing unless it has been given to him from heaven.” (John 3:27 NKJV), and that every good gift and every perfect gift is from You (James 1:17 NKJV). Lord, please help me to give You the best to get the best (Luke 6:38; Gal. 6:7)',
       action:
-          'Prayerfully try it: It is more blessed to give than to receive (Acts 20:35b)',
+          'ACTION: Prayerfully try it: It is more blessed to give than to receive (Acts 20:35b)',
       dateTime: DateTime(2024, 2, 4),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 5th, Day #36 in year 2024. There are 330 more days remaining in year 2024.',
+          'Today is Feb 5th, Day #36 in year 2024, There are 330 more days remaining in year 2024.',
       theme: 'GREATNESS OF GOD',
       scripture:
-          '“Certainly, God is so great that he is beyond our understanding. The number of his years cannot be counted.”',
+          'SCRIPTURE: “Certainly, God is so great that he is beyond our understanding. The number of his years cannot be counted.” (Job 36:26 GW)',
       prayer:
-          'Father, thank You for Your unsearchable greatness as exemplified in numerous ways including: (a) You are everlasting and numberless in terms of age. (b) Your formation of all things without partiality (Pro 26:10). (c) Your mightiness and awesomeness (Deut 10;17) (d) Your supremacy above all gods (Psa 95:3) (e)Your miracles, wonders and signs (Acts 2:22), (f) You do marvelous things without number (Job 5:9), etc. Oh, Great God, please let the praise of You fill our mouths always.',
-      action: 'Start each day with praise and prayer to the Great God',
+          'PRAYER: Father, thank You for Your unsearchable greatness as exemplified in numerous ways including: (a) You are everlasting and numberless in terms of age. (b) Your formation of all things without partiality (Pro 26:10). (c) Your mightiness and awesomeness (Deut 10;17) (d) Your supremacy above all gods (Psa 95:3) (e)Your miracles, wonders and signs (Acts 2:22), (f) You do mrvelous things without number (Job 5:9), etc. Oh, Great God, please let the praise of You fill our mouths always.',
+      action: 'ACTION: Start each day with praise and prayer to the Great God',
       dateTime: DateTime(2024, 2, 5),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 6th, Day #37 in year 2024. There are 329 more days remaining in year 2024.',
+          'Today is Feb 6th, Day #37 in year 2024, There are 329 more days remaining in year 2024.',
       theme: 'GUIDANCE BY GOD',
       scripture:
-          '“Let the Lord be your guide into the future. Trust in him and he will help you.”',
+          'SCRIPTURE: “Let the Lord be your guide into the future. Trust in him and he will help you.” (Psalms 37:5 EASY).',
       prayer:
-          'Father, please continue to guide, lead and direct my future in this year 2024 and beyond for Your way is perfect (Psa 18:30); and Your word declares: “…the ways of man are before the eyes of the LORD, and he pondereth all his goings. (Pro. 5:21). Oh Lord, You are the One that knows the way to the ‘wilderness’, please let me trust, obey and follow You as You lead me in the path of righteousness, success, peace, joy, prosperity, etc, and to the expected end of Your heavenly Kingdom in Jesus name',
-      action: 'Let us seek God’s guidance in all everything we do.',
+          'PRAYER: Father, please continue to guide, lead and direct my future in this year 2024 and beyond for Your way is perfect (Psa 18:30); and Your word declares: “...the ways of man are before the eyes of the LORD, and he pondereth all his goings. (Pro. 5:21). Oh Lord, You are the One that knows the way to the ‘wilderness’, please let me trust, obey and follow You as You lead me in the path of righteousness, success, peace, joy, prosperity, etc, and to the expected end of Your heavenly Kingdom in Jesus name',
+      action: 'ACTION: Let us seek God’s guidance in everything we do.',
       dateTime: DateTime(2024, 2, 6),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 7th, Day #38 in year 2024. There are 328 more days remaining in year 2024.',
+          'Today is Feb 7th, Day #38 in year 2024, There are 328 more days remaining in year 2024.',
       theme: 'HELPER OF THE HELPLESS',
       scripture:
-          '“There is a pool near the Sheep Gate in Jerusalem. Its name in the Jewish language is Bethesda. Round the pool, ... A large number of sick people were lying in these places…They were waiting for when the water started to move. An angel would go down into the pool at certain times and move the water about. When that happened, all the sick people tried to get into the pool. The first person who got into the water became well, whatever his illness was. One man who was lying there had been ill for 38 years. Jesus saw this man. He knew that the man had been ill like this for a very long time. So, he asked the man, ‘Do you want to get well?’ The sick man said, ‘Sir, I do not have anyone who will help me. I need somebody who will put me into the pool. When the water starts to move, I try to get in. But someone else always gets in before me.’ Then Jesus said to him, ‘Stand up! Pick up your mat and walk.’ The man became well immediately. He picked up his mat and he walked.….”',
+          'SCRIPTURE: “There is a pool near the Sheep Gate in Jerusalem. Its name in the Jewish language is Bethesda. Round the pool, ... A large number of sick people were lying in these places...They were waiting for when the water started to move. An angel would go down into the pool at certain times and move the water about. When that happened, all the sick people tried to get into the pool. The first person who got into the water became well, whatever his illness was. One man who was lying there had been ill for 38 years. Jesus saw this man. He knew that the man had been ill like this for a very long time. So, he asked the man, ‘Do you want to get well?’ The sick man said, ‘Sir, I do not have anyone who will help me. I need somebody who will put me into the pool. When the water starts to move, I try to get in. But someone else always gets in before me.’ Then Jesus said to him, ‘Stand up! Pick up your mat and walk.’ The man became well immediately. He picked up his mat and he walked.....” (John 5:2-9 EASY)',
       prayer:
-          'Father, the very Present help and the Helper of the helpless, please help us and heal us today and terminate all protracted problems in our lives as You did for the man at the Pool of Bethesda who was infirmed for 38 years.',
+          'PRAYER: Father, the very Present help and the Helper of the helpless, please help us and heal us today and terminate all protracted problems in our lives as You did for the man at the Pool of Bethesda who was infirmed for 38 years.',
       action:
-          'Touch any part of your body that has any ailment and cry to Jesus to help you by healing you',
+          'ACTION: Touch any part of your body that has any ailment and cry to Jesus to help you by healing you',
       dateTime: DateTime(2024, 2, 7),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 8th, Day #39 in year 2024. There are 327 more days remaining in year 2024.',
+          'Today is Feb 8th, Day #39 in year 2024, There are 327 more days remaining in year 2024.',
       theme: 'SUFFERING FOR GOD’S SAKE',
       scripture:
-          '“At five different times, the Jewish leaders punished me with whips. Each time they hit me 39 times. Three times the Romans punished me with sticks. People threw stones at me to kill me once. Three times I have been on ships that broke in the sea. Once I was in the sea for a night and a day.….” (2 Cor.11‬:',
+          'SCRIPTURE: “At five different times, the Jewish leaders punished me with whips. Each time they hit me 39 times. Three times the Romans punished me with sticks. People threw stones at me to kill me once. Three times I have been on ships that broke in the sea. Once I was in the sea for a night and a day. ....” (2 Cor.11:24-26 EASY)',
       prayer:
-          'Father, thank You for Your word that forewarns us that, “…all that will live godly in Christ Jesus shall suffer persecution.” (2 Timothy 3:12); Lord Jesus, please give us the grace, the strength, and the resilience to serve You diligently to the end without quitting because of persecution as You did, and as Apostle Paul did despite the persecutions he faced as indicated in today’s lead scripture above. Father, if and whenever we face persecution in doing Your work, help us to find solace in Your promise that says, “Blessed are ye, when men shall revile you, and persecute you, and shall say all manner of evil against you falsely, for my sake. Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets which were before you” (Matthew 5:11-12, KJV)',
-      action: 'Count it all joy when you suffer for Jesus Christ (1 Pet 4:13)',
+          'PRAYER: Father, thank You for Your word that forewarns us that, “...all that will live godly in Christ Jesus shall suffer persecution.” (2 Timothy 3:12); Lord Jesus, please give us the grace, the strength and the resilience to serve You diligently to the end without quitting because of persecution as You did, and as Apostle Paul did despite the persecutions he faced as indicated in today’s lead scripture above. Father, if and whenever we face persecution in doing Your work, help us to find solace in Your promise that says, “Blessed are ye, when men shall revile you, and persecute you, and shall say all manner of evil against you falsely, for my sake. Rejoice, and be exceeding glad: for great is your reward in heaven: for so persecuted they the prophets which were before you” (Matthew 5:11-12, KJV)',
+      action:
+          'ACTION: Count it all joy when you suffer for Jesus Christ (1 Pet 4:13)',
       dateTime: DateTime(2024, 2, 8),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 9th, Day #40 in the year 2024. There are 326 more days remaining in year 2024.',
+          'Today is Feb 9th, Day #40 in the year 2024, There are 326 more days remaining in year 2024.',
       theme: 'FED BY GOD, THE FATHER',
       scripture:
-          '“The Israelites ate the manna for 40 years, until they had finished their journey in the desert. After those 40 years, they arrived at the edge of Canaan.” (Exodus‬)',
+          'SCRIPTURE: “The Israelites ate the manna for 40 years, until they had finished their journey in the desert. After those 40 years, they arrived at the edge of Canaan.” (Exodus 16:35 EASY)',
       prayer:
-          'Father, Your word declares that, “The young lions do lack, and suffer hunger: but they that seek the LORD shall not want any good thing.” (Psalms 34:10). Oh Lord don’t let us lack any good thing or suffer hunger; please give us the grace to seek and serve You and be fed by You as You did for the whole nation of Israel in the wilderness for 40 years (Exo 16), and Elijah the Prophet whom You miraculously fed using raven birds and a widow woman (1 kings 17: 1-16)',
-      action: 'Pray to God to feed you till you want no more',
+          'PRAYER: Father, Your word declares that, “The young lions do lack, and suffer hunger: but they that seek the LORD shall not want any good thing.” (Psalms 34:10). Oh Lord don’t let us lack any good thing or suffer hunger; please give us the grace to seek and serve You and be fed by You as You did for the whole nation of Israel in the wilderness for 40 years (Exo 16), and Elijah the Prophet whom You miraculously fed using raven birds and a widow woman (1 Kings 17: 1-16)',
+      action: 'ACTION: Pray to God to feed you till you want no more',
       dateTime: DateTime(2024, 2, 9),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 10th, Day #41 in year 2024. There are 325 more days remaining in year 2024.',
+          'Today is Feb 10th, Day #41 in year 2024, There are 325 more days remaining in year 2024.',
       theme: 'HELPING THE POOR AND THE HELPLESS',
       scripture:
-          '“Those who help the poor succeed will get many blessings. When trouble comes, the Lord will save them. The Lord will protect them and save their lives. He will bless them in this land. He will not let their enemies harm them. When they are sick in bed, the Lord will give them strength and make them well!” (Psalms‬)',
+          'SCRIPTURE: “Those who help the poor succeed will get many blessings. When trouble comes, the Lord will save them. The Lord will protect them and save their lives. He will bless them in this land. He will not let their enemies harm them. When they are sick in bed, the Lord will give them strength and make them well!” (Psalms 41:1-3 ERV)',
       prayer:
-          'Father, Your word declares “He who has pity on the poor lends to the Lord, And He will pay back what he has given.” (Pro. Preserving and keeping us alive; Not delivering us to the will of our enemies; Sustaining and strengthening us to recover from all infirmities and sicknesses; Ensuring that all our own needs are met in Jesus’ name. Amen. ((Psalms‬)',
+          'PRAYER: Father, Your word declares “He who has pity on the poor lends to the Lord, And He will pay back what he has given.” (Pro. 19:17 NKJV). Please Lord, empower and position us to help the needy and the poor and, as it pleases You, bless us in many ways including: Preserving and keeping us alive; Not delivering us to the will of our enemies; Sustaining and strengthening us to recover from all infirmities and sicknesses; Ensuring that all our own needs are met in Jesus’ name. Amen. (Psalms 41:1-3 NKJV)',
       action:
-          'Periodically, try to help someone meet special need(s) in their life',
+          'ACTION: Periodically, try to help someone meet special need(s) in their life',
       dateTime: DateTime(2024, 2, 10),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 11th, Day #42 in year 2024. There are 324 more days remaining in year 2024.',
+          'Today is Feb 11th, Day #42 in year 2024, There are 324 more days remaining in year 2024.',
       theme: 'SOUL THAT CRAVES FOR GOD',
       scripture:
-          '“As the deer pants for the water brooks, So pants my soul for You, O God.” (Psalms‬)',
+          'SCRIPTURE: “As the deer pants for the water brooks, So pants my soul for You, O God.” (Psalms 42:1 NKJV)',
       prayer:
-          'Father, Your word declares. “….You shall love the Lord your God with all your heart, with all your soul, with all your strength, and with all your mind....” (Luke‬ Father, please command and condition my soul to crave, thirst and hunger for You passionately without wavering in Jesus name',
+          'PRAYER: Father, Your word declares. “....You shall love the Lord your God with all your heart, with all your soul, with all your strength, and with all your mind....” (Luke 10:27 NKJV). Father, please command and condition my soul to crave, thirst and hunger for You passionately without wavering in Jesus name',
       action:
-          'Evaluate yourself which you crave more for, between God and food?',
+          'ACTION: Evaluate yourself which you crave more for, between God and food?',
       dateTime: DateTime(2024, 2, 11),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 12th, Day #43 in year 2024. There are 323 more days remaining in year 2024.',
+          'Today is Feb 12th, Day #43 in year 2024, There are 323 more days remaining in year 2024.',
       theme: 'CREATED BY GOD AND CALLED BY CHRIST?',
       scripture:
-          '“Everyone who is called by My name, Whom I have created for My glory; I have formed him, yes, I have made him.” (Isaiah‬)',
+          'SCRIPTURE: “Everyone who is called by My name, Whom I have created for My glory; I have formed him, yes, I have made him.” (Isaiah 43:7 NKJV)',
       prayer:
-          'Father, thank You for creating, forming and making us in Your own image and sending Your Son Jesus Christ into the world to call us out of darkness into His Marvelous light (1 Peter 2:9). Almighty God, as You have created and called me, please let my life glorify You in Jesus name.',
-      action: 'Pray that the call of God on you will not be in vain in Jesus.',
+          'PRAYER: Father, thank You for creating, forming and making us in Your own image and sending Your Son Jesus Christ into the world to call us out of darkness into His Marvelous light (1 Peter 2:9). Almighty God, as You have created and called me, please let my life glorify You in Jesus name.',
+      action:
+          'ACTION: Pray that the call of God on you will not be in vain in Jesus.',
       dateTime: DateTime(2024, 2, 12),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 13th, Day #44 in year 2024. There are 322 more days remaining in year 2024.',
+          'Today is Feb 13th, Day #44 in year 2024, There are 322 more days remaining in year 2024.',
       theme: 'PREVAILING OVER ENEMIES BY GOD’S POWER',
       scripture:
-          '“Because of your power, we can knock down our enemies. Because of your strength, we can beat them down.” (Psalms‬)',
+          'SCRIPTURE: “Because of your power, we can knock down our enemies. Because of your strength, we can beat them down.” (Psalms 44:5 EASY)',
       prayer:
-          'Father, by Your power and strength let me prevail and be victorious over all my enemies in Jesus name',
-      action: 'Pray that the call of God on you will not be in vain in Jesus.',
+          'PRAYER: Father, by Your power and strength let me prevail and be victorious over all my enemies in Jesus name',
+      action:
+          'ACTION: Pray that the call of God on you will not be in vain in Jesus.',
       dateTime: DateTime(2024, 2, 13),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 14th, Day #45 in year 2024. There are 321 more days remaining in year 2024.',
+          'Today is Feb 14th, Day #45 in year 2024, There are 321 more days remaining in year 2024.',
       theme: 'WARNINGS FOR RULERS WHO ARE WICKED',
       scripture:
-          '“The Almighty Lord says this: Rulers of Israel, stop cheating my people and making them suffer! You have done enough bad things! Instead, do things that are right and fair. Stop chasing my people off their land. That is what the Almighty Lord says.” (Ezekiel‬)',
+          'SCRIPTURE: “The Almighty Lord says this: Rulers of Israel, stop cheating my people and making them suffer! You have done enough bad things! Instead, do things that are right and fair. Stop chasing my people off their land. That is what the Almighty Lord says.” (Ezekiel 45:9 EASY)',
       prayer:
-          'Father, Your word declares, “The king\'s heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will” (Proverbs 21:1, KJV). Oh Righteous God, please turn the hearts of leaders and rulers of nations from wicked deeds such as greed, exploitation, cheating, exactions, violence, and other actions that can create suffering and hardships for their subjects. Let these rulers do what is right in Your sight, otherwise remove them in Jesus name.',
+          'PRAYER: Father, Your word declares, “The king’s heart is in the hand of the LORD, as the rivers of water: he turneth it whithersoever he will” (Proverbs 21:1, KJV). Oh Righteous God, please turn the hearts of leaders and rulers of nations from wicked deeds such as greed, exploitation, cheating, exactions, violence, and other actions that can create suffering and hardships for their subjects. Let these rulers do what is right in Your sight, otherwise remove them in Jesus name.',
       action:
-          'Pray that wicked, corrupt and people who do not have the fear of God will not be chosen as rulers',
+          'ACTION: Pray that wicked, corrupt and people who do not have the fear of God will not be chosen as rulers',
       dateTime: DateTime(2024, 2, 14),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 15th, Day #46 in year 2024. There are 320 more days remaining in year 2024.',
+          'Today is Feb 15th, Day #46 in year 2024, There are 320 more days remaining in year 2024.',
       theme: 'PROVOKING GOD’S GRACIOUS PROMISES',
       scripture:
-          '“So Israel took his journey with all that he had, and came to Beersheba, and offered sacrifices to the God of his father Isaac. Then God spoke to Israel in the visions of the night, and said, “Jacob, Jacob!” And he said, “Here I am.” So He said, “I am God, the God of your father; do not fear to go down to Egypt, for I will make of you a great nation there. I will go down with you to Egypt, and I will also surely bring you up again;” (Genesis‬)',
+          'SCRIPTURE: “So Israel took his journey with all that he had, and came to Beersheba, and offered sacrifices to the God of his father Isaac. Then God spoke to Israel in the visions of the night, and said, “Jacob, Jacob!” And he said, “Here I am.” So He said, “I am God, the God of your father; do not fear to go down to Egypt, for I will make of you a great nation there. I will go down with you to Egypt, and I will also surely bring you up again;” (Genesis 46:1-4 NKJV)',
       prayer:
-          'Father, Your word declares, “Offer the sacrifices of righteousness, and put your trust in the LORD” (Psalms 4:5); Oh God, help me to trust You and offer appropriate sacrifices to You as did Jacob that I may also receive gracious promises from You akin to those released to Jacob in today’s lead scripture (Gen, 46:1-7). In all my journeys this day and henceforth please go with me, protect me and bless me greatly in Jesus’ name.',
+          'PRAYER: Father, Your word declares, “Offer the sacrifices of righteousness, and put your trust in the LORD” (Psalms 4:5); Oh God, help me to trust You and offer appropriate sacrifices to You as did Jacob that I may also receive gracious promises from You akin to those released to Jacob in today’s lead scripture (Gen, 46:1-7). In all my journeys this day and henceforth please go with me, protect me and bless me greatly in Jesus’ name.',
       action:
-          'Give thanks to God who keeps all His promises (2 Cor 1:20, Josh. 23:14)',
+          'ACTION: Give thanks to God who keeps all His promises (2 Cor 1:20, Josh. 23:14)',
       dateTime: DateTime(2024, 2, 15),
     ),
+
     DevotionalModel(
       todayDate:
-          'Today is Feb 16th, Day #47 in year 2024. There are 319 more days remaining in year 2024.',
+          'Today is Feb 16th, Day #47 in year 2024, There are 319 more days remaining in year 2024.',
       theme: 'WONDERFUL GOD THAT RULES OVER THE WORLD',
       scripture:
-          '“The Lord, the Most High God, is wonderful. He is the great King who rules over the whole earth.” (Psa. 47‬)',
+          'SCRIPTURE: “The Lord, the Most High God, is wonderful. He is the great King who rules over the whole earth.” (Psa. 47:2 EASY)',
       prayer:
-          'Father, thank You for who You are and Your amazing attributes which are beyond description. LORD, Your are: Wonderful, the Highest, the Great King, Omnipotent; Omnipresent, Omniscient, the mightiest of all emperors, the Prince of peace etc; Dear Lord please exercise Your Sovereignty all over the whole world and let there be peace like a river and righteousness as the waves of the sea, in Jesus name (Isaiah 48:18)',
+          'PRAYER: Father, thank You for who You are and Your amazing attributes which are beyond description. LORD, You are: Wonderful, the Highest, the Great King, Omnipotent; Omnipresent, Omniscient, the mightiest of all emperors, the Prince of peace, etc. Dear Lord, please exercise Your Sovereignty all over the whole world and let there be peace like a river and righteousness as the waves of the sea, in Jesus\' name (Isaiah 48:18).',
       action:
-          'Pray that Godly agenda that will give room for peace will prevail in all the countries of the world',
+          'ACTION: Pray that Godly agenda that will give room for peace will prevail in all the countries of the world',
       dateTime: DateTime(2024, 2, 16),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 17th, Day #48 in year 2024. There are 318 more days remaining in year 2024.',
+          'Today is Feb 17th, Day #48 in year 2024, There are 318 more days remaining in year 2024.',
       theme: 'GOD IS FOR EVER OUR GUIDE',
       scripture:
-          '“For this God is our God for ever and ever; he will be our guide even to the end.”',
+          'SCRIPTURE: “For this God is our God for ever and ever; he will be our guide even to the end.” (Psalms 48:14 NIV)',
       prayer:
-          'Father, thank You for Your promise never to leave us or forsake us (Heb 13:5b) and to be our guide even to the end. Please Lord, give us the grace to love You and be so committed and connected to You like Apostle Paul so that we too can declare that, “neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord.” (Romans‬',
-      action: 'Before you do anything, pray to God to guide you',
+          'PRAYER: Father, thank You for Your promise never to leave us or forsake us (Heb 13:5b) and to be our guide even to the end. Please Lord, give us the grace to love You and be so committed and connected to You like Apostle Paul so that we too can declare that, “neither death nor life, neither angels nor demons, neither the present nor the future, nor any powers, neither height nor depth, nor anything else in all creation, will be able to separate us from the love of God that is in Christ Jesus our Lord.” (Romans 8:38-39 NIV).',
+      action: 'ACTION: Before you do anything, pray to God to guide you',
       dateTime: DateTime(2024, 2, 17),
     ),
+
     DevotionalModel(
       todayDate:
-          'Today is Feb 18th, Day #49 in year 2024. There are 317 more days remaining in year 2024.',
+          'Today is Feb 18th, Day #49 in year 2024, There are 317 more days remaining in year 2024.',
       theme: 'PROCLAIM BEST BLESSINGS UNTO YOUR PROGENIES',
       scripture:
-          '“Joseph is like a vine that has lots of fruit. It grows near a well and its branches go over a wall. His enemies will be angry with him. They will attack him with arrows. But he will hold his own bow strongly. He will shoot his arrows well. The Mighty One of Jacob will give Joseph strength. God, who is Israel\'s Shepherd and Rock, will help him. The Almighty God, the God of your father, will help you and he will bless you. He will give you rain that comes from the sky above. He will give you springs of water from below the ground. He will cause you to have many descendants. That is how God will bless you. The blessings that I, your father, give to you are great! They are greater than any good things that the old mountains or hills can give to you. They are special blessings for you, Joseph, because you are the leader of your brothers.” (Genesis‬)',
+          'SCRIPTURE: “Joseph is like a vine that has lots of fruit. It grows near a well and its branches go over a wall. His enemies will be angry with him. They will attack him with arrows. But he will hold his own bow strongly. He will shoot his arrows well. The Mighty One of Jacob will give Joseph strength. God, who is Israel’s Shepherd and Rock, will help him. The Almighty God, the God of your father, will help you and he will bless you. He will give you rain that comes from the sky above. He will give you springs of water from below the ground. He will cause you to have many descendants. That is how God will bless you. The blessings that I, your father, give to you are great! They are greater than any good things that the old mountains or hills can give to you. They are special blessings for you, Joseph, because you are the leader of your brothers.” (Genesis 49:22-26 EASY)',
       prayer:
-          'Father, thank You for the wonderful children you have given us. They are Your heritage (Psa 127:3). Please help each one of them to be successful in life, to serve You and to honor their parents (Eph 6:2). In return, Father, teach us as parents, to love our children and constantly pray, prophesy and proclaim excellent and powerful blessings on our progenies (children) as did Jacob for his children, especially to Joseph',
-      action: 'Pray and proclaim blessings on your children every day.',
+          'PRAYER: Father, thank You for the wonderful children you have given us. They are Your heritage (Psa 127:3). Please help each one of them to be successful in life, to serve You and to honor their parents (Eph 6:2). In return, Father, teach us as parents, to love our children and constantly pray, prophesy and proclaim excellent and powerful blessings on our progenies (children) as did Jacob for his children, especially to Joseph.',
+      action: 'ACTION: Pray and proclaim blessings on your children every day.',
       dateTime: DateTime(2024, 2, 18),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 19th, Day #50 in year 2024. There are 316 more days remaining in year 2024.',
+          'Today is Feb 19th, Day #50 in year 2024, There are 316 more days remaining in year 2024.',
       theme: 'LISTED TO SERVE THE LORD?',
       scripture:
-          '“The grand total of all the Levites whom Moses, Aaron, and the leaders of Israel registered was 8,580. They were listed by families and households. These were the men between the ages of 30 and 50 who were qualified to do the work of serving and who carried the tent of meeting.”',
+          'SCRIPTURE: “The grand total of all the Levites whom Moses, Aaron, and the leaders of Israel registered was 8,580. They were listed by families and households. These were the men between the ages of 30 and 50 who were qualified to do the work of serving and who carried the tent of meeting.” (Numbers 4:46-47 GW)',
       prayer:
-          'Father, those of us who have given our lives to Jesus Christ and have decided to serve Him can be likened to the Levites who were qualified and enlisted to serve the Lord. By His grace, we shall also reign with Him in God’s kingdom. Oh Lord, please have mercy and draw by Your power those who have either refused to accept Your Salvation or are delaying the process, thereby serving Satan whose goal is to lead such sinners into hell. Are you listed as saved serving the Lord and ready to reign with Him?. If not, do it today by accepting Him as Your Lord and Savior (John 3:16; Rom 10:9-13)',
+          'PRAYER: Father, those of us who have given our lives to Jesus Christ and have decided to serve Him can be likened to the Levites who were qualified and enlisted to serve the Lord. By His grace, we shall also reign with Him in God’s kingdom. Oh Lord, please have mercy and draw by Your power those who have either refused to accept Your Salvation or are delaying the process thereby serving Satan whose goal is to lead such sinners into hell. Are you listed as saved serving the Lord and ready to reign with Him? If not, do it today by accepting Him as Your Lord and Savior (John 3:16; Rom 10:9-13).',
       action:
-          'Encourage anyone you know who has not given his/her life to Jesus Christ to do so immediately to avoid their name from missing completely from the book of life',
+          'ACTION: Encourage anyone you know who has not given his/her life to Jesus Christ to do so immediately to avoid their name from missing completely from the book of life',
       dateTime: DateTime(2024, 2, 19),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 20th, Day #51 in year 2024. There are 315 more days remaining in year 2024.',
+          'Today is Feb 20th, Day #51 in year 2024, There are 315 more days remaining in year 2024.',
       theme: 'MULTITUDE OF MERCIES FROM GOD OF MERCY',
       scripture:
-          '“Have mercy upon me, O God, According to Your lovingkindness; According to the multitude of Your tender mercies, Blot out my transgressions.” (Psalm 51‬:',
+          'SCRIPTURE: “Have mercy upon me, O God, According to Your lovingkindness; According to the multitude of Your tender mercies, Blot out my transgressions.” (Psalm 51:1 NKJV)',
       prayer:
-          'Father, thank You for Your lovingkindness and for being a God that is plenteous in mercy (Psa 86:5,15; 103:8). Please Lord, have mercy on me and blot out my transgressions according to the multitude of Your tender mercies in Jesus’ name, Amen',
+          'PRAYER: Father, thank You for Your lovingkindness and for being a God that is plenteous in mercy (Psa 86:5,15; 103:8). Please Lord, have mercy on me and blot out my transgressions according to the multitude of Your tender mercies in Jesus’ name, Amen.',
       action:
-          'Thank God for His mercy and grace that make salvation possible for those who will confess their sins and call on Jesus to forgive and save them.',
+          'ACTION: Thank God for His mercy and grace that make salvation possible for those who will confess their sins and call on Jesus to forgive and save them.',
       dateTime: DateTime(2024, 2, 20),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 21st, Day #52 in year 2024. There are 314 more days remaining in year 2024.',
+          'Today is Feb 21st, Day #52 in year 2024, There are 314 more days remaining in year 2024.',
       theme: 'PRAISING JESUS FOR HIS GREAT POWER',
       scripture:
-          '“The disciples praised Jesus for his great power. Then they returned to Jerusalem, and they were all very happy. All the time they were in the temple, and they were praising God.”',
+          'SCRIPTURE: “The disciples praised Jesus for his great power. Then they returned to Jerusalem, and they were all very happy. All the time they were in the temple, and they were praising God.” (Luke 24:52-53 EASY)',
       prayer:
-          'Father, please let the praise of Jesus Christ continually be in my mouth as it was for King David (Psalm. 34:1) and Jesus’ disciples (Lk 24:53). As I praise You, Lord Jesus, please empower me to do greater works in winning souls for You, healing the sick, casting out demons, prospering in all areas of my life, etc (John 14:12)',
+          'PRAYER: Father, please let the praise of Jesus Christ continually be in my mouth as it was for King David (Psalm. 34:1) and Jesus’ disciples (Lk 24:53). As I praise You, Lord Jesus, please empower me to do greater works in winning souls for You, healing the sick, casting out demons, prospering in all areas of my life, etc (John 14:12).',
       action:
-          'Provoke miracles to manifest by praising God as Paul and Silas did (Acts 16: 25-31)',
+          'ACTION: Provoke miracles to manifest by praising God as Paul and Silas did (Acts 16:25-31)',
       dateTime: DateTime(2024, 2, 21),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 22nd, Day #53 in year 2024. There are 313 more days remaining in year 2024.',
+          'Today is Feb 22nd, Day #53 in year 2024, There are 313 more days remaining in year 2024.',
       theme: 'LED SAFELY BY THE LORD (II)',
       scripture:
-          '“And He led them on safely, so that they did not fear; But the sea overwhelmed their enemies.” (Psalms‬)',
+          'SCRIPTURE: “And He led them on safely, so that they did not fear; But the sea overwhelmed their enemies.” (Psalms 78:53 NKJV)',
       prayer:
-          'Father, in all my journeys in the year 2024 and beyond, please lead me safely in the path of righteousness and let me not fear. Let all my unrelenting enemies and destroyers drown in the sea in Jesus name.',
-      action: 'Pray to God to lead you in everything you do.',
+          'PRAYER: Father, in all my journeys in the year 2024 and beyond, please lead me safely in the path of righteousness and let me not fear. Let all my unrelenting enemies and destroyers drown in the sea in Jesus name.',
+      action: 'ACTION: Pray to God to lead you in everything you do.',
       dateTime: DateTime(2024, 2, 22),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 23rd, Day #54 in year 2024. There are 312 more days remaining in year 2024.',
+          'Today is Feb 23rd, Day #54 in year 2024, There are 312 more days remaining in year 2024.',
       theme: 'ERA OF POSITIVE ENLARGEMENT',
       scripture:
-          '“Sing, barren woman, you who never bore a child; burst into song, shout for joy, you who were never in labor; because more are the children of the desolate woman than of her who has a husband,” says the Lord. “Enlarge the place of your tent, stretch your tent curtains wide, do not hold back; lengthen your cords, strengthen your stakes. For you will spread out to the right and to the left; your descendants will dispossess nations and settle in their desolate cities.” (Isa‬)',
+          'SCRIPTURE: “Sing, barren woman, you who never bore a child; burst into song, shout for joy, you who were never in labor; because more are the children of the desolate woman than of her who has a husband,” says the Lord. “Enlarge the place of your tent, stretch your tent curtains wide, do not hold back; lengthen your cords, strengthen your stakes. For you will spread out to the right and to the left; your descendants will dispossess nations and settle in their desolate cities.” (Isa 54:1-3 NIV)',
       prayer:
-          'Father, Your word declares “And out of them shall proceed thanksgiving and the voice of them that make merry: and I will multiply them, and they shall not be few; I will also glorify them, and they shall not be small” (Jeremiah 30:19). Almighty God, please let this season be our era of positive supernatural increases and enlargement. Let multitude of souls be won unto the Lord, the barren women to have many children as they want, the homeless to build their own houses and become landlords, transform all aspects of our economy from scarcity to surplus and give us leaders who will fear You and promote peace, unity, and rapid development in every nation in Jesus name.',
+          'PRAYER: Father, Your word declares “And out of them shall proceed thanksgiving and the voice of them that make merry: and I will multiply them, and they shall not be few; I will also glorify them, and they shall not be small” (Jeremiah 30:19). Almighty God, please let this season be our era of positive supernatural increases and enlargement. Let multitude of souls be won unto the Lord, the barren women to have many children as they want, the homeless to build their own houses and become landlords, transform all aspects of our economy from scarcity to surplus and give us leaders who will fear You and promote peace, unity, and rapid development in every nation in Jesus name.',
       action:
-          'Give thanks and praise to God and claim His promise not to be small (Jer. 30:19)',
+          'ACTION: Give thanks and praise to God and claim His promise not to be small (Jer. 30:19)',
       dateTime: DateTime(2024, 2, 23),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 24th, Day #55 in year 2024. There are 311 more days remaining in year 2024.',
+          'Today is Feb 24th, Day #55 in year 2024, There are 311 more days remaining in year 2024.',
       theme: 'THE MENACES OF KING MANASSEH',
       scripture:
-          '“Manasseh was 12 years old when he began to rule, and he ruled for 55 years in Jerusalem. He did what the Lord considered evil by copying the disgusting things done by the nations that the Lord had forced out of the Israelites’ way. He burned his son as a sacrifice in the valley of Ben Hinnom, consulted fortunetellers, cast evil spells, practiced witchcraft, and appointed ⌞royal⌟ mediums and psychics. He did many things that made the Lord furious.”',
+          'SCRIPTURE: “Manasseh was 12 years old when he began to rule, and he ruled for 55 years in Jerusalem., He did what the Lord considered evil by copying the disgusting things done by the nations that the Lord had forced out of the Israelites’ way. He rebuilt the illegal places of worship that his father Hezekiah had torn down. He set up altars dedicated to other gods—the Baals—and made a pole dedicated to the goddess Asherah as King Ahab of Israel had done. Manasseh, like Ahab, worshiped and served the entire army of heaven... He burned his son as a sacrifice in the valley of Ben Hinnom, consulted fortunetellers, cast evil spells, practiced witchcraft, and appointed royal mediums and psychics. He did many things that made the Lord furious.” (2 Chronicles 33:2-4, 6 GW)',
       prayer:
-          'Father, in all nations, please supervise elections and the processes of choosing rulers such that only God-fearing, righteous, competent, and reputable persons will be chosen to rule Your people. Let all elections be conducted peacefully without rigging, war or shedding of blood. Please Lord, don’t give us evil leaders like Manasseh who was one of the worst, wicked and wayward kings in Jerusalem whose tenure was full of menaces.',
+          'PRAYER: Father, in all nations, please supervise elections and the processes of choosing rulers such that only God-fearing, righteous, competent, and reputable persons will be chosen to rule Your people. Let all elections be conducted peacefully without rigging, war or shedding of blood. Please Lord, don’t give us evil leaders like Manasseh who was one of the worst, wicked and wayward kings in Jerusalem whose tenure was full of menaces.',
       action:
-          'Pray that, in all nations, no wicked person will win in elections',
+          'ACTION: Pray that, in all nations no wicked person will win in elections.',
       dateTime: DateTime(2024, 2, 24),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 25th, Day #56 in year 2024. There are 310 more days remaining in year 2024.',
+          'Today is Feb 25th, Day #56 in year 2024, There are 310 more days remaining in year 2024.',
       theme: 'GOD IS THE BEST GATHERER',
       scripture:
-          '“The Almighty Lord, who gathers the scattered people of Israel, declares, “I will gather still others besides those I have already gathered.”',
+          'SCRIPTURE: “The Almighty Lord, who gathers the scattered people of Israel, declares, “I will gather still others besides those I have already gathered.” (Isaiah 56:8 GW)',
       prayer:
-          'Father, You are the best Gatherer and Your word declares “…Whoever doesn’t gather with me scatters.” Dear merciful Lord, our Maker and Savior, help us to partner with You in gathering and restoration of all scattered valuable resources (people, souls, finances, families, talents, times, marriages, etc). Oh Lord, please rebuke the devourer and scatterer of our resources in Jesus’ name.',
-      action: 'Pray to be a gatherer and not a scatterer of good things',
+          'PRAYER: Father, You are the best Gatherer and Your word declares “...Whoever doesn’t gather with me scatters.” (Matthew 12:30 GW). Dear merciful Lord, our Maker and Savior, help us to partner with You in gathering and restoration of all scattered valuable resources (people, souls, finances, families, talents, times, marriages, etc). Oh Lord, please rebuke the devourer and scatterer of our resources in Jesus’ name.',
+      action:
+          'ACTION: Pray to be a gatherer and not a scatterer of good things',
       dateTime: DateTime(2024, 2, 25),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 26th, Day #57 in year 2024. There are 309 more days remaining in year 2024.',
+          'Today is Feb 26th, Day #57 in year 2024, There are 309 more days remaining in the year 2024.',
       theme: 'HELP FROM GOD THE MOST HIGH',
       scripture:
-          '“I will call to the Most High God to help me. He is the God who stands beside me. He will send help from heaven and he will save me. He will punish the people who attack me. Selah. God will show me his faithful love, and he will do what he has promised. My enemies are all round me, like hungry lions! I must lie down among wild animals, that want to eat me! They are men who use spears and arrows to bite like teeth. They use their tongues to hurt people, like sharp swords.”',
+          'SCRIPTURE: “I will call to the Most High God to help me. He is the God who stands beside me. He will send help from heaven and he will save me. He will punish the people who attack me. Selah. God will show me his faithful love, and he will do what he has promised. My enemies are all round me, like hungry lions! I must lie down among wild animals, that want to eat me! They are men who use spears and arrows to bite like teeth. They use their tongues to hurt people, like sharp swords.” (Psalms 57:2-4 EASY)',
       prayer:
-          'Father, thank You for being my Defender, Deliverer, and my Present Help in times of troubles; Most High God, please send help to me from heaven, to defeat all my unrelenting enemies and safe me from their evil intentions in Jesus’ name',
-      action: 'Pray that all the help you need will come timely from God',
+          'PRAYER: Father, thank You for being my Defender, Deliverer, and my Present Help in times of troubles; Most High God, please send help to me from heaven, to defeat all my unrelenting enemies and save me from their evil intentions in Jesus’ name',
+      action:
+          'ACTION: Pray that all the help you need will come timely from God',
       dateTime: DateTime(2024, 2, 26),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 27th, Day #58 in year 2024. There are 307 more days remaining in the year 2024.',
+          'Today is Feb 27th, Day #58 in year 2024, There are 307 more days remaining in the year 2024.',
       theme: 'RECEIVING THE RIGHTEOUS MAN’S REWARD',
       scripture:
-          '“So that men will say, “Surely there is a reward for the righteous; Surely He is God who judges in the earth.”',
+          'SCRIPTURE: “So that men will say, “Surely there is a reward for the righteous; Surely He is God who judges in the earth.” (Psalms 58:11 NKJV)',
       prayer:
-          'Father, Your word declares, “He who receives a prophet in the name of a prophet shall receive a prophet’s reward. And he who receives a righteous man in the name of a righteous man shall receive a righteous man’s reward.” (Matthew‬)',
+          'PRAYER: Father, Your word declares, “He who receives a prophet in the name of a prophet shall receive a prophet’s reward. And he who receives a righteous man in the name of a righteous man shall receive a righteous man’s reward.” (Matthew 10:41 NKJV). Please Lord, give me the grace to do the needful to qualify for receiving both the prophet’s and the righteous man’s rewards in Jesus name.',
       action:
-          'Prayerfully serve God with gladness and look up to Him for your rewards (Heb 11:6)',
+          'ACTION: Prayerfully serve God with gladness and look up to Him for your rewards (Heb 11:6)',
       dateTime: DateTime(2024, 2, 27),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb 28th, Day #59 in year 2024. There are 307 more days remaining in year 2024.',
+          'Today is Feb 28th, Day #59 in year 2024, There are 307 more days remaining in year 2024.',
       theme: 'SINGING TO GOD OF OUR STRENGTH',
       scripture:
-          '“But I will sing of thy power; yea, I will sing aloud of thy mercy in the morning: for thou hast been my defence and refuge in the day of my trouble. 17 Unto thee, O my strength, will I sing: for God is my defence, and the God of my mercy” (Psalms‬)',
+          'SCRIPTURE: “But I will sing of thy power; yea, I will sing aloud of thy mercy in the morning: for thou hast been my defence and refuge in the day of my trouble. 17 Unto thee, O my strength, will I sing: for God is my defence, and the God of my mercy” (Psalms 59:16-17 KJV).',
       prayer:
-          'Father, Your word declares, “I will sing unto the LORD as long as I live: I will sing praise to my God while I have my being” (Psalms 104:33). Please Lord, keep me alive and let my mouth be perpetually filled with songs of praising You for Your strength, power, mercy and for being my refuge, defence, provider, etc, in Jesus name.',
-      action: 'Sing a joyful song unto God and praise Him seriously',
+          'PRAYER: Father, Your word declares, “I will sing unto the LORD as long as I live: I will sing praise to my God while I have my being” (Psalms 104:33). Please Lord, keep me alive and let my mouth be perpetually filled with songs of praising You for Your strength, power, mercy and for being my refuge, defence, provider, etc, in Jesus name.',
+      action: 'ACTION: Sing a joyful song unto God and praise Him seriously',
       dateTime: DateTime(2024, 2, 28),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Feb. 29th, Day #60 in year 2024. There are 306 more days remaining in year 2024.',
+          'Today is Feb. 29th, Day #60 in year 2024, There are 306 more days remaining in year 2024.',
       theme: 'SHOWCASED TO SHINE',
       scripture:
-          '“People of other nations will come to your light. Kings will come to see the light of a new day that shines on you.” (Isaiah‬)',
-      action: 'Pray that your light will never be dim nor go out',
+          'SCRIPTURE: “People of other nations will come to your light. Kings will come to see the light of a new day that shines on you.” (Isaiah 60:3 EASY)',
+      prayer:
+          'PRAYER: Father, please showcase me to shine as the light of the world to which people of other nations and kings will come to see the light of Your glory shining on me in Jesus name.',
+      action: 'ACTION: Pray that your light will never be dim nor go out',
       dateTime: DateTime(2024, 2, 29),
-      prayer: '',
     ),
     DevotionalModel(
       todayDate:
-          'Today is Mar. 1st, Day #61 in year 2024. There are 305 more days remaining in year 2024.',
+          'Today is Mar.1st, Day #61 in year 2024, There are 305 more days remaining in year 2024.',
       theme: 'STAYING SAFE IN GOD’S SHELTER',
       scripture:
-          '“For You have been a shelter for me, A strong tower from the enemy. I will abide in Your tabernacle forever; I will trust in the shelter of Your wings. Selah” (Psalms‬)',
-      action: 'Let God be your shield always so that you can be saved always',
+          'SCRIPTURE: “For You have been a shelter for me, A strong tower from the enemy. I will abide in Your tabernacle forever; I will trust in the shelter of Your wings. Selah” (Psalms 61:3-4 NKJV)',
+      prayer:
+          'PRAYER: Father, like You did for king David, please give me the grace to be passionately committed and inseparable from your Church (or tabernacle) so that I also will enjoy Your divine safety, shelter and protection against the wiles of the enemies (Psa 27:4; Psa 69:9)',
+      action:
+          'ACTION: Let God be your shield always so that you can saved always',
       dateTime: DateTime(2024, 3, 1),
-      prayer: '',
     ),
     DevotionalModel(
       todayDate:
-          'Today is Mar. 2nd, Day #62 in year 2024. There are 304 more days remaining in year 2024.',
+          'Today is Mar. 2nd, Day #62 in year 2024, There are 304 more days remaining in year 2024.',
       theme: 'SCATTERING ENEMIES’ SCHEMES',
       scripture:
-          '“You have heard their reproach, O Lord, All their schemes against me, The lips of my enemies And their whispering against me all the day.” (Lament. 3‬)',
+          'SCRIPTURE: “You have heard their reproach, O Lord, All their schemes against me, The lips of my enemies And their whispering against me all the day.” (Lament. 3:61-62 NKJV)',
+      prayer:
+          'PRAYER: Father, Your word declares, “When the enemy shall come in like a flood, the Spirit of the LORD shall lift up a standard against him”. (Isaiah 59:19b). Almighty God, please let Your Spirit lift up a standard against all my enemies to scatter all their evil schemes and machinations against me in Jesus’ name (Ex. 14:14)',
       action:
-          'Pray that your enemies’ schemes against you will backfire as shame on them.',
+          'ACTION: Pray that your enemies’ schemes against you will backfire as shame on them.',
       dateTime: DateTime(2024, 3, 2),
-      prayer: '',
     ),
     DevotionalModel(
       todayDate:
-          'Today is Mar. 3rd, Day #63 in year 2024. There are 303 more days remaining in year 2024.',
+          'Today is Mar. 3rd, Day #63 in year 2024, There are 303 more days remaining in year 2024.',
       theme: 'LIFTING UP HANDS TO BLESS AND PRAISE THE LORD',
       scripture:
-          '“Thus I will bless You while I live; I will lift up my hands in Your name.” (Psalms‬)',
+          'SCRIPTURE: “Thus I will bless You while I live; I will lift up my hands in Your name.” (Psalms 63:4 NKJV)',
+      prayer:
+          'PRAYER: Father, Your word declares, “The dead cannot sing praises to the Lord, for they have gone into the silence of the grave.” (Psalms 115:17 NLT). Please Lord, give me the grace to pray and praise You more fervently, and like David, “Let my prayer be set forth before thee as incense; and the lifting up of my hands as the evening sacrifice” (Psalms 141:2)',
       action:
-          'Touch and call the name (e.g., my mouth) all the parts of your body, say each part belongs to Jesus (e.g., ‘my mouth, you belong to Jesus’). Praise God for every part of your body.',
+          'ACTION: Touch and call the name (e.g my mouth) all the parts of your body say each part belongs to Jesus (e.g ‘my mouth, you belong to Jesus’). Praise God for every part of your body.',
       dateTime: DateTime(2024, 3, 3),
-      prayer: '',
     ),
     DevotionalModel(
       todayDate:
-          'Today is Mar. 4th, Day #64 in year 2024. There are 302 more days remaining in year 2024.',
+          'Today is Mar. 4th, Day #64 in year 2024, There are 302 more days remaining in year 2024.',
       theme: 'PROTECTION AGAINST ENEMIES’ PLOTS',
       scripture:
-          '“Hide me from the secret plots of the wicked, From the rebellion of the workers of iniquity,” (Psalms‬)',
+          'SCRIPTURE: “Hide me from the secret plots of the wicked, From the rebellion of the workers of iniquity,” (Psalms 64:2 NKJV)',
+      prayer:
+          'PRAYER: Father, Your word declares, “The Lord laughs at him [the wicked one—the one who oppresses the righteous], For He sees that his day [of defeat] is coming.” (Psalms 37:13 AMP). Dear LORD, please deliver us from all wicked plotters and let them become shameful and disgraced laughing stocks as You defeat them woefully in Jesus name',
       action:
-          'Pray that all the plots of the enemies against you will fail or backfire in Jesus’ name.',
+          'ACTION: Pray that all the plots of the enemies against you will fail or backfire in Jesus’ name.',
       dateTime: DateTime(2024, 3, 4),
-      prayer: '',
     ),
     DevotionalModel(
       todayDate:
-          'Today is Mar. 5th, Day #65 in year 2024. There are 301 more days remaining in year 2024.',
+          'Today is Mar. 5th, Day #65 in year 2024, There are 301 more days remaining in year 2024.',
       theme: 'LIVING VERY LONG',
       scripture:
-          '“Never again will there be a baby who only lives for a few days. Old men will continue to live a long life. People will live until they are 100 years old and they will still seem young. If anyone dies before he is 100 years old, people will think that God has cursed him.”',
-      action:
-          'Pray that you will never die; after your long life here on earth, you will transition to eternity in the Kingdom of God (John 11:26).',
-      dateTime: DateTime(2024, 3, 5),
-      prayer: '',
-    ),
-    DevotionalModel(
-      todayDate:
-          'Today is Mar. 6th, Day #66 in year 2024. There are 300 more days remaining in year 2024.',
-      theme: 'ESCAPING FROM EXILE',
-      scripture:
-          '“These are the people who returned to Jerusalem and the other towns in Judah. Nebuchadnezzar, king of Babylon, had brought them as prisoners to Babylon. Each person returned to his town”; ”666 descendants of Adonikam”. ”All together, 42,360 people returned to Jerusalem.” (Ezra‬)',
-      action:
-          'Pray never to be a candidate for any type of exile, spiritual or physical',
-      dateTime: DateTime(2024, 3, 6),
-      prayer: '',
-    ),
-    DevotionalModel(
-      todayDate:
-          'Today is Mar. 7th, Day #67 in year 2024. There are 299 more days remaining in year 2024.',
-      theme: 'SEPARATING FROM THE SAVIOR?',
-      scripture:
-          '“From that time, many of Jesus\' disciples left him. They did not go with him any longer. Then Jesus asked the 12 apostles, ‘Do you want to go away from me, too?’(John‬)',
-      action:
-          'Pray and determine never to abandon Jesus Christ as all His disciples did during His arrest (Mark 14:43-50)',
-      dateTime: DateTime(2024, 3, 7),
-      prayer: '',
-    ),
-    DevotionalModel(
-      todayDate:
-          'Today is Mar. 8th, Day #68 in year 2024. There are 298 more days remaining in year 2024.',
-      theme: 'SERVING GOD AS A FAMILY',
-      scripture:
-          '“King David had chosen Asaph and his relatives to serve the Lord at the Covenant Box. They must do that each day, as the rules said that they should do. They included Obed-Edom and 68 men from his clan. Jeduthun\'s son, Obed-Edom and Hosah were guards at the entrance of the tent, (1 Chron. 16‬)',
-      action:
-          'Ensure your family has ‘a vibrant family altar’ with a schedule that allows all family members to regularly study God’s word and pray together (see Psa. 133:1-5).',
-      dateTime: DateTime(2024, 3, 8),
-      prayer: '',
-    ),
-    DevotionalModel(
-      todayDate:
-          'Today is Mar. 9th, Day #69 in year 2024. There are 297 more days remaining in year 2024.',
-      theme: 'CALLING FOR CHRIST’S INTIMACY AND RESCUE FROM ENEMIES',
-      scripture:
-          '“Come very near to me and make me safe. Rescue me from my enemies.” (Psa.)',
+          'SCRIPTURE: “Never again will there be a baby who only lives for a few days. Old men will continue to live a long life. People will live until they are 100 years old and they will still seem young. If anyone dies before he is 100 years old, people will think that God has cursed him.” (Isaiah 65:20 EASY)',
       prayer:
-          'Father, thank You for Your faithfulness to Your promise to not leave me nor forsake me (Heb13:5); Please Lord, by Your power please draw me to Yourself and rescue me from all my enemies in Jesus name',
+          'PRAYER: Father, thank You for Your promise to satisfy us with long life (Psa 91:15) and to fulfill the number of our days (Exo. 26:23). Dear Lord, please protect us from sudden and untimely death; by Your grace we decree like the Psalmist that we “shall not die, but live, and declare the works of the Lord” (Psa 118:17)',
       action:
-          'Remain intimately connected with God who has promised to be with you in all circumstances and to fight for you (Exo 14:14, John 15:5)',
+          'ACTION: Pray for long life, prosperity and good health for yourself and all your loved ones today',
+      dateTime: DateTime(2024, 3, 5),
+    ),
+    DevotionalModel(
+      todayDate:
+          'Today is Mar. 6th, Day #66 in year 2024, There are 300 more days remaining in year 2024.',
+      theme: 'THE GOD OF RESTORATION',
+      scripture:
+          'SCRIPTURE: “When the Lord restored the fortunes of Zion, we were like those who dream. Our mouths were filled with laughter, our tongues with songs of joy. Then it was said among the nations, “The Lord has done great things for them.” (Psalms 126:1-2 NIV)',
+      prayer:
+          'PRAYER: Heavenly Father, thank You for being the God of restoration. Just as You restored the fortunes of Zion, I pray for restoration in every area of my life where I have experienced loss or setback. Fill my mouth with laughter and songs of joy as You do great things for me, to the glory of Your name.',
+      action:
+          'ACTION: Meditate on areas in your life where you need restoration and declare God’s promises of restoration over them.',
+      dateTime: DateTime(2024, 3, 6),
+    ),
+    DevotionalModel(
+      todayDate:
+          'Today is Mar. 7th, Day #67 in year 2024, There are 299 more days remaining in year 2024.',
+      theme: 'POWER TO OVERCOME THE WORLD',
+      scripture:
+          'SCRIPTURE: “For everyone who has been born of God overcomes the world. And this is the victory that has overcome the world—our faith.” (1 John 5:4 ESV)',
+      prayer:
+          'PRAYER: Gracious Father, thank You for the assurance that as Your child, I have the power to overcome the world through faith in Jesus Christ. Strengthen my faith, O Lord, and help me to walk in victory over every challenge, temptation, and trial that I may face.',
+      action:
+          'ACTION: Declare aloud, “I am an overcomer through Christ who strengthens me!”',
+      dateTime: DateTime(2024, 3, 7),
+    ),
+    DevotionalModel(
+      todayDate:
+          'Today is Mar. 8th, Day #68 in year 2024, There are 298 more days remaining in year 2024.',
+      theme: 'REJOICING IN SALVATION',
+      scripture:
+          'SCRIPTURE: “But let all who take refuge in you rejoice; let them ever sing for joy, and spread your protection over them, that those who love your name may exult in you.” (Psalms 5:11 ESV)',
+      prayer:
+          'PRAYER: Heavenly Father, I rejoice in the salvation that You have provided through Your Son, Jesus Christ. Thank You for being my refuge and my strength. May I always find joy in Your presence and spread the good news of Your salvation to others.',
+      action:
+          'ACTION: Take time to reflect on the blessings of salvation and express gratitude to God through worship and praise.',
+      dateTime: DateTime(2024, 3, 8),
+    ),
+    DevotionalModel(
+      todayDate:
+          'Today is Mar. 9th, Day #69 in year 2024, There are 297 more days remaining in year 2024.',
+      theme: 'TRUSTING IN GOD’S TIMING',
+      scripture:
+          'SCRIPTURE: “For still the vision awaits its appointed time; it hastens to the end—it will not lie. If it seems slow, wait for it; it will surely come; it will not delay.” (Habakkuk 2:3 ESV)',
+      prayer:
+          'PRAYER: Sovereign Lord, help me to trust in Your perfect timing, even when I do not understand Your ways. Give me patience to wait for Your promises to be fulfilled, knowing that Your timing is always perfect and Your plans are for my good.',
+      action:
+          'ACTION: Surrender your timelines and expectations to God, trusting that His timing is best.',
       dateTime: DateTime(2024, 3, 9),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Mar. 10th, Day #70 in year 2024. There are 296 more days remaining in year 2024.',
-      theme: 'SERVANT OF GOD OR OF SATAN?',
+          'Today is Mar. 10th, Day #70 in year 2024, There are 296 more days remaining in year 2024.',
+      theme: 'THE PROMISE OF PEACE',
       scripture:
-          '“Jesus replied, ‘I have chosen the 12 of you. But one of you is a servant of Satan!’”(John‬)',
+          'SCRIPTURE: “Peace I leave with you; my peace I give to you. Not as the world gives do I give to you. Let not your hearts be troubled, neither let them be afraid.” (John 14:27 ESV)',
+      prayer:
+          'PRAYER: Prince of Peace, thank You for the gift of Your peace that surpasses all understanding. Calm my anxious heart and fill me with Your perfect peace. Help me to trust in Your unfailing love and to find rest in Your presence.',
+      action:
+          'ACTION: Take a moment to breathe deeply and meditate on the peace of Christ that dwells within you.',
       dateTime: DateTime(2024, 3, 10),
-      prayer: '',
-      action: '',
     ),
     DevotionalModel(
       todayDate:
-          'Today is March 11th, Day 71 in year 2024. There are 295 days remaining in 2024.',
-      theme: 'SHIELDED AGAINST SHAME',
+          'Today is Mar. 11th, Day #71 in year 2024, There are 295 more days remaining in year 2024.',
+      theme: 'GOD’S UNFAILING LOVE',
       scripture:
-          '“In you, O Lord, do I put my trust and confidently take refuge; let me never be put to shame or confusion!” (Psa.)',
+          'SCRIPTURE: “But I have trusted in your steadfast love; my heart shall rejoice in your salvation.” (Psalms 13:5 ESV)',
       prayer:
-          'Father, thank You for being my Confidant, my Rock, my Fortress, my Deliverer; my God, my Strength, my Buckler, my Savior, and my High Tower (Ps 18:2); please shield me from shame, sin, sickness, sorrows and all evils, IJN.',
-      action: 'Pray that nothing will change your glory to shame (Hos 4:7)',
+          'PRAYER: Gracious Father, thank You for Your unfailing love that never gives up on me. Help me to trust in Your steadfast love, especially in times of uncertainty and difficulty. May my heart rejoice in Your salvation and find strength in Your promises.',
+      action:
+          'ACTION: Reflect on moments in your life when you experienced God’s unfailing love and give thanks for His faithfulness.',
       dateTime: DateTime(2024, 3, 11),
     ),
     DevotionalModel(
       todayDate:
-          'Today is March 12th, day 72 in year 2024. There are 294 more days remaining in year 2024.',
-      theme: 'WORTH OF GOD’S WORD',
+          'Today is Mar. 12th, Day #72 in year 2024, There are 294 more days remaining in year 2024.',
+      theme: 'WALKING IN HUMILITY',
       scripture:
-          '“The law from Your mouth is better to me than thousands of gold and silver pieces. (Psalm 119:72)',
+          'SCRIPTURE: “He has shown you, O mortal, what is good. And what does the Lord require of you? To act justly and to love mercy and to walk humbly with your God.” (Micah 6:8 NIV)',
       prayer:
-          'Father, thank You for the great value of Your word which is beyond human description. First and foremost, Lord, You are an embodiment of Your word and by Your word the whole world and its dwellers including human beings were created (John 1:1; Gen 1: 1-29). Furthermore, Your world declares; ”.. the word of God is living and powerful, and sharper than any two-edged sword, piercing even to the division of soul and spirit, and of joints and marrow, and is a discerner of the thoughts and intents of the heart” (Heb 4:12). Please Lord, don’t let Your word depart from my mouth, instead let Your word help me to avoid sinning (Psa 119:11); heal me ( Psa 107:20); teach and instruct me the way to go (Psa. 32:8), etc.',
-      action: 'Study and preach God’s word to save souls (2 Tim 2:15; 4:2)',
+          'PRAYER: Heavenly Father, teach me to walk in humility before You and others. Help me to prioritize justice, mercy, and humility in my interactions and relationships. May my life reflect Your love and grace to the world around me.',
+      action:
+          'ACTION: Practice humility today by serving others and considering their needs above your own.',
       dateTime: DateTime(2024, 3, 12),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Mar. 13th, Day #73 in year 2024. There are 293 more days remaining in year 2024.',
-      theme: 'FASHIONED AND MADE BY GOD THE FATHER',
+          'Today is Mar. 13th, Day #73 in year 2024, There are 293 more days remaining in year 2024.',
+      theme: 'GOD’S GRACE IN WEAKNESS',
       scripture:
-          '“Your hands have made me and fashioned me; Give me understanding, that I may learn Your commandments.”',
-      dateTime: DateTime(2024, 3, 13),
-      prayer: '',
-      action: '',
-    ),
-    DevotionalModel(
-      todayDate:
-          'Today is Mar. 14th, Day #74 in year 2024. There are 292 more days remaining in year 2024.',
-      theme: 'SERVING GOD OF SAFETY',
-      scripture:
-          '“God said, “I will keep you safe from your enemies. Then you can serve me and not be afraid.”',
-      dateTime: DateTime(2024, 3, 14),
-      prayer: '',
-      action: '',
-    ),
-    DevotionalModel(
-      todayDate:
-          'Today is Mar. 15th, Day #75 in year 2024. There are 291 more days remaining in year 2024.',
-      theme: 'ABRAHAMIC “ANOINTING”',
-      scripture:
-          '“So Abram left Haran just like the Lord said, and Lot went with him. Abram was 75 years old when he left Haran (Gen 12: 4)',
+          'SCRIPTURE: “But he said to me, “My grace is sufficient for you, for my power is made perfect in weakness.” Therefore I will boast all the more gladly about my weaknesses, so that Christ’s power may rest on me.” (2 Corinthians 12:9 NIV)',
       prayer:
-          'Almighty God, thank you for the life of Abraham. Oh Lord, please give me the grace and endow me with virtues that enabled Abraham to walk before you and be perfect, to be faithful to you and to have his descendants blessed from generation to generation in Jesus name.',
-      action: 'Pray to always be a friend of God like Abraham (James 2:23)',
+          'PRAYER: Gracious Lord, thank You for Your promise that Your grace is sufficient for me, even in my weakness. Help me to embrace my weaknesses and allow Your power to be made perfect in me. May Your strength be manifested in my life for Your glory.',
+      action:
+          'ACTION: Surrender your weaknesses to God and ask Him to fill you with His strength and grace.',
+      dateTime: DateTime(2024, 3, 13),
+    ),
+    DevotionalModel(
+      todayDate:
+          'Today is Mar. 14th, Day #74 in year 2024, There are 292 more days remaining in year 2024.',
+      theme: 'FOLLOWING GOD’S GUIDANCE',
+      scripture:
+          'SCRIPTURE: “Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.” (Proverbs 3:5-6 NIV)',
+      prayer:
+          'PRAYER: Heavenly Father, help me to trust in Your guidance with all my heart and to surrender my own understanding. Lead me in Your ways and make my paths straight according to Your perfect will. May I always seek Your wisdom in every decision I make.',
+      action:
+          'ACTION: Spend time in prayer seeking God’s guidance for any decisions or challenges you are facing.',
+      dateTime: DateTime(2024, 3, 14),
+    ),
+    DevotionalModel(
+      todayDate:
+          'Today is Mar. 15th, Day #75 in year 2024, There are 291 more days remaining in year 2024.',
+      theme: 'REJOICING IN GOD’S CREATION',
+      scripture:
+          'SCRIPTURE: “The heavens declare the glory of God; the skies proclaim the work of his hands.” (Psalms 19:1 NIV)',
+      prayer:
+          'PRAYER: Creator God, I praise You for the beauty of Your creation, which declares Your glory and majesty. Open my eyes to see Your handiwork all around me and fill my heart with gratitude for Your wonderful works. May I always marvel at Your creation and worship You as its Creator.',
+      action:
+          'ACTION: Take a nature walk or spend time outdoors appreciating God’s creation and offering Him praise.',
       dateTime: DateTime(2024, 3, 15),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Mar. 16th, Day #76 in year 2024. There are 290 more days remaining in year 2024.',
-      theme: 'GOD OF GLORY',
+          'Today is Mar. 16th, Day #76 in year 2024, There are 290 more days remaining in year 2024.',
+      theme: 'THE POWER OF FORGIVENESS',
       scripture:
-          'You are more glorious and excellent Than the mountains of prey (Psalm 76:4)',
+          'SCRIPTURE: “Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you.” (Ephesians 4:32 NIV)',
       prayer:
-          'Father, thank you for there is none like You; you are glorious in holiness, fearful in praises, doing wonders?” (Isa.42:8). Furthermore, the heavens declare your glory…(Psa 19:1). Please Lord manifest your glory and wonders in my life',
+          'PRAYER: Gracious Father, thank You for the forgiveness You have shown me through Christ. Help me to extend that same forgiveness to others, demonstrating kindness and compassion in all my relationships. May Your grace and mercy flow through me to those who have wronged me.',
       action:
-          'Pray that in God will be your salvation, your glory, your refuge and other blessings (Psa 62:7) and that whatever, you do will be done to the glory of God (1 Cor10:31).',
+          'ACTION: Take a moment to forgive someone who has hurt or wronged you, releasing any bitterness or resentment from your heart.',
       dateTime: DateTime(2024, 3, 16),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Mar. 17th, Day #77 in year 2024. There are 289 more days remaining in year 2024.',
-      theme: 'FINDING SALVATION THROUGH FORGIVENESS',
+          'Today is Mar. 17th, Day #77 in year 2024, There are 289 more days remaining in year 2024.',
+      theme: 'TRUSTING GOD IN TIMES OF TRIAL',
       scripture:
-          '“You will tell his people how to find salvation through forgiveness of their sins.”',
-      dateTime: DateTime(2024, 3, 17),
-      prayer: '',
-      action: '',
-    ),
-    DevotionalModel(
-      todayDate:
-          'Today is Mar. 18th, Day #78 in year 2024. There are 288 more days remaining in year 2024.',
-      theme: 'MERCY INDUCED HEAVENLY MORNING LIGHT',
-      scripture:
-          '“Because of God’s tender mercy, the morning light from heaven is about to break upon us,” (Luke‬)',
-      dateTime: DateTime(2024, 3, 18),
-      prayer: '',
-      action: '',
-    ),
-    DevotionalModel(
-      todayDate:
-          'Today is Mar. 19th, Day #79 in year 2024. There are 287 more days remaining in year 2024',
-      scripture:
-          '“Listen to the prisoners who are in pain! They are calling out for help. Use your great power to make them free, before their enemies kill them.”',
-      dateTime: DateTime(2024, 3, 19),
-      theme: '',
-      prayer: '',
-      action: '',
-    ),
-    DevotionalModel(
-      todayDate:
-          'Today is Mar. 20th, Day #80 in year 2024. There are 286 more days remaining in year 2024.',
-      scripture:
-          '“God, turn us to come back to you. Look at us with a smile on your face! Then we will be safe.”',
-      theme: 'BACKSLIDERS MUST COME BACK',
+          'SCRIPTURE: “Trust in him at all times, you people; pour out your hearts to him, for God is our refuge.” (Psalms 62:8 NIV)',
       prayer:
-          'Father, Your word declares, “Now the just shall live by faith: but if any man draw back, my soul shall have no pleasure in him. (Heb. 10:38); Dear Lord, please don’t let us ever draw back from You. Let all backsliders repent and be reconciled with You in Jesus name.',
+          'PRAYER: Heavenly Father, in times of trial and uncertainty, help me to trust in You with all my heart. Teach me to pour out my concerns and fears before You, knowing that You are my refuge and strength. May my faith in You remain steadfast, regardless of the circumstances.',
       action:
-          'Pray that God will use you as a change agent to draw backsliders back to HIM by Your great power please liberate all prisoners from all forms of pain and imprisonment (physical, spiritual, sickness, bareness, persistent failure, etc)',
+          'ACTION: Spend time in prayer pouring out your heart to God, surrendering your worries and fears to His care.',
+      dateTime: DateTime(2024, 3, 17),
+    ),
+    DevotionalModel(
+      todayDate:
+          'Today is Mar. 18th, Day #78 in year 2024, There are 288 more days remaining in year 2024.',
+      theme: 'THE CALL TO HOLINESS',
+      scripture:
+          'SCRIPTURE: “But just as he who called you is holy, so be holy in all you do; for it is written: “Be holy, because I am holy.”” (1 Peter 1:15-16 NIV)',
+      prayer:
+          'PRAYER: Holy God, You have called me to a life of holiness, reflecting Your own character and purity. Help me to live in a way that honors You in all I do, striving for holiness in my thoughts, words, and actions. May Your grace empower me to live a life set apart for Your glory.',
+      action:
+          'ACTION: Reflect on areas of your life where you can strive for greater holiness, asking God for strength to live according to His standards.',
+      dateTime: DateTime(2024, 3, 18),
+    ),
+    DevotionalModel(
+      todayDate:
+          'Today is Mar. 19th, Day #79 in year 2024, There are 287 more days remaining in year 2024.',
+      theme: 'THE BLESSING OF COMMUNITY',
+      scripture:
+          'SCRIPTURE: “And let us consider how we may spur one another on toward love and good deeds, not giving up meeting together, as some are in the habit of doing, but encouraging one another—and all the more as you see the Day approaching.” (Hebrews 10:24-25 NIV)',
+      prayer:
+          'PRAYER: Loving Father, thank You for the blessing of Christian community, where we can encourage and support one another in our faith journeys. Help me to actively participate in fellowship with other believers, spurring them on toward love and good deeds. May our unity bring glory to Your name.',
+      action:
+          'ACTION: Reach out to a fellow believer today to offer encouragement and support, strengthening the bonds of Christian community.',
+      dateTime: DateTime(2024, 3, 19),
+    ),
+    DevotionalModel(
+      todayDate:
+          'Today is Mar. 20th, Day #80 in year 2024, There are 286 more days remaining in year 2024.',
+      theme: 'SURRENDERING TO GOD’S WILL',
+      scripture:
+          'SCRIPTURE: “Father, if you are willing, take this cup from me; yet not my will, but yours be done.” (Luke 22:42 NIV)',
+      prayer:
+          'PRAYER: Sovereign Lord, help me to surrender my will to Yours, trusting in Your wisdom and goodness. Like Jesus in the garden of Gethsemane, may I submit to Your perfect will, even when it is difficult or challenging. Give me the strength to follow You wholeheartedly, wherever You may lead.',
+      action:
+          'ACTION: Take time to pray and surrender your plans and desires to God, asking for His guidance and direction in your life.',
       dateTime: DateTime(2024, 3, 20),
     ),
+
     DevotionalModel(
       todayDate:
-          'Today is Mar. 21st, Day #81 in year 2024. There are 285 more days remaining in year 2024.',
+          'Today is Mar. 21st, Day #81 in year 2024, There are 285 more days remaining in year 2024.',
+      theme: 'GROWING IN SPIRITUAL DISCIPLINES',
       scripture:
-          '“But I would feed you, my people, with the best wheat. I would give you plenty of honey from the rock, for you to eat and be full.” (Psalms‬)',
-      theme: 'FED BY GOD WITH THE BEST FOOD',
+          'SCRIPTURE: “But grow in the grace and knowledge of our Lord and Savior Jesus Christ. To him be glory both now and forever! Amen.” (2 Peter 3:18 NIV)',
       prayer:
-          'Father, please give me the grace to be willing and obedient to You so that I can eat the best of the land in plenty and be satisfied, praising You (lsa 1:19; Joel; 2:26)',
+          'PRAYER: Gracious God, help me to cultivate spiritual disciplines that draw me closer to You and deepen my relationship with Jesus Christ. May I be committed to prayer, Bible study, worship, and other practices that nurture my spiritual growth. Give me a hunger and thirst for righteousness, longing to know You more each day.',
       action:
-          'Let us give thanks to God who has been meeting our need for food and other things. Pray to be in the position to feed those who are hungry and needy.',
+          'ACTION: Identify one spiritual discipline you would like to focus on growing in, and make a plan to prioritize it in your daily life.',
       dateTime: DateTime(2024, 3, 21),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Mar. 22nd, Day #82 in year 2024. There are 284 more days remaining in the year 2024',
+          'Today is Mar. 22nd, Day #82 in year 2024, There are 284 more days remaining in year 2024.',
+      theme: 'SEEKING GOD’S WISDOM',
       scripture:
-          '“But I would feed you, my people, with the best wheat. I would give you plenty of honey from the rock, for you to eat and be full.” (Psalms‬)',
-      theme: 'FED BY GOD WITH THE BEST FOOD',
+          'SCRIPTURE: “If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you.” (James 1:5 NIV)',
       prayer:
-          'Father, please give me the grace to be willing and obedient to You so that I can eat the best of the land in plenty and be satisfied, praising You (lsa 1:19; .Joel; 2:26)',
+          'PRAYER: Heavenly Father, Your wisdom surpasses all understanding, and You generously give it to those who ask. Grant me wisdom to discern Your will and make decisions that honor You. Help me to seek Your guidance in all areas of my life, trusting in Your perfect plan.',
       action:
-          'Let us give thanks to God who has been meeting our need for food and other things. Pray to be in the position to feed those who are hungry and needy.',
+          'ACTION: Spend time in prayer asking God for wisdom in a specific area of your life where you need clarity or direction.',
       dateTime: DateTime(2024, 3, 22),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Mar. 23rd, Day #83 of in year 2024. There are 283 more days remaining in year 2024.',
-      theme: 'CONSPIRACY AGAINST GOD AND HIS PEOPLE',
+          'Today is Mar. 23rd, Day #83 in year 2024, There are 283 more days remaining in year 2024.',
+      theme: 'THE PROMISE OF GOD’S PRESENCE',
       scripture:
-          '“For they have consulted together with one consent; They form a confederacy against You:” (Psalms‬)',
+          'SCRIPTURE: “The Lord himself goes before you and will be with you; he will never leave you nor forsake you. Do not be afraid; do not be discouraged.” (Deuteronomy 31:8 NIV)',
       prayer:
-          'Father, arise, frustrate, confuse, wage war against and destroy all who have adamantly conspired to attack You and Your people in Jesus name.',
-      action: 'Pray to God to change your conspirators to collaborators',
+          'PRAYER: Faithful God, thank You for the promise of Your presence in my life. Help me to trust that You are always with me, going before me and walking beside me in every circumstance. When fear and discouragement arise, may I find strength and comfort in Your unfailing love.',
+      action:
+          'ACTION: Meditate on the assurance of God’s presence with you, drawing comfort and courage from His promise never to leave or forsake you.',
       dateTime: DateTime(2024, 3, 23),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Mar. 24th, Day #84 of in year 2024. There are 282 more days remaining in year 2024',
-      theme: 'REWARDS FROM GOD FOR DOING RIGHT',
+          'Today is Mar. 24th, Day #84 in year 2024, There are 282 more days remaining in year 2024.',
+      theme: 'LIVING A LIFE OF GRATITUDE',
       scripture:
-          '“The Lord God is like a sun and a shield for his people. He is kind to his people, and he gives glory to them. To those who do what is right, he gives every good thing that they need.” (Psalms‬)',
+          'SCRIPTURE: “Give thanks to the Lord, for he is good; his love endures forever.” (1 Chronicles 16:34 NIV)',
       prayer:
-          'Father, Thank You for You are the source of all good and perfect gifts (James 1:17); please give us the grace to always do what is right in Your sight and to have all our needs met according to Your riches in glory by Christ Jesus.',
+          'PRAYER: Gracious Father, You are worthy of all praise and thanksgiving! Help me to cultivate a heart of gratitude, recognizing Your goodness and faithfulness in my life. May I overflow with thankfulness for Your abundant blessings, both big and small, each and every day.',
       action:
-          'Trust and thank God daily to be your Shield and Supplier of all your needs',
+          'ACTION: Take time to count your blessings and give thanks to God for His goodness and faithfulness in your life.',
       dateTime: DateTime(2024, 3, 24),
     ),
+
     DevotionalModel(
       todayDate:
-          'Today is Mar. 25th, Day #85 in year 2024. There are 281 more days remaining in year 2024',
+          'Today is Mar. 25th, Day #85 in year 2024, There are 281 more days remaining in year 2024.',
+      theme: 'TRUSTING GOD’S TIMING',
       scripture:
-          '“The proud have dug pits for me, Which is not according to Your law.” (Psalms‬)',
-      theme: 'PITS DUG BY THE WICKED PROUD',
+          'SCRIPTURE: “But do not forget this one thing, dear friends: With the Lord a day is like a thousand years, and a thousand years are like a day. The Lord is not slow in keeping his promise, as some understand slowness. Instead he is patient with you, not wanting anyone to perish, but everyone to come to repentance.” (2 Peter 3:8-9 NIV)',
       prayer:
-          'Father, Your word declares, “An ungodly man digs up evil, And it is on his lips like a burning fire.” (Prov. 16‬)',
+          'PRAYER: Sovereign Lord, Your timing is perfect, and Your ways are higher than my own. Help me to trust in Your timing, even when I do not understand. Give me patience to wait on Your promises, knowing that You are faithful to fulfill them in Your perfect time.',
       action:
-          'Let’s watch and pray never to fall into any physical and spiritual pits dug for us by the proud',
+          'ACTION: Reflect on a situation in your life where you are struggling to trust God’s timing. Surrender it to Him in prayer, reaffirming your trust in His plan.',
       dateTime: DateTime(2024, 3, 25),
     ),
     DevotionalModel(
       todayDate:
-          'Today is Mar. 26th, Day #86 in year 2024. There are 280 more days remaining in year 2024',
+          'Today is Mar. 26th, Day #86 in year 2024, There are 280 more days remaining in year 2024.',
+      theme: 'EMBRACING GOD’S LOVE',
       scripture:
-          '“But You, O Lord, are a God full of compassion, and gracious, Longsuffering and abundant in mercy and truth.” (Psalms‬)',
-      dateTime: DateTime(2024, 3, 26),
-      theme: '',
-      prayer: '',
-      action: '',
-    ),
-    DevotionalModel(
-      todayDate:
-          'Today is Mar. 27th, Day #87 in year 2024. There are 279 more days remaining in year 2024',
-      scripture:
-          '“Though your beginning was small, Yet your latter end would increase abundantly.” (Job‬)',
-      dateTime: DateTime(2024, 3, 27),
-      theme: '',
-      prayer: '',
-      action: '',
-    ),
-    DevotionalModel(
-      todayDate:
-          'Today is Mar. 28th, Day #88 in year 2024. There are 278 more days remaining in year 2024.',
-      scripture:
-          '“Let my prayer come before You; Incline Your ear to my cry” (Psalms‬)',
-      dateTime: DateTime(2024, 3, 28),
-      theme: '',
-      prayer: '',
-      action: '',
-    ),
-    DevotionalModel(
-      todayDate:
-          'Today is Mar. 29th, Day #89 in year 2024. There are 277 more days remaining in year 2024',
-      scripture:
-          '“The heavens are yours. The earth is also yours. You made the world and everything in it.”(Psa. 89‬)',
-      dateTime: DateTime(2024, 3, 29),
-      theme: '',
-      prayer: '',
-      action: '',
-    ),
-    DevotionalModel(
-      todayDate:
-          'Today is Mar. 30th, Day #90 in year 2024. There are 276 more days remaining in year 2024',
-      scripture:
-          '“And let the beauty of the Lord our God be upon us, And establish the work of our hands for us; Yes, establish the work of our hands.”',
+          'SCRIPTURE: “See what great love the Father has lavished on us, that we should be called children of God! And that is what we are! The reason the world does not know us is that it did not know him.” (1 John 3:1 NIV)',
       prayer:
-          'Father, please give me the grace to diligently obey Your voice and observe carefully all Your commandments and let me attract Your blessings as stated in Deut. 28: 3-6: “Blessed shall be the fruit of your body, the produce of your ground and the increase of your herds, the increase of your cattle and the offspring of your flocks. “Blessed shall be your basket and your kneading bowl. “Blessed shall you be when you come in, and blessed shall you be when you go out.” in Jesus name',
-      dateTime: DateTime(2024, 3, 30),
-      theme: '',
-      action: '',
-    ),
-    DevotionalModel(
-      todayDate:
-          'Today is Mar. 31st, Day #91 in year 2024. There are 275 more days remaining in year 2024',
-      scripture:
-          '“I will say of the Lord, “He is my refuge and my fortress; My God, in Him I will trust.” (Psalms‬)',
-      theme: 'SAFETY FOR THE GODLY',
-      prayer:
-          'Father, as one You have redeemed, freed from sins (Psa 107:2; Rom 6:22), my safety is in You (Pro 21:31, Deut 33:12); Please let no weapon fashioned against me and all mine prosper in Jesus name (Isa 54:17; Psa 18:2)',
+          'PRAYER: Heavenly Father, Your love for me is beyond measure, and You have welcomed me into Your family as Your beloved child. Help me to fully grasp the depth of Your love and to live in the reality of my identity as Your child. May Your love transform me from the inside out, shaping me into the likeness of Your Son, Jesus Christ.',
       action:
-          'Give thanks to God for successful and safe completion of the month of March 2023',
+          'ACTION: Take a moment to meditate on the incredible love that God has for you, allowing His love to fill your heart and mind with gratitude and joy.',
+      dateTime: DateTime(2024, 3, 26),
+    ),
+    DevotionalModel(
+      todayDate:
+          'Today is Mar. 27th, Day #87 in year 2024, There are 279 more days remaining in year 2024.',
+      theme: 'SERVING OTHERS IN LOVE',
+      scripture:
+          'SCRIPTURE: “For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many.” (Mark 10:45 NIV)',
+      prayer:
+          'PRAYER: Lord Jesus, You set the ultimate example of servanthood by humbly serving others and laying down Your life for us. Teach me to follow Your example and to serve others selflessly and sacrificially. Open my eyes to the needs of those around me, and empower me to love and serve them with compassion and humility.',
+      action:
+          'ACTION: Look for opportunities to serve others today, whether through acts of kindness, lending a helping hand, or simply offering a listening ear.',
+      dateTime: DateTime(2024, 3, 27),
+    ),
+    DevotionalModel(
+      todayDate:
+          'Today is Mar. 28th, Day #88 in year 2024, There are 278 more days remaining in year 2024.',
+      theme: 'RESTING IN GOD’S PEACE',
+      scripture:
+          'SCRIPTURE: “Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid.” (John 14:27 NIV)',
+      prayer:
+          'PRAYER: Prince of Peace, Your peace surpasses all understanding, and You freely offer it to Your children. Grant me Your peace that calms my anxious heart and brings rest to my soul. Help me to trust in Your sovereignty and to find peace in the midst of life’s storms, knowing that You are always with me.',
+      action:
+          'ACTION: Take time to rest in God’s presence, casting all your cares and worries upon Him and allowing His peace to fill your heart and mind.',
+      dateTime: DateTime(2024, 3, 28),
+    ),
+
+    DevotionalModel(
+      todayDate:
+          'Today is Mar. 29th, Day #89 in year 2024, There are 277 more days remaining in year 2024.',
+      theme: 'LIVING WITH GRATITUDE',
+      scripture:
+          'SCRIPTURE: “Give thanks in all circumstances; for this is God’s will for you in Christ Jesus.” (1 Thessalonians 5:18 NIV)',
+      prayer:
+          'PRAYER: Gracious God, You are the giver of every good gift, and Your blessings abound in my life. Help me to cultivate a heart of gratitude, recognizing Your handiwork in both the joys and the trials of life. May my heart overflow with thanksgiving for Your faithfulness and provision.',
+      action:
+          'ACTION: Make a list of things you are thankful for today, both big and small. Take time to thank God for each blessing on your list, acknowledging His goodness in your life.',
+      dateTime: DateTime(2024, 3, 29),
+    ),
+    DevotionalModel(
+      todayDate:
+          'Today is Mar. 30th, Day #90 in year 2024, There are 276 more days remaining in year 2024.',
+      theme: 'SEEKING GOD’S WISDOM',
+      scripture:
+          'SCRIPTURE: “If any of you lacks wisdom, you should ask God, who gives generously to all without finding fault, and it will be given to you.” (James 1:5 NIV)',
+      prayer:
+          'PRAYER: Heavenly Father, You are the source of all wisdom and knowledge, and You generously give wisdom to those who ask in faith. Grant me wisdom, Lord, to discern Your will and make wise decisions that honor and glorify You. Help me to seek Your wisdom above all else, trusting in Your guidance for every aspect of my life.',
+      action:
+          'ACTION: Spend time in prayer, specifically asking God for wisdom in a particular area of your life where you need guidance and clarity. Listen attentively for His voice and guidance.',
+      dateTime: DateTime(2024, 3, 30),
+    ),
+    DevotionalModel(
+      todayDate:
+          'Today is Mar. 31st, Day #91 in year 2024, There are 275 more days remaining in year 2024.',
+      theme: 'WALKING IN OBEDIENCE',
+      scripture:
+          'SCRIPTURE: “But if anyone obeys his word, love for God is truly made complete in them. This is how we know we are in him: Whoever claims to live in him must live as Jesus did.” (1 John 2:5-6 NIV)',
+      prayer:
+          'PRAYER: Lord, Your Word is a lamp to my feet and a light to my path, guiding me in the way of obedience and righteousness. Help me to obey Your commands wholeheartedly, walking in the footsteps of Jesus Christ. Strengthen me by Your Spirit to live a life that is pleasing to You, bearing fruit that reflects Your love and glory.',
+      action:
+          'ACTION: Identify an area of your life where you struggle to obey God’s Word. Surrender that area to Him in prayer, asking for His grace and strength to walk in obedience.',
       dateTime: DateTime(2024, 3, 31),
     ),
+
     DevotionalModel(
       todayDate:
           'Today is Apr. 1st, Day #92 in year 2024. There are 274 more days remaining in year 2024',

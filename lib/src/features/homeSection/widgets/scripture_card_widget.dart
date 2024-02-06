@@ -31,6 +31,12 @@ class _ScriptureCardWidgetState extends State<ScriptureCardWidget> {
   }
 
   @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Consumer<TextToAudioProvider>(
         builder: (context, textToAudioProvider, __) {
@@ -80,6 +86,64 @@ class _ScriptureCardWidgetState extends State<ScriptureCardWidget> {
                         ],
                       ),
                     ),
+                    SizedBox(
+                      height: 20,
+                    ),
+                    Text(
+                      "Prayer",
+                      style: Theme.of(context).textTheme.titleLarge!.copyWith(
+                          fontSize: 19,
+                          decoration: TextDecoration.none,
+                          color: AppColors.blackColor),
+                    ),
+                    const SizedBox(
+                      height: 10,
+                    ),
+                    RichText(
+                      text: TextSpan(
+                        children: [
+                          TextSpan(
+                              text: widget.devotionalModel!.prayer.toString(),
+                              // "Blessed is the man Who walks not in the counsel of the ungodly, nor stands in the path of sinners, Nor sits in the seat of the scornful; But his delight is in the law of the Lord, And in His law he meditates day and night. He shall be like a tree Planted by the rivers of water, that brings forth its fruit in its season, Whose leaf also shall not wither; And whatever he does shall prosper.",
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .titleSmall!
+                                  .copyWith(
+                                      fontSize: 15,
+                                      decoration: TextDecoration.none,
+                                      color: AppColors.blackColor)),
+                        ],
+                      ),
+                    ),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    Text(
+                      "Action",
+                      style: Theme.of(context).textTheme.titleLarge!.copyWith(
+                          fontSize: 19,
+                          decoration: TextDecoration.none,
+                          color: AppColors.blackColor),
+                    ),
+                    const SizedBox(
+                      height: 10,
+                    ),
+                    RichText(
+                      text: TextSpan(
+                        children: [
+                          TextSpan(
+                              text: widget.devotionalModel!.action.toString(),
+                              // "Blessed is the man Who walks not in the counsel of the ungodly, nor stands in the path of sinners, Nor sits in the seat of the scornful; But his delight is in the law of the Lord, And in His law he meditates day and night. He shall be like a tree Planted by the rivers of water, that brings forth its fruit in its season, Whose leaf also shall not wither; And whatever he does shall prosper.",
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .titleSmall!
+                                  .copyWith(
+                                      fontSize: 15,
+                                      decoration: TextDecoration.none,
+                                      color: AppColors.blackColor)),
+                        ],
+                      ),
+                    ),
                     // const SizedBox(
                     //   height: 7,
                     // ),
@@ -91,7 +155,7 @@ class _ScriptureCardWidgetState extends State<ScriptureCardWidget> {
                     //       color: AppColors.blackColor),
                     // ),
                     const SizedBox(
-                      height: 12,
+                      height: 20,
                     ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.start,
@@ -129,8 +193,16 @@ class _ScriptureCardWidgetState extends State<ScriptureCardWidget> {
                         InkWell(
                           onTap: () {
                             Clipboard.setData(ClipboardData(
-                              text:
-                                  widget.devotionalModel!.scripture.toString(),
+                              text: widget.devotionalModel!.scripture
+                                      .toString() +
+                                  "\n\n\n" +
+                                  "Prayer" +
+                                  "\n\n\n" +
+                                  widget.devotionalModel!.prayer.toString() +
+                                  "\n\n\n" +
+                                  "Action" +
+                                  "\n\n\n" +
+                                  widget.devotionalModel!.action.toString(),
                             )).whenComplete(() {
                               showSuccessSnackBarMessage(
                                   message: "Text copied to clipboard");
@@ -161,7 +233,15 @@ class _ScriptureCardWidgetState extends State<ScriptureCardWidget> {
                         InkWell(
                           onTap: () {
                             Share.share(
-                              widget.devotionalModel!.scripture.toString(),
+                              widget.devotionalModel!.scripture.toString() +
+                                  "\n\n\n" +
+                                  "Prayer" +
+                                  "\n\n\n" +
+                                  widget.devotionalModel!.prayer.toString() +
+                                  "\n\n\n" +
+                                  "Action" +
+                                  "\n\n\n" +
+                                  widget.devotionalModel!.action.toString(),
                             );
                           },
                           child: Row(
@@ -229,8 +309,14 @@ class _ScriptureCardWidgetState extends State<ScriptureCardWidget> {
                                       : InkWell(
                                           onTap: () {
                                             textToAudioProvider.speakText(widget
-                                                .devotionalModel!.scripture
-                                                .toString());
+                                                    .devotionalModel!.scripture
+                                                    .toString() +
+                                                "Prayer" +
+                                                widget.devotionalModel!.prayer
+                                                    .toString() +
+                                                "Action" +
+                                                widget.devotionalModel!.action
+                                                    .toString());
                                           },
                                           child: const Icon(
                                             Icons.play_arrow,

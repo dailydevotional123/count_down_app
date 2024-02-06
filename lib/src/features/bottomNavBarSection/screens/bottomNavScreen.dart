@@ -96,7 +96,7 @@ class _BottomNavScreenState extends State<BottomNavScreen> {
                               selectedColor: provider.currentIndex == 2
                                   ? AppColors.blackColor
                                   : AppColors.blackLightColor,
-                              label: "Devotion",
+                              label: "Prayers",
                               height: 26,
                               width: 26,
                               backgroundColor: provider.currentIndex == 2

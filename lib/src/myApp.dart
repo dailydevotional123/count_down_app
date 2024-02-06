@@ -1,15 +1,14 @@
-import 'dart:async';
-
-import 'package:awesome_notifications/awesome_notifications.dart';
 import 'package:daily_devotional/src/features/authenticationSection/providers/authentication_provider.dart';
 import 'package:daily_devotional/src/features/bottomNavBarSection/providers/bottom_navbar_provider.dart';
 import 'package:daily_devotional/src/features/homeSection/providers/home_provider.dart';
 import 'package:daily_devotional/src/features/notesSection%20/providers/notes_provider.dart';
+import 'package:daily_devotional/src/features/prayersSection/providers/prayer_provider.dart';
 import 'package:daily_devotional/src/routing/routes.dart';
 import 'package:daily_devotional/src/utils/theme_data.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
+
 import 'features/homeSection/providers/text_to_audio_provider.dart';
 import 'helpers/notificationHelper/notification_service.dart';
 
@@ -51,6 +50,10 @@ class _MyAppState extends State<MyApp> {
         ),
         ChangeNotifierProvider(
           create: (context) => AuthenticationProvider(),
+        ),
+
+        ChangeNotifierProvider(
+          create: (context) => PrayerProvider(),
         ),
       ],
       child: GestureDetector(

@@ -12,7 +12,7 @@ class TextToAudioProvider extends ChangeNotifier {
 
   Future<void> configureTts() async {
     await ftts.setLanguage('en-US');
-    await ftts.setSpeechRate(1.0);
+    await ftts.setSpeechRate(0.5);
     await ftts.setSpeechRate(0.5);
     await ftts.setVolume(1.0);
 

@@ -1,35 +1,33 @@
-import 'package:daily_devotional/src/features/notesSection%20/providers/notes_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:loading_overlay/loading_overlay.dart';
 import 'package:provider/provider.dart';
 
-import '../../../commonServices/hive_local_storage.dart';
 import '../../../commonWidgets/button_widget.dart';
 import '../../../constants/appcolors.dart';
-import '../../../constants/hive_constants.dart';
+import '../providers/prayer_provider.dart';
 
-class AddNoteScreen extends StatefulWidget {
-  final String scriptureText;
-  static String route = "/AddNoteScreen";
+class AddPrayerScreen extends StatefulWidget {
+  static String route = "/AddPrayerScreen";
 
-  const AddNoteScreen({Key? key, required this.scriptureText})
-      : super(key: key);
+  const AddPrayerScreen({
+    Key? key,
+  }) : super(key: key);
 
   @override
-  State<AddNoteScreen> createState() => _AddNoteScreenState();
+  State<AddPrayerScreen> createState() => _AddPrayerScreenState();
 }
 
-class _AddNoteScreenState extends State<AddNoteScreen> {
-  TextEditingController noteController = TextEditingController();
+class _AddPrayerScreenState extends State<AddPrayerScreen> {
+  TextEditingController prayerController = TextEditingController();
 
   //AppDataBase appDataBase = AppDataBase();
 
   @override
   Widget build(BuildContext context) {
-    return Consumer<NotesProvider>(builder: (context, noteProvider, __) {
+    return Consumer<PrayerProvider>(builder: (context, prayerProvider, __) {
       return LoadingOverlay(
-        isLoading: noteProvider.isLoading,
+        isLoading: prayerProvider.isLoading,
         progressIndicator: SpinKitSpinningLines(
           color: AppColors.primaryColor,
           size: 40,
@@ -52,7 +50,7 @@ class _AddNoteScreenState extends State<AddNoteScreen> {
                         size: 24,
                       )),
                   Text(
-                    "Add Note",
+                    "Add Prayer",
                     style: Theme.of(context).textTheme.titleMedium!.copyWith(
                         fontSize: 17,
                         decoration: TextDecoration.none,
@@ -81,9 +79,9 @@ class _AddNoteScreenState extends State<AddNoteScreen> {
                             fontSize: 14,
                             decoration: TextDecoration.none,
                             color: AppColors.blackColor),
-                        controller: noteController,
+                        controller: prayerController,
                         decoration: InputDecoration(
-                          hintText: "Enter Note",
+                          hintText: "Enter Prayer",
                           border: InputBorder.none,
                           contentPadding:
                               const EdgeInsets.only(top: 13, left: 15),
@@ -99,29 +97,14 @@ class _AddNoteScreenState extends State<AddNoteScreen> {
               const SizedBox(
                 height: 40,
               ),
-              Consumer<NotesProvider>(builder: (context, notesProvider, __) {
+              Consumer<PrayerProvider>(builder: (context, prayerProvider, __) {
                 return CommonButtonWidget(
-                    text: "Save Note",
+                    text: "Save Prayer",
                     horizontalPadding: 12,
                     onTap: () async {
-                      String currentUserId =
-                          await HiveLocalStorage.readHiveValue<String>(
-                                boxName: HiveConstants.userIdBox,
-                                key: HiveConstants.userIdKey,
-                              ) ??
-                              '';
-
-                      noteProvider.createNote(
-                          noteTitle: noteController.text,
-                          scriptureText: widget.scriptureText.toString());
-
-                      // notesProvider.addNote(NoteCompanion(
-                      //     userId: drift.Value(currentUserId),
-                      //     // userId: drift.Value(
-                      //     //     int.parse("AcnJAgVLQffb9ANIfvNnQDj2v0x2")),
-                      //     productTitle: drift.Value(noteController.text),
-                      //     scriptureText:
-                      //         drift.Value(widget.scriptureText.toString())));
+                      prayerProvider.createPrayer(
+                        prayerTitle: prayerController.text,
+                      );
                     });
               })
             ],

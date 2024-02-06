@@ -1,9 +1,7 @@
 import 'package:daily_devotional/src/features/homeSection/models/home_model.dart';
-import 'package:daily_devotional/src/features/homeSection/widgets/action_card_widget.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants/appcolors.dart';
-import '../widgets/prayer_card_widget.dart';
 import '../widgets/scripture_card_widget.dart';
 
 class ScriptureDetailScreen extends StatelessWidget {
@@ -64,16 +62,16 @@ class ScriptureDetailScreen extends StatelessWidget {
             const SizedBox(
               height: 20,
             ),
-            PrayerCardWidget(
-              devotionalModel: devotionalModel,
-            ),
-            const SizedBox(
-              height: 20,
-            ),
-            ActionCardWidget(devotionalModel: devotionalModel),
-            const SizedBox(
-              height: 30,
-            ),
+            // PrayerCardWidget(
+            //   devotionalModel: devotionalModel,
+            // ),
+            // const SizedBox(
+            //   height: 20,
+            // ),
+            // ActionCardWidget(devotionalModel: devotionalModel),
+            // const SizedBox(
+            //   height: 30,
+            // ),
           ],
         ),
       ),

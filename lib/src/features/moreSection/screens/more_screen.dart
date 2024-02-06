@@ -14,6 +14,8 @@ import 'package:provider/provider.dart';
 
 import '../../../commonWidgets/cacheNetworkImageWidget.dart';
 import '../../../constants/appcolors.dart';
+import '../../../helpers/launcher_helper.dart';
+import '../../../utils/log_utils.dart';
 
 class MoreScreen extends StatefulWidget {
   static String route = "/MoreScreen";
@@ -27,6 +29,8 @@ class MoreScreen extends StatefulWidget {
 class _MoreScreenState extends State<MoreScreen> {
   FirebaseAuthServices firebaseAuthServices = FirebaseAuthServices();
   FirebaseUserServices firebaseUserServices = FirebaseUserServices();
+
+  bool switchStatus = true;
 
   @override
   Widget build(BuildContext context) {
@@ -116,28 +120,71 @@ class _MoreScreenState extends State<MoreScreen> {
                           child: Column(
                             children: [
                               MoreSettingsWidget(
-                                  text: "Notification Settings", onTap: () {}),
+                                text: "Notification Settings",
+                                onTap: () {},
+                                widget: Switch(
+                                  value: switchStatus,
+                                  activeColor: AppColors.primaryColor,
+                                  onChanged: (value) {
+                                    setState(() {
+                                      switchStatus = value;
+                                    });
+
+                                    // if (value == true) {
+                                    //   doctorProfileProvider
+                                    //       .getHideFromSearchStatusProvider(
+                                    //       "1");
+                                    // } else {
+                                    //   doctorProfileProvider
+                                    //       .getHideFromSearchStatusProvider(
+                                    //       "0");
+                                    // }
+                                    // setState(() {
+                                    //   _switchValue = value;
+                                    // });
+                                    dp(msg: "value", arg: value.toString());
+                                  },
+                                ),
+                                isWidget: true,
+                              ),
+                              // MoreSettingsWidget(
+                              //     text: "Question and Prayer Request",
+                              //     onTap: () {}),
                               MoreSettingsWidget(
-                                  text: "Question and Prayer Request",
-                                  onTap: () {}),
+                                text: "Contact Us",
+                                onTap: () {
+                                  GoRouter.of(context)
+                                      .push(ContactUsScreen.route);
+                                },
+                                widget: SizedBox(),
+                              ),
                               MoreSettingsWidget(
-                                  text: "Contact Us",
-                                  onTap: () {
-                                    GoRouter.of(context)
-                                        .push(ContactUsScreen.route);
-                                  }),
+                                text: "Resources",
+                                onTap: () {
+                                  GoRouter.of(context)
+                                      .push(ResourcesScreen.route);
+                                },
+                                widget: SizedBox(),
+                              ),
+
                               MoreSettingsWidget(
-                                  text: "Resources",
-                                  onTap: () {
-                                    GoRouter.of(context)
-                                        .push(ResourcesScreen.route);
-                                  }),
+                                text: "Follow us on facebook",
+                                onTap: () {
+                                  LaunchHelper().launchAction('web',
+                                      'https://www.facebook.com/profile.php?id=61556176377692&sfnsn=wa&mibextid=RUbZ1f');
+                                  // GoRouter.of(context)
+                                  //     .push(ResourcesScreen.route);
+                                },
+                                widget: SizedBox(),
+                              ),
                               MoreSettingsWidget(
-                                  text: "About the App",
-                                  onTap: () {
-                                    GoRouter.of(context)
-                                        .push(AboutTheAppScreen.route);
-                                  }),
+                                text: "About the App",
+                                onTap: () {
+                                  GoRouter.of(context)
+                                      .push(AboutTheAppScreen.route);
+                                },
+                                widget: SizedBox(),
+                              ),
                               Consumer<AuthenticationProvider>(builder:
                                   (context, authenticationProvider, __) {
                                 return MoreSettingsWidget(
@@ -146,6 +193,8 @@ class _MoreScreenState extends State<MoreScreen> {
                                     authenticationProvider.logoutFromApp();
                                   },
                                   color: AppColors.redColor,
+                                  isWidget: false,
+                                  widget: SizedBox(),
                                 );
                               })
                             ],

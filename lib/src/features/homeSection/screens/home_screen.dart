@@ -196,6 +196,21 @@ class _HomeScreenState extends State<HomeScreen> {
                                         homeProvider.devotionalModel,
                                   ),
                                 ),
+                                const SizedBox(
+                                  height: 20,
+                                ),
+                                // PrayerCardWidget(
+                                //   devotionalModel: homeProvider.devotionalModel,
+                                // ),
+                                // const SizedBox(
+                                //   height: 20,
+                                // ),
+                                // ActionCardWidget(
+                                //     devotionalModel:
+                                //         homeProvider.devotionalModel),
+                                const SizedBox(
+                                  height: 30,
+                                ),
                               ],
                             ),
                           );

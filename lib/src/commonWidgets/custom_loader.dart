@@ -7,8 +7,13 @@ import '../constants/appcolors.dart';
 class CustomLoader extends StatelessWidget {
   final Widget child;
   final bool isLoading;
+  final Color color;
 
-  const CustomLoader({Key? key, required this.child, required this.isLoading})
+  const CustomLoader(
+      {Key? key,
+      required this.child,
+      required this.isLoading,
+      this.color = AppColors.whiteColor})
       : super(key: key);
 
   @override
@@ -16,9 +21,9 @@ class CustomLoader extends StatelessWidget {
     return LoadingOverlay(
         isLoading: isLoading,
         opacity: 0.1,
-        progressIndicator: const SpinKitSpinningLines(
+        progressIndicator: SpinKitSpinningLines(
           size: 40,
-          color: AppColors.whiteColor,
+          color: color,
         ),
         child: child);
   }

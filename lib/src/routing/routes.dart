@@ -1,3 +1,4 @@
+import 'package:daily_devotional/src/features/prayersSection/screens/add_prayer_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -5,7 +6,6 @@ import '../features/ bibleSection /screens/bible_screen.dart';
 import '../features/authenticationSection/screens/sign_in_screen.dart';
 import '../features/authenticationSection/screens/splash_screen.dart';
 import '../features/bottomNavBarSection/screens/bottomNavScreen.dart';
-import '../features/devotionSection/screens/devotion_screen.dart';
 import '../features/homeSection/screens/home_screen.dart';
 import '../features/homeSection/screens/scripture_detail_screen.dart';
 import '../features/moreSection/screens/about_the_app_screen.dart';
@@ -15,6 +15,7 @@ import '../features/moreSection/screens/resources_screen.dart';
 import '../features/notesSection /screens/add_note_screen.dart';
 import '../features/notesSection /screens/note_details.dart';
 import '../features/notesSection /screens/notes_screen.dart';
+import '../features/prayersSection/screens/prayers_screen.dart';
 import '../utils/route_utils.dart';
 
 GlobalKey<NavigatorState> navstate = GlobalKey<NavigatorState>();
@@ -81,9 +82,15 @@ var routerConfigs = GoRouter(
       },
     ),
     GoRoute(
-      path: DevotionScreen.route,
+      path: AddPrayerScreen.route,
       pageBuilder: (context, state) {
-        return const NoTransitionPage(child: DevotionScreen());
+        return const NoTransitionPage(child: AddPrayerScreen());
+      },
+    ),
+    GoRoute(
+      path: PrayersScreen.route,
+      pageBuilder: (context, state) {
+        return const NoTransitionPage(child: PrayersScreen());
       },
     ),
     GoRoute(

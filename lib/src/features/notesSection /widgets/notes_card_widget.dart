@@ -1,10 +1,10 @@
+import 'package:daily_devotional/src/features/notesSection%20/models/note_model.dart';
 import 'package:flutter/material.dart';
 
 import '../../../constants/appcolors.dart';
-import '../../../helpers/local_database_helper/drift_helper.dart';
 
 class NotesCardWidget extends StatelessWidget {
-  final NoteData noteData;
+  final NoteModel noteData;
 
   const NotesCardWidget({Key? key, required this.noteData}) : super(key: key);
 
@@ -31,7 +31,7 @@ class NotesCardWidget extends StatelessWidget {
                 text: TextSpan(
                   children: [
                     TextSpan(
-                        text: noteData.productTitle.toString(),
+                        text: noteData.noteTitle.toString(),
                         style: Theme.of(context).textTheme.titleSmall!.copyWith(
                             fontSize: 15,
                             decoration: TextDecoration.none,

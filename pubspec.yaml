@@ -61,6 +61,8 @@ dependencies:
   path_provider:
   path:
   loading_overlay:
+  webview_flutter: ^4.4.2
+  percent_indicator: ^4.2.3
 
 dev_dependencies:
   drift_dev:

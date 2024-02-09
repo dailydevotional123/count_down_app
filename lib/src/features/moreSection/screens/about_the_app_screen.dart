@@ -28,9 +28,9 @@ class AboutTheAppScreen extends StatelessWidget {
                       size: 24,
                     )),
                 Text(
-                  "About Countup and Countdown",
+                  "Read About Countup and Countdown",
                   style: Theme.of(context).textTheme.titleMedium!.copyWith(
-                      fontSize: 17,
+                      fontSize: 15,
                       decoration: TextDecoration.none,
                       color: AppColors.blackColor),
                 ),
@@ -49,8 +49,8 @@ class AboutTheAppScreen extends StatelessWidget {
                 child: RichText(
                   textAlign: TextAlign.start,
                   text: TextSpan(
-                    text: '''
-                   Welcome to "Countdown and Countup," your daily companion for spiritual growth and devotion. This app is designed to guide you through a fulfilling journey of learning, action, prayer, and daily engagement with God's word.
+                    text:
+                        '''Welcome to "Countdown and Countup," your daily companion for spiritual growth and devotion. This app is designed to guide you through a fulfilling journey of learning, action, prayer, and daily engagement with God's word.
 
 Countup - Embrace Learning Every Day:
 Each day, Countup presents a new lesson, drawing from a rich tapestry of biblical teachings, theological insights, and practical wisdom. These lessons are tailored to nurture your faith, expand your knowledge, and deepen your understanding of God's word.

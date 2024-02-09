@@ -49,6 +49,35 @@
           ]
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785459560964:android:803112407c55085dab6b51",
+        "android_client_info": {
+          "package_name": "countdownapp.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785459560964-ujqrgeqbcbqic33oq2jtrsdbind4psof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbPErhFKr1y1AmInaRX-W7une8s71euzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785459560964-ujqrgeqbcbqic33oq2jtrsdbind4psof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
     }
   ],
   "configuration_version": "1"

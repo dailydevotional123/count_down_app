@@ -1,4 +1,4 @@
-package com.example.daily_devotional_app
+package countdownapp.app
 
 import io.flutter.embedding.android.FlutterActivity
 

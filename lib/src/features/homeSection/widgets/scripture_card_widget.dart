@@ -7,7 +7,6 @@ import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 import 'package:share_plus/share_plus.dart';
-
 import '../../../constants/appcolors.dart';
 import '../../../constants/image_constants.dart';
 import '../../../helpers/snak_bar_widget.dart';

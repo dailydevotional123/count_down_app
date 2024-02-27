@@ -105,18 +105,22 @@ class _HomeScreenState extends State<HomeScreen> {
                                                     color:
                                                         AppColors.primaryColor),
                                           ),
-                                          Text(
-                                            "${model.userName}",
-                                            style: Theme.of(context)
-                                                .textTheme
-                                                .titleLarge!
-                                                .copyWith(
-                                                    fontSize: 19,
-                                                    decoration:
-                                                        TextDecoration.none,
-                                                    color:
-                                                        AppColors.blackColor),
-                                          ),
+                                          if (model.userName == "User")
+                                            ...[]
+                                          else ...[
+                                            Text(
+                                              "${model.userName}",
+                                              style: Theme.of(context)
+                                                  .textTheme
+                                                  .titleLarge!
+                                                  .copyWith(
+                                                      fontSize: 19,
+                                                      decoration:
+                                                          TextDecoration.none,
+                                                      color:
+                                                          AppColors.blackColor),
+                                            ),
+                                          ],
                                           Text(
                                             "Today is ${DateTime.now().format("M-d")}, Day ${CalculateDayHelper.getDayOfYear()}, in year 2024, ",
                                             style: Theme.of(context)

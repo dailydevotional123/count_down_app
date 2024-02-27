@@ -53,6 +53,7 @@ class AuthenticationProvider extends ChangeNotifier {
             idToken: googleAuth.idToken,
           ),
         );
+
         dp(msg: "user credentials", arg: userCredential.user.toString());
 
         bool? isExistUser = await firebaseAuthServices.fetchCurrentUser(
@@ -117,6 +118,75 @@ class AuthenticationProvider extends ChangeNotifier {
         message: 'Sign in aborted by user',
       );
     }
+  }
+
+  Future appleSignIn() async {
+    makeLoadingTrue();
+
+    final userCredential = await socialAuthenticationServices.signInWithApple();
+
+    if (userCredential != null) {
+      dp(msg: "apple user credentials", arg: userCredential!.user!.toString());
+      bool? isExistUser = await firebaseAuthServices.fetchCurrentUser(
+          userId: userCredential.user!.uid.toString());
+
+      if (isExistUser == true) {
+        dp(msg: "user exists now logging ");
+        // showErrorSnackBarMessage(message: "User Already Exists");
+        makeLoadingFalse();
+        GoRouter.of(RoutesUtils.cNavigatorState.currentState!.context)
+            .go(BottomNavScreen.route);
+        await HiveLocalStorage.write(
+            boxName: HiveConstants.userIdBox,
+            key: HiveConstants.userIdKey,
+            value: userCredential.user!.uid.toString());
+        await HiveLocalStorage.write(
+            boxName: HiveConstants.currentRouteBox,
+            key: HiveConstants.currentRouteKey,
+            value: BottomNavScreen.route);
+        showSuccessSnackBarMessage(message: "Login Successfully");
+        //  dp(msg: "user model", arg: userModel.toString());
+      } else {
+        var firebaseAuthUser = FirebaseAuth.instance.currentUser;
+        dp(msg: "uuid", arg: firebaseAuthUser!.uid.toString());
+        dp(msg: "display name", arg: firebaseAuthUser.displayName.toString());
+        dp(msg: "photo url", arg: firebaseAuthUser.photoURL.toString());
+        firebaseUserServices
+            .createUser(UserModel(
+                userId: userCredential.user!.uid.toString(),
+                userName: userCredential.user!.displayName == null
+                    ? "User"
+                    : userCredential.user!.displayName.toString(),
+                emailAdress: userCredential.user!.email.toString(),
+                profilePicture: userCredential.user!.photoURL.toString(),
+                dateCreated: Timestamp.fromDate(DateTime.now())))
+            .whenComplete(() async {
+          makeLoadingFalse();
+          await HiveLocalStorage.write(
+              boxName: HiveConstants.userIdBox,
+              key: HiveConstants.userIdKey,
+              value: userCredential.user!.uid.toString());
+          await HiveLocalStorage.write(
+              boxName: HiveConstants.currentRouteBox,
+              key: HiveConstants.currentRouteKey,
+              value: BottomNavScreen.route);
+
+          showSuccessSnackBarMessage(message: "User Registered Successfully");
+          GoRouter.of(RoutesUtils.cNavigatorState.currentState!.context)
+              .go(BottomNavScreen.route);
+        });
+      }
+      makeLoadingFalse();
+    } else {
+      makeLoadingFalse();
+    }
+
+    makeLoadingFalse();
+    dp(msg: "operation cancelled");
+    // throw FirebaseAuthException(
+    //   code: 'ERROR_ABORTED_BY_USER',
+    //   message: 'Sign in aborted by user',
+    // );
   }
 
   logoutFromApp() {

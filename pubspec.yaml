@@ -63,6 +63,8 @@ dependencies:
   loading_overlay:
   webview_flutter: ^4.4.2
   percent_indicator: ^4.2.3
+  sign_in_with_apple: ^5.0.0
+  crypto: ^3.0.3
 
 dev_dependencies:
   drift_dev:

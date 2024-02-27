@@ -87,16 +87,20 @@ class _MoreScreenState extends State<MoreScreen> {
                               Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
-                                  Text(
-                                    model.userName.toString(),
-                                    style: Theme.of(context)
-                                        .textTheme
-                                        .titleMedium!
-                                        .copyWith(
-                                            fontSize: 15,
-                                            decoration: TextDecoration.none,
-                                            color: AppColors.blackColor),
-                                  ),
+                                  if (model.userName == "User")
+                                    ...[]
+                                  else ...[
+                                    Text(
+                                      model.userName.toString(),
+                                      style: Theme.of(context)
+                                          .textTheme
+                                          .titleMedium!
+                                          .copyWith(
+                                              fontSize: 15,
+                                              decoration: TextDecoration.none,
+                                              color: AppColors.blackColor),
+                                    ),
+                                  ],
                                   Text(
                                     model.emailAdress.toString(),
                                     style: Theme.of(context)

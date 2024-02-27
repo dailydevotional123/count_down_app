@@ -1,14 +1,14 @@
+import 'dart:io';
+
 import 'package:daily_devotional/src/commonWidgets/custom_loader.dart';
 import 'package:daily_devotional/src/constants/image_constants.dart';
 import 'package:daily_devotional/src/features/authenticationSection/providers/authentication_provider.dart';
 import 'package:daily_devotional/src/features/authenticationSection/services/authentication_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../../../constants/appcolors.dart';
-import '../../bottomNavBarSection/screens/bottomNavScreen.dart';
 
 class SignInScreen extends StatefulWidget {
   static String route = "/SignInScreen";
@@ -100,9 +100,51 @@ class _SignInScreenState extends State<SignInScreen> {
                   ),
                 ),
               ),
-              // SizedBox(
-              //   height: 10,
-              // ),
+              if (Platform.isIOS) ...[
+                SizedBox(
+                  height: 10,
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 25),
+                  child: InkWell(
+                    onTap: () {
+                      authenticationProvider.appleSignIn();
+                      //GoRouter.of(context).go(BottomNavScreen.route);
+                    },
+                    child: Container(
+                      height: 50,
+                      width: MediaQuery.sizeOf(context).width,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(9),
+                          color: AppColors.whiteColorFull),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Image.asset(
+                            ImageConstants.apple,
+                            height: 30,
+                            width: 30,
+                          ),
+                          const SizedBox(
+                            width: 20,
+                          ),
+                          Text(
+                            "Continue with Apple",
+                            style: Theme.of(context)
+                                .textTheme
+                                .titleMedium!
+                                .copyWith(
+                                    fontSize: 15,
+                                    decoration: TextDecoration.none,
+                                    color: AppColors.blackColor),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+
               // ElevatedButton(
               //     onPressed: () {
               //       socialAuthenticationServices.logoutUserAuth();

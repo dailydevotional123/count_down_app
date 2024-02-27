@@ -18,6 +18,7 @@ class ImageConstants {
   static const String threedots = "assets/images/SVG/threedots.svg";
 
   static const String google = "assets/images/SVG/google.svg";
+  static const String apple = "assets/images/PNG/apple.png";
 
   ///All PNG Images
   static const String userAvatar = "assets/images/PNG/useravatar.png";

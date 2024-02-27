@@ -1,4 +1,8 @@
+import 'dart:convert';
+import 'dart:math';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:crypto/crypto.dart';
 import 'package:daily_devotional/src/features/authenticationSection/services/authServices.dart';
 import 'package:daily_devotional/src/features/authenticationSection/services/userServices.dart';
 import 'package:daily_devotional/src/features/bottomNavBarSection/providers/bottom_navbar_provider.dart';
@@ -7,13 +11,14 @@ import 'package:daily_devotional/src/helpers/snak_bar_widget.dart';
 import 'package:daily_devotional/src/routing/routes.dart';
 import 'package:daily_devotional/src/utils/log_utils.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 import 'package:provider/provider.dart';
+import 'package:sign_in_with_apple/sign_in_with_apple.dart';
 
 import '../../../commonServices/hive_local_storage.dart';
 import '../../../constants/hive_constants.dart';
 import '../models/userModel.dart';
+import '../providers/authentication_provider.dart';
 
 class SocialAuthenticationServices {
   FirebaseUserServices firebaseUserServices = FirebaseUserServices();
@@ -267,6 +272,65 @@ class SocialAuthenticationServices {
         code: 'ERROR_ABORTED_BY_USER',
         message: 'Sign in aborted by user',
       );
+    }
+  }
+
+  /// Generates a cryptographically secure random nonce, to be included in a
+  /// credential request.
+  String generateNonce([int length = 32]) {
+    final charset =
+        '0123456789ABCDEFGHIJKLMNOPQRSTUVXYZabcdefghijklmnopqrstuvwxyz-._';
+    final random = Random.secure();
+    return List.generate(length, (_) => charset[random.nextInt(charset.length)])
+        .join();
+  }
+
+  /// Returns the sha256 hash of [input] in hex notation.
+  String sha256ofString(String input) {
+    final bytes = utf8.encode(input);
+    final digest = sha256.convert(bytes);
+    return digest.toString();
+  }
+
+  Future<UserCredential?> signInWithApple() async {
+    try {
+      final rawNonce = generateNonce();
+      final nonce = sha256ofString(rawNonce);
+
+      // Request credential for the currently signed in Apple account.
+      final appleCredential = await SignInWithApple.getAppleIDCredential(
+        scopes: [
+          AppleIDAuthorizationScopes.email,
+          AppleIDAuthorizationScopes.fullName,
+        ],
+        // webAuthenticationOptions: WebAuthenticationOptions(
+        //     clientId: clientId, redirectUri: redirectUri),
+        nonce: nonce,
+      );
+      // if (appleCredential.email == null) {
+      //   var authProvider = Provider.of<AuthenticationProvider>(
+      //       RoutesUtils.cNavigatorState.currentState!.context,
+      //       listen: false);
+      //   authProvider.makeLoadingFalse();
+      // }
+
+      // Create an `OAuthCredential` from the credential returned by Apple.
+      final oauthCredential = OAuthProvider("apple.com").credential(
+        idToken: appleCredential.identityToken,
+        rawNonce: rawNonce,
+      );
+
+      // ... once the authentication is complete
+
+      // Sign in the user with Firebase. If the nonce we generated earlier does
+      // not match the nonce in `appleCredential.identityToken`, sign in will fail.
+      return await FirebaseAuth.instance.signInWithCredential(oauthCredential);
+    } on Exception catch (e) {
+      var authProvider = Provider.of<AuthenticationProvider>(
+          RoutesUtils.cNavigatorState.currentState!.context,
+          listen: false);
+      authProvider.makeLoadingFalse();
+      // TODO
     }
   }
 

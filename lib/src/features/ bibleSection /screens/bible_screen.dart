@@ -55,11 +55,19 @@ class _BibleScreenState extends State<BibleScreen> {
         ),
       )
       ..loadRequest(Uri.parse(
-        'https://www.biblegateway.com/',
+        'https://www.biblegateway.com/passage/',
       ));
     //'https://docs.google.com/document/d/1Iys8u80lCgR5MHx00BTE_6PsigFQWolXG1WsR-ctNQE/edit?usp=sharing'));
     super.initState();
   }
+
+// //this part isn't working
+//   @override
+//   void dispose() {
+//     _BibleScreenState();
+//     // close the webview here
+//     super.dispose();
+//   }
 
   @override
   Widget build(BuildContext context) {

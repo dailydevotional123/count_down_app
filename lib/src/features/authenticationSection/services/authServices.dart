@@ -1,13 +1,15 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:daily_devotional/src/features/authenticationSection/screens/sign_in_screen.dart';
+import 'package:daily_devotional/src/features/bottomNavBarSection/screens/bottomNavScreen.dart';
 import 'package:daily_devotional/src/helpers/snak_bar_widget.dart';
 import 'package:daily_devotional/src/routing/routes.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../constants/firebaseUtils.dart';
 import '../../../utils/log_utils.dart';
 import '../Models/userModel.dart';
-import '../screens/sign_in_screen.dart';
 
 class FirebaseAuthServices {
   ///Register User
@@ -38,6 +40,20 @@ class FirebaseAuthServices {
         .map((event) {
       return UserModel.fromJson(event.data()!);
     });
+  }
+
+  deleteUser() {
+    try {
+      FirebaseAuth.instance.currentUser!.delete().whenComplete(() {
+        Navigator.pop(RoutesUtils.cNavigatorState.currentState!.context);
+        GoRouter.of(RoutesUtils.cNavigatorState.currentState!.context)
+            .go(SignInScreen.route);
+        //toNext(widget: SignInScreen());
+        showSuccessSnackBarMessage(message: "Account Deleted Successfully");
+      });
+    } on Exception catch (e) {
+      // TODO
+    }
   }
 
   //
@@ -94,7 +110,7 @@ class FirebaseAuthServices {
     try {
       await FirebaseAuth.instance.signOut().whenComplete(() {
         GoRouter.of(RoutesUtils.cNavigatorState.currentState!.context)
-            .go(SignInScreen.route);
+            .go(BottomNavScreen.route);
         showSuccessSnackBarMessage(message: "LogOut Successfully");
       });
     } on FirebaseAuthException catch (e) {

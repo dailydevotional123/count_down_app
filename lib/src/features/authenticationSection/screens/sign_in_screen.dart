@@ -6,9 +6,11 @@ import 'package:daily_devotional/src/features/authenticationSection/providers/au
 import 'package:daily_devotional/src/features/authenticationSection/services/authentication_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../../../constants/appcolors.dart';
+import '../../bottomNavBarSection/screens/bottomNavScreen.dart';
 
 class SignInScreen extends StatefulWidget {
   static String route = "/SignInScreen";
@@ -40,7 +42,26 @@ class _SignInScreenState extends State<SignInScreen> {
           child: Column(
             children: [
               SizedBox(
-                height: 85,
+                height: 60,
+              ),
+              // Padding(
+              //   padding: const EdgeInsets.symmetric(horizontal: 20),
+              //   child: Row(
+              //     children: [
+              //       InkWell(
+              //         onTap: () {
+              //           Navigator.maybePop(context);
+              //         },
+              //         child: Icon(
+              //           Icons.arrow_back_ios,
+              //           color: AppColors.whiteColorFull,
+              //         ),
+              //       ),
+              //     ],
+              //   ),
+              // ),
+              SizedBox(
+                height: 30,
               ),
               SvgPicture.asset(
                 ImageConstants.applogo,
@@ -64,6 +85,44 @@ class _SignInScreenState extends State<SignInScreen> {
               ),
               const SizedBox(
                 height: 30,
+              ),
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 25),
+                child: InkWell(
+                  onTap: () {
+                    //  authenticationProvider.googleSignIn();
+                    GoRouter.of(context).go(BottomNavScreen.route);
+                  },
+                  child: Container(
+                    height: 50,
+                    width: MediaQuery.sizeOf(context).width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(9),
+                        color: AppColors.whiteColorFull),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        // SvgPicture.asset(ImageConstants.google),
+                        // const SizedBox(
+                        //   width: 20,
+                        // ),
+                        Text(
+                          "Continue as Guest",
+                          style: Theme.of(context)
+                              .textTheme
+                              .titleMedium!
+                              .copyWith(
+                                  fontSize: 15,
+                                  decoration: TextDecoration.none,
+                                  color: AppColors.blackColor),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 10,
               ),
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 25),

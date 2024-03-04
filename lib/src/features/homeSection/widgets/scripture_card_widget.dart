@@ -1,12 +1,16 @@
+import 'package:daily_devotional/src/features/authenticationSection/screens/sign_in_screen.dart';
 import 'package:daily_devotional/src/features/homeSection/models/home_model.dart';
 import 'package:daily_devotional/src/features/homeSection/providers/text_to_audio_provider.dart';
+import 'package:daily_devotional/src/routing/routes.dart';
 import 'package:daily_devotional/src/utils/route_utils.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 import 'package:share_plus/share_plus.dart';
+
 import '../../../constants/appcolors.dart';
 import '../../../constants/image_constants.dart';
 import '../../../helpers/snak_bar_widget.dart';
@@ -161,11 +165,20 @@ class _ScriptureCardWidgetState extends State<ScriptureCardWidget> {
                       children: [
                         InkWell(
                           onTap: () {
-                            GoRouter.of(context)
-                                .push(AddNoteScreen.route, extra: {
-                              RouteConstants.scriptureText:
-                                  widget.devotionalModel!.scripture.toString()
-                            });
+                            if (FirebaseAuth.instance.currentUser != null) {
+                              GoRouter.of(context)
+                                  .push(AddNoteScreen.route, extra: {
+                                RouteConstants.scriptureText:
+                                    widget.devotionalModel!.scripture.toString()
+                              });
+                            } else {
+                              GoRouter.of(RoutesUtils
+                                      .cNavigatorState.currentState!.context)
+                                  .go(SignInScreen.route);
+                              //   toNext(widget: SignInScreen());
+                              // showErrorSnackBarMessage(
+                              //     message: "Please login to add note");
+                            }
                           },
                           child: Row(
                             children: [

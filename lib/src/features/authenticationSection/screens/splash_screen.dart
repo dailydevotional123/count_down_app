@@ -1,9 +1,9 @@
 import 'package:daily_devotional/src/constants/image_constants.dart';
-import 'package:daily_devotional/src/features/authenticationSection/screens/sign_in_screen.dart';
 import 'package:daily_devotional/src/features/bottomNavBarSection/screens/bottomNavScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:go_router/go_router.dart';
+
 import '../../../commonServices/hive_local_storage.dart';
 import '../../../constants/appcolors.dart';
 import '../../../constants/hive_constants.dart';
@@ -44,11 +44,11 @@ class _SplashScreenState extends State<SplashScreen> {
     // currentSplashRouteVar = currentSplashRoute;
     Future.delayed(const Duration(seconds: 2)).whenComplete(() {
       // if (currentSplashRoute == SplashScreen.route) {
-      if (currentRoute == BottomNavScreen.route) {
-        GoRouter.of(context).go(BottomNavScreen.route);
-      } else {
-        GoRouter.of(context).go(SignInScreen.route);
-      }
+      // if (currentRoute == BottomNavScreen.route) {
+      GoRouter.of(context).go(BottomNavScreen.route);
+      // } else {
+      //   GoRouter.of(context).go(SignInScreen.route);
+      // }
       // } else {
       //   GoRouter.of(context).go(SplashScreen.route);
       // }

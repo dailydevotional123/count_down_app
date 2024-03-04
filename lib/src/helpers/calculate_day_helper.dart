@@ -1,22 +1,17 @@
 class CalculateDayHelper {
   static int getDayOfYear() {
-    int year = DateTime.now().year;
-    int month = DateTime.now().month;
-    int day = DateTime.now().day;
-    DateTime myDate = DateTime(year, month, day);
-    return myDate.day;
+    DateTime now = DateTime.now();
+    DateTime firstDayOfYear = DateTime(now.year, 1, 1);
+    Duration difference = now.difference(firstDayOfYear);
+    return difference.inDays + 1;
   }
 
   static int getRemainingDaysInYear() {
     int year = DateTime.now().year;
-    int month = DateTime.now().month;
-    int day = DateTime.now().day;
-    int currentDayInYear = DateTime(year, month, day).day;
-    print("current day in a year");
-    print(currentDayInYear);
-    var totaldaysoftheyear = getDaysInYear(DateTime.now().year);
-    //   int dayOfYear = getDayOfYear();
-    return totaldaysoftheyear - currentDayInYear;
+    int currentDayInYear =
+        DateTime.now().difference(DateTime(year, 1, 1)).inDays + 1;
+    var totalDaysOfTheYear = getDaysInYear(DateTime.now().year);
+    return totalDaysOfTheYear - currentDayInYear;
   }
 
   static int getDaysInYear(int year) {

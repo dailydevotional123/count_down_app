@@ -11,10 +11,30 @@ class TextToAudioProvider extends ChangeNotifier {
   int endOffSet = 0;
 
   Future<void> configureTts() async {
+    // await ftts.getVoices;
+
+    List<dynamic> languages = await ftts.getLanguages;
+    List<dynamic> voices = await ftts.getVoices;
+
+    dp(msg: "languages", arg: languages.toString());
+    dp(msg: "voices", arg: voices.toString());
+
     await ftts.setLanguage('en-US');
     await ftts.setSpeechRate(0.5);
     await ftts.setSpeechRate(0.5);
     await ftts.setVolume(1.0);
+    // await ftts.setVoice({
+    //   "name": "Custom Voice",
+    //   "locale": "en-US",
+    //   // "pitch": 1.0,
+    //   // "rate": 1.0,
+    //   // "volume": 1.0,
+    //   "voiceType": "custom",
+    //   // "customVoice": {
+    //   //   "name": "Custom Voice",
+    //   //   "base": "assets/voices/custom_voice.wav"
+    //   // }
+    // });
 
     ftts.setStartHandler(() {
       print("Playing");

@@ -241,6 +241,16 @@ class _HomeScreenState extends State<HomeScreen> {
                           const SizedBox(
                             height: 15,
                           ),
+                          // Consumer<TextToAudioProvider>(
+                          //     builder: (context, textToAudioProvider, __) {
+                          //   return ElevatedButton(
+                          //       onPressed: () {
+                          //         textToAudioProvider.configureTts();
+                          //       },
+                          //       child: Center(
+                          //         child: Text("get"),
+                          //       ));
+                          // }),
                           InkWell(
                             onTap: () {
                               GoRouter.of(context)

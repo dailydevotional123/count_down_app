@@ -1,6 +1,7 @@
 import 'package:daily_devotional/src/features/homeSection/models/home_model.dart';
-import 'package:daily_devotional/src/features/homeSection/services/home_services.dart';
 import 'package:flutter/cupertino.dart';
+
+import '../services/home_services copy (1).dart';
 
 class HomeProvider extends ChangeNotifier {
   HomeServices homeServices = HomeServices();
